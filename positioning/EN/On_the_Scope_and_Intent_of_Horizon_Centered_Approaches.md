@@ -1,0 +1,197 @@
+# On the Scope and Intent of Horizon-Centered Approaches in Cosmology
+
+**Kevin Muñoz**
+
+---
+
+## Abstract
+
+This note clarifies the scope, intent, and evaluative status of a horizon-centered research program developed across a series of accompanying conceptual works.
+
+The program does not introduce new dynamical laws, microscopic models, modifications of General Relativity, or independent observational predictions. Instead, it explores whether established cosmological and gravitational phenomena may admit reinterpretation through a framework organized around causal accessibility, horizon-defined domains, and boundary-associated entropy.
+
+The purpose of the program is not explanatory replacement but conceptual reorganization. Inflation, cosmological homogeneity, and thermodynamic features of the observable universe are not challenged at the phenomenological level. Rather, their interpretative status is reconsidered within a horizon-centered context.
+
+This note specifies the intended scope of these claims, clarifies what the program should and should not be understood to assert, and proposes criteria under which it may appropriately be evaluated.
+
+---
+
+## 1. Motivation and Context
+
+Modern cosmology provides a highly successful phenomenological account of the observable universe.
+
+At the same time, several conceptual questions remain subjects of ongoing discussion, including:
+
+- interpretation of cosmological initial conditions
+- status of inflation
+- entropy and temporal asymmetry
+- significance of causal horizons
+
+Independently, developments in gravitational thermodynamics and horizon physics suggest that causal boundaries possess thermodynamic and informational relevance.
+
+The present research program arises from the possibility that such considerations may support alternative conceptual organizations of cosmological reasoning.
+
+No claim is made that existing frameworks are incomplete or inconsistent.
+
+The purpose is instead interpretative.
+
+---
+
+## 2. What the Program Is
+
+The horizon-centered program consists of a set of conceptual frameworks organized around recurring structural principles:
+
+- causal accessibility
+- horizon-defined domains
+- boundary-associated entropy
+- compatibility with established phenomenology
+
+The program investigates whether these principles may function as organizing structures for interpreting cosmological and gravitational phenomena.
+
+The emphasis is therefore placed on conceptual consistency and structural coherence.
+
+No commitment is made regarding microscopic mechanisms or unique mathematical realization.
+
+---
+
+## 3. What the Program Is Not
+
+The program should not be interpreted as:
+
+- a new cosmological model
+- a replacement for ΛCDM
+- a modification of General Relativity
+- a theory of quantum gravity
+- a complete ontology
+- a predictive framework
+- a derivation of existing theories
+
+No new physical degrees of freedom are introduced.
+
+No fundamental dynamical laws are proposed.
+
+No observational discrepancies with standard cosmology are claimed.
+
+Statements concerning horizons and emergence should therefore be interpreted within the intended conceptual scope.
+
+However, specific effective realizations of the framework may generate structural predictions within their parameter spaces — for example, a nearly scale-invariant perturbation spectrum ($n_s \approx 1$) and a spectral tilt relation ($n_s - 1 = -2\varepsilon + 2\beta/3$, where $\varepsilon$ is the horizon entropy rate and $\beta$ the effective mass parameter of the horizon field) — without introducing new fundamental physical degrees of freedom. Such outputs are parametric consequences of a chosen realization, not independent claims of the conceptual program itself.
+
+---
+
+## 4. Relation to Existing Approaches
+
+The program exhibits structural compatibility with several existing research directions, including:
+
+- horizon thermodynamics
+- cosmological horizon physics
+- general holographic viewpoints
+- causal-structure–based approaches
+
+Compatibility should not be interpreted as:
+
+- equivalence
+- reduction
+- unification
+- shared ontology
+
+No attempt is made to derive one framework from another.
+
+Correspondence is limited to recurring structural features.
+
+---
+
+## 5. Differentiation from Key Prior Works
+
+The present program builds on a tradition of horizon-centered approaches in gravitational physics. This section specifies what the foundational prior works established and in what respects the present program is distinct.
+
+### Jacobson (1995)
+
+Jacobson demonstrated that the Einstein field equations can be derived as an equation of state from the Clausius relation $\delta Q = T\,dS$ applied to local Rindler horizons at every spacetime point, where entropy is proportional to horizon area. This result is local and general: it applies to all diffeomorphism-invariant theories of gravity and yields the full field equations.
+
+The present program does not attempt to derive the Einstein field equations. Its scope is restricted to the FRW cosmological setting, where the apparent horizon is used as a thermodynamic boundary for deriving background dynamics. The two programs share the view that thermodynamic properties of causal boundaries are physically significant, but differ in scope, method, and claimed conclusions. The present program does not treat gravity as an equation of state.
+
+### Cai and Kim (2005)
+
+Cai and Kim demonstrated that the Friedmann equations can be derived by applying the first law of thermodynamics $dE = T\,dS$ to the apparent horizon of an FRW universe, using entropy $S = A/(4G)$. This is the direct precursor to the thermodynamic derivation of background dynamics in the present formalization.
+
+The present program acknowledges this derivation and extends it in two respects. First, it develops a perturbation pipeline in which fluctuations of the apparent horizon $\psi = \delta R_A / R_A$ are linked to density perturbations $\delta\rho/\rho = -2\psi$ and to a nearly scale-invariant spectrum — a direction not addressed by Cai and Kim. Second, it introduces an ontological and interpretative scaffolding — including the concept of causally self-consistent regions and a three-level framework — that the original derivation does not provide.
+
+### Padmanabhan
+
+Padmanabhan's extensive program on thermodynamical aspects of gravity establishes that gravitational field equations across a wide class of theories can be obtained from an entropy extremization condition applied to local Rindler observers. This program makes a strong correspondence claim: the thermodynamic and gravitational descriptions are equivalent formulations of the same underlying physics, and gravity may be understood as an intrinsically thermodynamic phenomenon.
+
+The present program adopts a more restricted stance. Thermodynamic relations at the horizon level are treated as an organizational interface that clarifies structural correspondences, not as evidence of physical equivalence between thermodynamics and gravity. The framework explicitly disclaims equivalence, reduction, and ontological identity (see Section 2).
+
+### Verlinde (2011)
+
+Verlinde proposed that gravity is an entropic force arising from changes in information associated with the positions of material bodies, and that Newton's law and the Einstein equations emerge from holographic entropy considerations. This constitutes a strong ontological claim: gravity is not a fundamental interaction but an emergent entropic effect.
+
+The present program does not make this claim. The apparent horizon is treated as a structure delimiting physically meaningful domains of causal accessibility, not as the source of a gravitational force. No claim is made that inertia or gravitational attraction are entropic in origin.
+
+---
+
+## 6. Status of Interpretative Claims
+
+The claims developed throughout the program should be interpreted as:
+
+- conceptual reinterpretations
+- consistency conditions
+- organizational principles
+
+They should not be interpreted as:
+
+- physical derivations
+- explanatory replacements
+- observational predictions
+
+References to emergence, derivation, or horizon-constrained behavior should be understood at the level of effective description.
+
+No claim of fundamental reduction is intended.
+
+---
+
+## 7. Criteria for Evaluation
+
+The appropriate criteria for evaluating the present program differ from those used for predictive physical theories.
+
+Evaluation should instead focus on:
+
+### Internal conceptual coherence
+Whether assumptions remain mutually consistent.
+
+### Structural clarity
+Whether concepts and levels of description remain clearly distinguished.
+
+### Compatibility with established phenomenology
+Whether reinterpretation preserves empirical success. In the effective realization, this is verified through the recovery of Friedmann dynamics from the horizon first law, and the reproduction of a nearly scale-invariant perturbation spectrum.
+
+### Interpretative fertility
+Whether the framework generates useful conceptual organization and motivates further investigation.
+
+Failure to provide microscopic mechanisms or predictive structures should not be interpreted as internal inconsistency, since such goals lie outside the intended scope.
+
+---
+
+## 8. Open Directions
+
+Several questions remain intentionally open:
+
+- microscopic origin of horizon degrees of freedom
+- quantitative boundary-to-bulk relations
+- emergence of effective geometry
+- relation to quantum gravity
+- effective dynamical realizations
+
+These open questions define directions for future work rather than unresolved contradictions.
+
+---
+
+## 9. Concluding Remarks
+
+The present note establishes a stable interpretative context for a horizon-centered research program.
+
+Its purpose is not to defend a new physical theory but to delimit a conceptual space organized around causal accessibility and horizon structure.
+
+The program should therefore be understood as an ongoing exploration of conceptual organization rather than a completed explanatory framework.
+
+Whether such ideas ultimately admit predictive or quantitative realization remains an open question.

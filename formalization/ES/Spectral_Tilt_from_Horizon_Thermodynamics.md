@@ -1,0 +1,233 @@
+# Tilt Espectral desde la Termodinámica del Horizonte
+
+**Kevin Muñoz**
+
+---
+
+## Resumen
+
+Los documentos compañeros sobre cuantización del campo de horizonte (Paso 1) y teoría de perturbaciones gauge-invariante (Paso 2) derivaron la fórmula del tilt espectral $n_s - 1 = 3 - 2\nu$ en términos del parámetro $\nu(\varepsilon, \beta)$, donde $\varepsilon = -\dot{H}/H^2$ es el parámetro de rodadura lenta y $\beta = m_\text{eff}^2/H^2$ es la masa efectiva normalizada del campo de horizonte. Ambos parámetros fueron tratados como datos de entrada. Este documento los deriva desde el interior del marco centrado en el horizonte: $\varepsilon$ se identifica como la mitad de la tasa fraccional de cambio de la entropía del horizonte por e-fold, y $\beta = 0$ se establece como la elección mínima compatible con la estructura conforme bidimensional de la acción del horizonte. El tilt espectral resultante toma la forma
+
+$$n_s - 1 = -\frac{d\ln S}{d\ln a}$$
+
+donde $S = \pi R_A^2 / G$ es la entropía del horizonte. Esta es la primera expresión del tilt completamente en términos de cantidades intrínsecas del horizonte, sin importar parámetros de la teoría de campos en el bulk. El valor observado $n_s \approx 0.965$ se traduce en una tasa de crecimiento de la entropía del horizonte del $3.5\%$ por e-fold durante la inflación.
+
+---
+
+## 1. Motivación
+
+La fórmula del tilt derivada en el documento de cuantización es
+
+$$n_s - 1 = 3 - 2\nu, \qquad \nu \approx \frac{3}{2} + \varepsilon - \frac{\beta}{3} \tag{1}$$
+
+lo que produce
+
+$$n_s - 1 \approx -2\varepsilon + \frac{2\beta}{3} \tag{2}$$
+
+Tanto $\varepsilon$ como $\beta$ fueron introducidos como parámetros externos. El programa de cosmología centrada en el horizonte requiere que estos sean derivables de cantidades intrínsecas del horizonte — no importadas de la teoría de rodadura lenta inflacionaria del bulk. Este documento provee esas derivaciones y produce una fórmula del tilt expresada enteramente en variables termodinámicas del horizonte.
+
+---
+
+## 2. El Parámetro de Rodadura Lenta como Tasa de Entropía del Horizonte
+
+El horizonte aparente porta entropía proporcional a su área:
+
+$$S = \frac{A}{4G} = \frac{\pi R_A^2}{G} = \frac{\pi}{G H^2} \tag{3}$$
+
+Diferenciando respecto al tiempo:
+
+$$\dot{S} = -\frac{2\pi \dot{H}}{G H^3} = \frac{2\pi \varepsilon H^2}{G H^3} = \frac{2\pi \varepsilon}{G H} \tag{4}$$
+
+donde usamos $\dot{H} = -\varepsilon H^2$. Dividiendo por $S$:
+
+$$\frac{\dot{S}}{S} = \frac{2\pi\varepsilon}{GH} \times \frac{GH^2}{\pi} = 2\varepsilon H \tag{5}$$
+
+Por lo tanto:
+
+$$\varepsilon = \frac{\dot{S}}{2SH} = \frac{1}{2}\frac{d\ln S}{d\ln a} \tag{6}$$
+
+El parámetro de rodadura lenta $\varepsilon$ es **la mitad de la tasa fraccional de cambio de la entropía del horizonte por e-fold**. Esta es una cantidad puramente termodinámica del horizonte: no se necesita ninguna referencia al campo escalar del bulk, su potencial, o su energía cinética.
+
+Equivalentemente, usando $T = 1/(2\pi R_A) = H/(2\pi)$:
+
+$$\varepsilon = -\frac{\dot{T}}{TH} = -\frac{d\ln T}{d\ln a} \tag{7}$$
+
+El parámetro de rodadura lenta también es igual al decrecimiento fraccional de la temperatura de Hawking–Gibbons por e-fold. Ambas expresiones son intrínsecas a la geometría del horizonte.
+
+---
+
+## 3. La Masa Efectiva desde la Minimalidad Conforme Bidimensional
+
+### 3.1 La acción del horizonte y su contenido de simetría
+
+La acción del campo de horizonte (ec. (23) del Documento 5) es
+
+$$S_\phi = \int dt\, d\Omega\, R_A^2 \left[(\partial_t\phi)^2 + H^2(\nabla_\Omega\phi)^2 + m_\text{eff}^2\phi^2\right] \tag{8}$$
+
+donde $\nabla_\Omega$ es el gradiente sobre la dos-esfera unitaria $S^2$ y $R_A = 1/H$. La parte espacial de esta acción es la de un campo escalar sobre una variedad riemanniana bidimensional $(S^2, R_A^2 \gamma_{ij})$, donde $\gamma_{ij}$ es la métrica redonda sobre $S^2$.
+
+### 3.2 Acoplamiento a la curvatura intrínseca
+
+Un campo escalar sobre una variedad bidimensional puede acoplarse al escalar de Ricci intrínseco $\mathcal{R}_2$ de la superficie:
+
+$$S_\phi \supset -\xi \int dt\, d\Omega\, R_A^2\, \mathcal{R}_2\, \phi^2 \tag{9}$$
+
+El escalar de Ricci de una dos-esfera de radio $R_A$ es $\mathcal{R}_2 = 2/R_A^2 = 2H^2$. El acoplamiento (9) contribuye una masa efectiva:
+
+$$m_\text{eff}^2 = \xi \mathcal{R}_2 = 2\xi H^2 \qquad \Longrightarrow \qquad \beta = 2\xi \tag{10}$$
+
+### 3.3 Minimalidad conforme en dos dimensiones
+
+En dos dimensiones espacio-temporales, la acción Weyl-invariante (conformemente acoplada) para un campo escalar tiene $\xi = 0$. Esto es especial de $d=2$: el acoplamiento conforme $\xi_\text{conf} = (d-2)/(4(d-1))$ se anula idénticamente para $d=2$, lo que significa que los acoplamientos mínimo y conforme coinciden.
+
+El horizonte es una superficie espacial bidimensional. La acción mínima para $\phi$ sobre el horizonte — la que no introduce ningún parámetro adimensional nuevo más allá de los ya presentes en el fondo — tiene por lo tanto
+
+$$\xi = 0 \qquad \Longrightarrow \qquad \beta = 0 \tag{11}$$
+
+Este es el **campo de horizonte mínimo**: se acopla al fondo solo a través de la estructura cinética $R_A^2(\nabla_\Omega\phi)^2$, que ya está fijada por la geometría de $S^2$, y no porta ningún término de masa intrínseca.
+
+### 3.4 Cuándo $\beta \neq 0$
+
+Un $\beta$ no nulo surge si:
+
+- El campo de horizonte se acopla a la curvatura cuatro-dimensional ambiente: $\mathcal{R}_4 = 12H^2$ en de Sitter, dando $\beta = 12\xi_4$.
+- Hay un acoplamiento a la energía-estrés de la materia en el horizonte.
+- Las correcciones cuánticas generan una masa renormalizada.
+
+En todos estos casos $\beta$ se convierte en una constante de acoplamiento del modelo microscópico, no en una predicción del marco mínimo. El marco mínimo ($\beta = 0$) produce la predicción más limpia.
+
+---
+
+## 4. El Tilt como Tasa Termodinámica del Horizonte
+
+Sustituyendo $\beta = 0$ en la ecuación (2):
+
+$$n_s - 1 = -2\varepsilon \tag{12}$$
+
+Sustituyendo la expresión termodinámica (6):
+
+$$\boxed{n_s - 1 = -\frac{d\ln S}{d\ln a}} \tag{13}$$
+
+El **tilt espectral es igual a menos la tasa de crecimiento fraccional de la entropía del horizonte por e-fold.** Este es el resultado central del presente documento.
+
+Equivalentemente, de la ecuación (7):
+
+$$n_s - 1 = \frac{d\ln T}{d\ln a} \tag{14}$$
+
+El tilt es igual al cambio fraccional en la temperatura de Hawking–Gibbons por e-fold. Un tilt rojo ($n_s < 1$) se sigue de $\dot{T} < 0$: la temperatura del horizonte estaba decreciendo durante la inflación, es decir, la tasa de Hubble disminuía lentamente.
+
+### Interpretación física
+
+En de Sitter exacto ($H = \text{const}$): $S = \text{const}$, $\varepsilon = 0$, $n_s = 1$. La invarianza perfecta de escala es consecuencia de la estacionariedad termodinámica perfecta del horizonte.
+
+Un tilt rojo emerge cada vez que $S$ crece: a medida que el universo infla y $H$ disminuye ligeramente, el horizonte se expande y su entropía aumenta. Cada modo que se congela lo hace con un valor ligeramente diferente de $H$ (y por tanto de $S$), adquiriendo una amplitud ligeramente diferente. El tilt registra la tasa a la que cambia el estado termodinámico del horizonte a lo largo de la historia de congelamiento.
+
+---
+
+## 5. Corrección de Orden Siguiente: Variación de $\varepsilon$
+
+La ecuación (13) vale a orden líder en $\varepsilon$. La primera corrección sub-líder proviene de la variación temporal de $\varepsilon$, parametrizada por
+
+$$\eta_\varepsilon \equiv \frac{\dot{\varepsilon}}{H\varepsilon} = \frac{d\ln\varepsilon}{d\ln a} \tag{15}$$
+
+En el potencial efectivo para la ecuación modal (Paso 1, ec. (31)), el término siguiente en la expansión da
+
+$$n_s - 1 = -2\varepsilon - \eta_\varepsilon + \mathcal{O}(\varepsilon^2) \tag{16}$$
+
+En lenguaje termodinámico del horizonte:
+
+$$\eta_\varepsilon = \frac{d\ln\varepsilon}{d\ln a} = \frac{d}{d\ln a}\left(\frac{d\ln S}{d\ln a}\right) \bigg/ \frac{d\ln S}{d\ln a} \tag{17}$$
+
+Esta es la "aceleración" de la tasa de crecimiento de la entropía, normalizada por la tasa de crecimiento misma. El resultado de orden líder (13) aplica cuando esta aceleración es pequeña comparada con $\varepsilon$ — es decir, cuando el horizonte evoluciona a una tasa casi constante por e-fold.
+
+Para $\varepsilon$ constante (inflación de ley de potencia $a \propto t^{1/\varepsilon}$, $S \propto a^{2\varepsilon}$): $\eta_\varepsilon = 0$ y (13) es exacta a este orden.
+
+---
+
+## 6. Tilt General con $\beta \neq 0$
+
+Para un campo de horizonte no mínimo con $\beta \neq 0$:
+
+$$n_s - 1 = -2\varepsilon + \frac{2\beta}{3} = -\frac{d\ln S}{d\ln a} + \frac{2\beta}{3} \tag{18}$$
+
+El término en $\beta$ desplaza el tilt en una cantidad constante (independiente de $k$). En términos del acoplamiento de curvatura $\xi$ (ec. 10):
+
+$$n_s - 1 = -\frac{d\ln S}{d\ln a} + \frac{4\xi}{3} \tag{19}$$
+
+El acoplamiento conforme a la curvatura cuatro-dimensional ($\xi_4 = 1/6$, $\beta = 2$) da un desplazamiento azul de $4/3$, lo que requeriría $\varepsilon > 2/3$ para mantener un tilt rojo — inconsistente con el $\varepsilon \ll 1$ observacionalmente requerido. Esto descarta el acoplamiento conforme cuatro-dimensional para el campo de horizonte y apoya la elección mínima bidimensional $\beta = 0$.
+
+---
+
+## 7. Restricción Observacional
+
+La medición de Planck 2018 $n_s = 0.9649 \pm 0.0042$ da, para el caso mínimo $\beta = 0$:
+
+$$\varepsilon = \frac{1 - n_s}{2} = 0.0176 \pm 0.0021 \tag{20}$$
+
+En lenguaje termodinámico:
+
+$$\frac{d\ln S}{d\ln a}\bigg|_\text{inflación} = 0.0351 \pm 0.0042 \tag{21}$$
+
+La entropía del horizonte crecía aproximadamente un $3.5\%$ por e-fold durante el período inflacionario que sembró los modos del CMB.
+
+De (3): $S \propto H^{-2}$, de modo que $d\ln S/d\ln a = -2\, d\ln H/d\ln a = 2\varepsilon$. La tasa de Hubble decrecía al $\varepsilon \approx 1.76\%$ por e-fold.
+
+---
+
+## 8. Conexión con Documentos Anteriores
+
+### Relación con el Documento 5
+
+El Documento 5 introdujo $m_\text{eff}^2 = \beta H^2$ y enunció $n_s - 1 \approx -2\beta$ por analogía. La presente derivación muestra:
+
+- La cantidad llamada $\beta$ en el Documento 5 corresponde, en la notación del documento de cuantización, al parámetro compuesto $\beta_\nu = \varepsilon - \beta/3$ (ec. (34) del documento de cuantización).
+- Para el campo de horizonte mínimo ($\beta = 0$): $\beta_\nu = \varepsilon$ y $n_s - 1 = -2\varepsilon = -2\beta_\nu$, lo que recupera la fórmula del Documento 5 con la identificación $\beta_\text{Doc5} = \varepsilon$.
+
+### Relación con el documento de cuantización (Paso 1)
+
+La derivación $n_s - 1 = 3 - 2\nu$ con $\nu \approx 3/2 + \varepsilon$ (para $\beta = 0$) estableció la forma funcional. El presente documento provee el contenido físico: $\varepsilon = (1/2)\, d\ln S/d\ln a$ y $\beta = 0$ desde la minimalidad conforme 2D.
+
+### Relación con el documento gauge-invariante (Paso 2)
+
+El Paso 2 estableció $n_s(\mathcal{R}) = n_s(\psi)$: el tilt es el mismo ya sea calculado desde el campo de borde $\psi$ o desde la perturbación de curvatura del bulk $\mathcal{R}$. El presente resultado se aplica por tanto directamente al tilt del CMB observado sin correcciones de gauge adicionales.
+
+---
+
+## 9. Tabla Resumen
+
+| Cantidad | Expresión termodinámica del horizonte | Valor (Planck 2018) |
+|----------|---------------------------------------|---------------------|
+| $\varepsilon$ | $\frac{1}{2}\frac{d\ln S}{d\ln a} = -\frac{d\ln T}{d\ln a}$ | $0.0176$ |
+| $\beta$ | $2\xi = 0$ (mínimo, conforme 2D) | $0$ |
+| $n_s - 1$ | $-\frac{d\ln S}{d\ln a} = \frac{d\ln T}{d\ln a}$ | $-0.0351$ |
+| $\frac{d\ln S}{d\ln a}$ | $2\varepsilon$ | $0.0351$ |
+
+---
+
+## 10. Problemas Abiertos
+
+- **Determinación dinámica de $\varepsilon$.** La ecuación (6) expresa $\varepsilon$ en términos de $\dot{S}$, pero dentro del marco centrado en el horizonte, $\dot{S}$ no está predicho solo desde la acción del campo de borde. Una teoría dinámica completa del horizonte necesitaría especificar qué impulsa el cambio en $S$ — ya sea el contenido de materia, un campo inflatón, o un mecanismo intrínseco del horizonte.
+
+- **Modos tensoriales.** Derivados en el Paso 7: el campo bomba tensorial es $z_T = a$ (frente a $z_A = a/\sqrt\varepsilon$ para escalares), dando $n_T = -2\varepsilon$, $\Delta_h^2 = 2H^2/(\pi^2 M_{\rm Pl}^2)$ y $r = 16\varepsilon$. La relación de consistencia estándar $r = -8n_T$ se satisface.
+
+- **Corrida del tilt.** La corrección sub-líder (16) involucra $\eta_\varepsilon$, que no está restringido independientemente por el marco presente. Una expresión termodinámica del horizonte para $\eta_\varepsilon$ requeriría un modelo para $\ddot{S}$.
+
+- **Acoplamiento no mínimo.** Si futuras observaciones restringen $\xi$ (e.g., a través de no-gaussianidad primordial), la ecuación (19) conectaría $\xi$ con el acoplamiento del campo de horizonte a la curvatura del fondo.
+
+---
+
+## 11. Conclusión
+
+El tilt espectral del espectro de potencias primordial está determinado por dos cantidades del horizonte: la tasa de cambio de la entropía del horizonte $\varepsilon = (1/2)\, d\ln S/d\ln a$, y la masa efectiva del campo de horizonte, que se anula ($\beta = 0$) para el acoplamiento conforme bidimensional mínimo. La fórmula resultante $n_s - 1 = -(d\ln S)/(d\ln a)$ expresa el tilt rojo observado como consecuencia del crecimiento gradual de la entropía del horizonte causal durante la inflación, derivada enteramente de cantidades termodinámicas intrínsecas del horizonte. Esto cierra la derivación del tilt comenzada en el documento de cuantización y completa la especificación libre de parámetros de la forma espectral dentro del marco mínimo centrado en el horizonte.
+
+---
+
+## Referencias
+
+1. Planck Collaboration, "Planck 2018 results. X. Constraints on inflation," *A&A* **641**, A10 (2020).
+2. G. W. Gibbons y S. W. Hawking, "Cosmological event horizons, thermodynamics, and particle creation," *Phys. Rev. D* **15**, 2738 (1977).
+3. T. Jacobson, "Thermodynamics of spacetime: The Einstein equation of state," *Phys. Rev. Lett.* **75**, 1260 (1995).
+4. R.-G. Cai y S. P. Kim, "First law of thermodynamics and Friedmann equations of Friedmann-Robertson-Walker universe," *JHEP* **0502**, 050 (2005).
+5. K. Muñoz, "A Horizon-Centered Formalization of Cosmological Dynamics and Perturbations," Causal Horizon Framework, Documento 5 (2025).
+6. K. Muñoz, "Scale Invariance from Horizon Field Quantization," Causal Horizon Framework (2025).
+7. K. Muñoz, "Gauge-Invariant Formulation of the Horizon Perturbation," Causal Horizon Framework (2025).

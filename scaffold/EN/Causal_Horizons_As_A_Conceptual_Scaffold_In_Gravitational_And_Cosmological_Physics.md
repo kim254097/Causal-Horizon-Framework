@@ -1,0 +1,220 @@
+# Causal Horizons as a Conceptual Scaffold in Gravitational and Cosmological Physics
+
+**Kevin Muñoz**
+
+---
+
+## Abstract
+
+Recent developments in gravitational physics, cosmology, and quantum field theory increasingly emphasize the significance of causal horizons, observer-dependent accessibility, and boundary-associated entropy. Independently, horizon-centered approaches have explored the possibility that causal structure may play an organizing role in the interpretation of cosmological phenomena.
+
+The present work introduces a minimal conceptual scaffold intended to clarify structural correspondences among several research directions in which horizons already possess explicit physical relevance. Rather than proposing new dynamical principles, modifying existing theories, or introducing a unified framework, the scaffold identifies a small set of recurring structural features: causal primacy, horizon-defined domains, and boundary-associated entropy.
+
+These principles are shown to exhibit strong conceptual compatibility with horizon thermodynamics, general holographic viewpoints, cosmological horizon physics, and selected causal-structure–based approaches.
+
+The scaffold should not be interpreted as a theory or synthesis. Its purpose is limited to identifying a common conceptual interface through which otherwise distinct approaches may be discussed without modification of their internal assumptions or formal structures.
+
+---
+
+## 1. Introduction
+
+Causal horizons appear in a wide variety of gravitational and cosmological settings. Black hole horizons, cosmological horizons, and observer-dependent causal boundaries consistently delimit accessibility while simultaneously exhibiting thermodynamic and informational properties.
+
+Despite their recurring appearance, horizons are frequently treated within framework-specific contexts rather than as potentially shared organizing structures.
+
+The present work does not seek to unify existing theories or introduce new physical principles. Instead, it explores whether a small set of structural ideas associated with horizons can function as a minimal conceptual interface across otherwise distinct approaches.
+
+The goal is therefore organizational rather than explanatory.
+
+The framework developed here should be understood as a conceptual scaffold intended to facilitate dialogue and comparison while preserving the theoretical independence of participating approaches.
+
+---
+
+## 2. Status and Scope of Claims
+
+The scaffold proposed in this work is conceptual in character.
+
+It does not introduce:
+
+- new dynamical principles
+- modifications of General Relativity
+- microscopic descriptions
+- additional physical assumptions
+- observational predictions
+
+Compatibility within the scaffold should not be interpreted as:
+
+- equivalence
+- reduction
+- unification
+- shared ontology
+
+Instead, compatibility refers only to the presence of recurring structural elements.
+
+Statements concerning correspondence should therefore be interpreted as conceptual rather than physical claims.
+
+No attempt is made to derive one framework from another.
+
+---
+
+## 3. Criteria for Conceptual Compatibility
+
+The purpose of this section is to identify criteria under which structural correspondence may be meaningfully discussed.
+
+These criteria do not function as validation requirements and should not be interpreted as constraints on theory construction.
+
+Instead, they specify minimal conditions for inclusion within the present scaffold.
+
+### 3.1 Causal Primacy
+
+The first criterion concerns the role of causal structure.
+
+Approaches considered compatible within the scaffold assign foundational significance to causal accessibility or treat causal relations as structurally prior to purely volumetric description.
+
+No assumptions concerning ontological status are required.
+
+### 3.2 Horizon-Defined Domains
+
+A second criterion concerns the role of causal horizons.
+
+Compatible approaches recognize horizons as structures that delimit physically meaningful domains of accessibility and informational relevance.
+
+Horizons need not possess identical mathematical realization across different frameworks.
+
+The requirement is structural rather than formal.
+
+### 3.3 Boundary-Associated Entropy
+
+A third criterion concerns entropy.
+
+Approaches included within the scaffold assign physical significance to entropy associated with causal boundaries rather than exclusively to enclosed volumetric degrees of freedom.
+
+This criterion reflects recurring insights from gravitational thermodynamics and horizon physics.
+
+No assumptions concerning microscopic origin are required.
+
+### 3.4 Scope and Exclusions
+
+The presence of the above criteria does not imply agreement concerning:
+
+- microscopic structure
+- spacetime ontology
+- quantum gravity mechanisms
+- dynamical equations
+- global completion
+
+Approaches based fundamentally on privileged external viewpoints or purely volumetric descriptions may fall outside the intended scope.
+
+No claim of incompleteness or inadequacy is implied.
+
+---
+
+## 4. Horizon Thermodynamics
+
+Thermodynamic properties associated with horizons provide one of the clearest examples of structural compatibility.
+
+Black hole thermodynamics demonstrates that entropy and temperature arise naturally in association with causal boundaries.
+
+Importantly, such properties depend on horizon structure rather than on detailed descriptions of inaccessible regions.
+
+From the perspective adopted here, horizon thermodynamics illustrates how causal boundaries can constrain physical descriptions through structural considerations.
+
+The scaffold does not attempt to derive gravitational dynamics from thermodynamic relations.
+
+However, existing approaches suggest that effective formulations based on horizon thermodynamics may consistently reproduce familiar gravitational behavior.
+
+Such developments motivate, but do not require, the present organizational perspective.
+
+As a concrete example within the present program, the first law $dE = TdS - PdV$ applied to the apparent horizon at $R_A = 1/H$ reproduces the standard Friedmann equation, demonstrating that cosmological dynamics can be recast as a thermodynamic statement about the causal boundary.
+
+---
+
+## 5. General Holographic Viewpoints
+
+General holographic ideas frequently associate physically relevant information with boundary structures.
+
+When interpreted broadly, such perspectives exhibit conceptual overlap with horizon-centered descriptions in which boundary conditions constrain effective bulk descriptions.
+
+The present scaffold does not assume the validity of specific holographic dualities.
+
+Nor does it require exact bulk-boundary correspondences.
+
+The relevance of holographic viewpoints lies solely in their structural emphasis on boundary-defined information.
+
+Compatibility should therefore be understood as limited and organizational.
+
+---
+
+## 6. Cosmological Horizons in Expanding Spacetimes
+
+Cosmological horizons naturally delimit observational accessibility within expanding spacetimes.
+
+These structures exhibit thermodynamic properties analogous to those found in black-hole systems and therefore satisfy several criteria introduced above.
+
+Within horizon-centered approaches, observable cosmological domains may be interpreted as causally bounded regions.
+
+Such interpretations remain fully compatible with conventional cosmological phenomenology.
+
+No alternative cosmological dynamics are proposed.
+
+The scaffold merely notes that causal horizons provide a common structural language through which such descriptions may be discussed.
+
+In the effective realization, horizon perturbations $\psi = \delta R_A / R_A$ provide a boundary-based description of density perturbations via $\delta\rho/\rho = -2\psi$, illustrating concretely how boundary fluctuations encode bulk observables.
+
+---
+
+## 7. Causal Structure and Emergent Geometry
+
+Several approaches assign foundational significance to causal relations while treating geometry as emergent or effective.
+
+These perspectives often define physically meaningful domains through accessibility relations rather than through embedding in pre-existing spatial structures.
+
+Such features exhibit strong structural correspondence with horizon-centered descriptions.
+
+Compatibility does not imply shared ontology, mathematical realization, or physical mechanism.
+
+The scaffold identifies only recurring patterns of conceptual organization.
+
+---
+
+## 8. Limits and Open Invitations
+
+The present scaffold is intentionally minimal.
+
+It does not provide:
+
+- explanatory mechanisms
+- physical derivations
+- predictive structure
+- formal synthesis
+
+Its role is restricted to identifying conceptual overlap.
+
+Several questions remain outside scope, including:
+
+- microscopic origin of horizon degrees of freedom
+- boundary-to-bulk mappings
+- effective dynamical realizations
+- quantum gravitational completion
+
+Future developments may clarify whether stronger forms of correspondence exist.
+
+Such questions remain open.
+
+---
+
+## 9. Conclusion
+
+We have introduced a horizon-centered conceptual scaffold intended to identify recurring structural principles across gravitational and cosmological approaches in which causal horizons play significant roles.
+
+The scaffold should not be interpreted as a theory or unifying framework.
+
+Its contribution is limited to the identification of a minimal conceptual interface organized around:
+
+- causal primacy
+- horizon-defined domains
+- boundary-associated entropy
+
+By clarifying these structural correspondences, the scaffold may facilitate dialogue among otherwise distinct research programs while preserving their formal independence.
+
+Whether these correspondences ultimately admit deeper physical realization remains an open question.
