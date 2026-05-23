@@ -178,11 +178,17 @@ These statements should be understood as conceptual consistency requirements rat
 Several questions remain intentionally open:
 
 - microscopic description of primordial horizons
-- quantitative boundary-to-bulk mapping
-- perturbation generation mechanisms
-- gauge-invariant formulation of the curvature perturbation $\mathcal{R}$ in terms of the horizon perturbation $\psi = \delta R_A / R_A$
+- quantitative boundary-to-bulk mapping beyond the super-horizon limit
 - origin of thermal scales
 - relation between horizon evolution and conventional inflation
+- dynamical determination of $\varepsilon$ from within the framework
+- running of the tilt: horizon-thermodynamic expression for $\dot\varepsilon$
+
+The following items listed as open problems in earlier versions of the framework have been resolved in the companion formalization documents:
+
+- Gauge-invariant formulation of $\mathcal{R}$ in terms of $\psi$: derived exactly as $\mathcal{R} = [(1+\varepsilon)/\varepsilon]\,\psi$ on super-horizon scales (*Gauge-Invariant Formulation of the Horizon Perturbation*).
+- Perturbation generation mechanism: derived from canonical quantization of the horizon field with Bunch–Davies initial conditions (*Scale Invariance from Horizon Field Quantization*).
+- Tensor sector: $n_T = -2\varepsilon$, $r = 16\varepsilon$, derived from TT modes on the horizon boundary (*Tensor Perturbations from the Horizon Boundary*).
 
 These issues define a future research program rather than deficiencies of the present framework.
 

@@ -186,11 +186,11 @@ $$n_s \approx 1 \tag{31}$$
 
 Introduciendo:
 
-$$m_\text{eff}^2 = \beta H^2 \tag{32}$$
+$$m_\text{eff}^2 = \beta_S H^2 \tag{32}$$
 
 se obtiene:
 
-$$n_s - 1 \approx -2\beta \tag{33}$$
+$$n_s - 1 \approx -2\beta_S \tag{33}$$
 
 El coeficiente $-2$ sigue por analogía con la dinámica de un campo escalar en un fondo de de Sitter; una derivación rigurosa a partir de la acción del campo del horizonte (23) sigue siendo un problema abierto.
 

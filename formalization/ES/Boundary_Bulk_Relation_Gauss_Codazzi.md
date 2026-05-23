@@ -82,13 +82,19 @@ $$ds^2 = -(1+2\Phi)\,dt^2 + a^2(t)(1-2\Phi)\,\delta_{ij}\,dx^i\,dx^j \tag{8}$$
 
 donde $\Phi = \Psi$ (sin tensión anisotrópica). Las cantidades geométricas perturbadas sobre $\Sigma_t$ son:
 
-$$\delta\!\left({}^{(3)}R\right) = \frac{4k^2\Phi}{a^2}, \qquad \delta K = 3(\dot\Phi + H\Phi), \qquad \delta(K_{ij}K^{ij}) = 6H(\dot\Phi + H\Phi) \tag{9}$$
+$$\delta\!\left({}^{(3)}R\right) = -\frac{4k^2\Phi}{a^2}, \qquad \delta K = 3(\dot\Phi + H\Phi), \qquad \delta(K_{ij}K^{ij}) = -6H(\dot\Phi + H\Phi) \tag{9}$$
 
 donde $k$ es el número de onda comóvil. Linealizando la restricción de Gauss (2):
 
-$$\delta\!\left({}^{(3)}R\right) + 2K\,\delta K - 2K_{ij}\delta K^{ij} = 16\pi G\,\delta\rho \tag{10}$$
+$$\delta\!\left({}^{(3)}R\right) + 2K\,\delta K - \delta(K_{ij}K^{ij}) = 16\pi G\,\delta\rho \tag{10}$$
 
-Tras la sustitución con los valores del fondo (5), la restricción hamiltoniana linealizada toma la forma estándar:
+Sustituyendo los valores del fondo $K = -3H$ y las cantidades perturbadas (9):
+
+$$-\frac{4k^2\Phi}{a^2} + 2(-3H)\cdot 3(\dot\Phi+H\Phi) - (-6H(\dot\Phi+H\Phi)) = 16\pi G\,\delta\rho$$
+
+$$-\frac{4k^2\Phi}{a^2} - 12H(\dot\Phi+H\Phi) = 16\pi G\,\delta\rho$$
+
+Dividiendo por $-4$, la restricción hamiltoniana linealizada toma la forma estándar:
 
 $$\frac{k^2\Phi}{a^2} + 3H(\dot\Phi + H\Phi) = -4\pi G\,\delta\rho \tag{11}$$
 

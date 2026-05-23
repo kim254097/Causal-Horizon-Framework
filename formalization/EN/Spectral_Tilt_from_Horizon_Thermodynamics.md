@@ -6,7 +6,7 @@
 
 ## Abstract
 
-The companion documents on horizon field quantization (Step 1) and gauge-invariant perturbation theory (Step 2) derived the spectral tilt formula $n_s - 1 = 3 - 2\nu$ in terms of the parameter $\nu(\varepsilon, \beta)$, where $\varepsilon = -\dot{H}/H^2$ is the slow-roll parameter and $\beta = m_\text{eff}^2/H^2$ is the normalized effective mass of the horizon field. Both parameters were treated as inputs. This document derives them from within the horizon-centered framework: $\varepsilon$ is identified as half the fractional rate of change of the horizon entropy per e-fold, and $\beta = 0$ is established as the minimal choice consistent with the two-dimensional conformal structure of the horizon action. The resulting spectral tilt takes the form
+The companion documents on horizon field quantization (Step 1) and gauge-invariant perturbation theory (Step 2) derived the spectral tilt formula $n_s - 1 = 3 - 2\nu$ in terms of the parameter $\nu(\varepsilon, \beta_S)$, where $\varepsilon = -\dot{H}/H^2$ is the slow-roll parameter and $\beta_S = m_\text{eff}^2/H^2$ is the normalized effective mass of the horizon field. Both parameters were treated as inputs. This document derives them from within the horizon-centered framework: $\varepsilon$ is identified as half the fractional rate of change of the horizon entropy per e-fold, and $\beta_S = 0$ is established as the minimal choice consistent with the two-dimensional conformal structure of the horizon action. The resulting spectral tilt takes the form
 
 $$n_s - 1 = -\frac{d\ln S}{d\ln a}$$
 
@@ -18,13 +18,13 @@ where $S = \pi R_A^2 / G$ is the horizon entropy. This is the first expression o
 
 The tilt formula derived in the quantization document is
 
-$$n_s - 1 = 3 - 2\nu, \qquad \nu \approx \frac{3}{2} + \varepsilon - \frac{\beta}{3} \tag{1}$$
+$$n_s - 1 = 3 - 2\nu, \qquad \nu \approx \frac{3}{2} + \varepsilon - \frac{\beta_S}{3} \tag{1}$$
 
 yielding
 
-$$n_s - 1 \approx -2\varepsilon + \frac{2\beta}{3} \tag{2}$$
+$$n_s - 1 \approx -2\varepsilon + \frac{2\beta_S}{3} \tag{2}$$
 
-Both $\varepsilon$ and $\beta$ were introduced as external parameters. The program of horizon-centered cosmology requires that these be derivable from intrinsic horizon quantities — not imported from inflationary slow-roll field theory. This document provides those derivations and produces a tilt formula expressed entirely in thermodynamic variables of the horizon.
+Both $\varepsilon$ and $\beta_S$ were introduced as external parameters. The program of horizon-centered cosmology requires that these be derivable from intrinsic horizon quantities — not imported from inflationary slow-roll field theory. This document provides those derivations and produces a tilt formula expressed entirely in thermodynamic variables of the horizon.
 
 ---
 
@@ -74,7 +74,7 @@ $$S_\phi \supset -\xi \int dt\, d\Omega\, R_A^2\, \mathcal{R}_2\, \phi^2 \tag{9}
 
 The Ricci scalar of a two-sphere of radius $R_A$ is $\mathcal{R}_2 = 2/R_A^2 = 2H^2$. Thus the coupling (9) contributes an effective mass:
 
-$$m_\text{eff}^2 = \xi \mathcal{R}_2 = 2\xi H^2 \qquad \Longrightarrow \qquad \beta = 2\xi \tag{10}$$
+$$m_\text{eff}^2 = \xi \mathcal{R}_2 = 2\xi H^2 \qquad \Longrightarrow \qquad \beta_S = 2\xi \tag{10}$$
 
 ### 3.3 Conformal minimality in two dimensions
 
@@ -82,25 +82,25 @@ In two spacetime dimensions, the Weyl-invariant (conformally coupled) action for
 
 The horizon is a two-dimensional spatial surface. The minimal action for $\phi$ on the horizon — the one that introduces no new dimensionless parameter beyond those already present in the background — therefore has
 
-$$\xi = 0 \qquad \Longrightarrow \qquad \beta = 0 \tag{11}$$
+$$\xi = 0 \qquad \Longrightarrow \qquad \beta_S = 0 \tag{11}$$
 
 This is the **minimal horizon field**: it couples to the background only through the kinetic structure $R_A^2(\nabla_\Omega\phi)^2$, which is already fixed by the geometry of $S^2$, and carries no intrinsic mass term.
 
-### 3.4 When $\beta \neq 0$
+### 3.4 When $\beta_S \neq 0$
 
-A non-zero $\beta$ arises if:
+A non-zero $\beta_S$ arises if:
 
-- The horizon field couples to the ambient four-dimensional curvature: $\mathcal{R}_4 = 12H^2$ in de Sitter, giving $\beta = 12\xi_4$.
+- The horizon field couples to the ambient four-dimensional curvature: $\mathcal{R}_4 = 12H^2$ in de Sitter, giving $\beta_S = 12\xi_4$.
 - There is a coupling to the matter stress-energy at the horizon.
 - Quantum corrections generate a renormalized mass.
 
-In all these cases $\beta$ becomes a coupling constant of the microscopic model, not a prediction of the minimal framework. The minimal framework ($\beta = 0$) produces the cleanest prediction.
+In all these cases $\beta_S$ becomes a coupling constant of the microscopic model, not a prediction of the minimal framework. The minimal framework ($\beta_S = 0$) produces the cleanest prediction.
 
 ---
 
 ## 4. The Tilt as a Horizon Thermodynamic Rate
 
-Substituting $\beta = 0$ into equation (2):
+Substituting $\beta_S = 0$ into equation (2):
 
 $$n_s - 1 = -2\varepsilon \tag{12}$$
 
@@ -144,23 +144,23 @@ For constant $\varepsilon$ (power-law inflation $a \propto t^{1/\varepsilon}$, $
 
 ---
 
-## 6. General Tilt with Non-Zero $\beta$
+## 6. General Tilt with Non-Zero $\beta_S$
 
-For a non-minimal horizon field with $\beta \neq 0$:
+For a non-minimal horizon field with $\beta_S \neq 0$:
 
-$$n_s - 1 = -2\varepsilon + \frac{2\beta}{3} = -\frac{d\ln S}{d\ln a} + \frac{2\beta}{3} \tag{18}$$
+$$n_s - 1 = -2\varepsilon + \frac{2\beta_S}{3} = -\frac{d\ln S}{d\ln a} + \frac{2\beta_S}{3} \tag{18}$$
 
-The $\beta$ term shifts the tilt by a constant (k-independent) amount. In terms of the curvature coupling $\xi$ (eq. 10):
+The $\beta_S$ term shifts the tilt by a constant (k-independent) amount. In terms of the curvature coupling $\xi$ (eq. 10):
 
 $$n_s - 1 = -\frac{d\ln S}{d\ln a} + \frac{4\xi}{3} \tag{19}$$
 
-Conformal coupling to the four-dimensional curvature ($\xi_4 = 1/6$, $\beta = 2$) gives a blue shift of $4/3$, which would require $\varepsilon > 2/3$ to maintain a red tilt — inconsistent with observationally required $\varepsilon \ll 1$. This rules out conformal four-dimensional coupling for the horizon field and supports the two-dimensional minimal choice $\beta = 0$.
+Conformal coupling to the four-dimensional curvature ($\xi_4 = 1/6$, $\beta_S = 2$) gives a blue shift of $4/3$, which would require $\varepsilon > 2/3$ to maintain a red tilt — inconsistent with observationally required $\varepsilon \ll 1$. This rules out conformal four-dimensional coupling for the horizon field and supports the two-dimensional minimal choice $\beta_S = 0$.
 
 ---
 
 ## 7. Observational Constraint
 
-The Planck 2018 measurement $n_s = 0.9649 \pm 0.0042$ gives, for the minimal case $\beta = 0$:
+The Planck 2018 measurement $n_s = 0.9649 \pm 0.0042$ gives, for the minimal case $\beta_S = 0$:
 
 $$\varepsilon = \frac{1 - n_s}{2} = 0.0176 \pm 0.0021 \tag{20}$$
 
@@ -178,14 +178,14 @@ From (3): $S \propto H^{-2}$, so $d\ln S/d\ln a = -2\, d\ln H/d\ln a = 2\varepsi
 
 ### Relation to Document 5
 
-Document 5 introduced $m_\text{eff}^2 = \beta H^2$ and stated $n_s - 1 \approx -2\beta$ by analogy. The present derivation shows:
+Document 5 introduced $m_\text{eff}^2 = \beta_S H^2$ and stated $n_s - 1 \approx -2\beta_S$ by analogy. The present derivation shows:
 
-- The quantity called $\beta$ in Document 5 corresponds, in the notation of the quantization document, to the compound parameter $\beta_\nu = \varepsilon - \beta/3$ (eq. (34) of the quantization document).
-- For the minimal horizon field ($\beta = 0$): $\beta_\nu = \varepsilon$ and $n_s - 1 = -2\varepsilon = -2\beta_\nu$, which recovers Document 5's formula with the identification $\beta_\text{Doc5} = \varepsilon$.
+- The quantity called $\beta_S$ in Document 5 corresponds, in the notation of the quantization document, to the compound parameter $\beta_\nu = \varepsilon - \beta_S/3$ (eq. (34) of the quantization document).
+- For the minimal horizon field ($\beta_S = 0$): $\beta_\nu = \varepsilon$ and $n_s - 1 = -2\varepsilon = -2\beta_\nu$, which recovers Document 5's formula with the identification $\beta_\text{Doc5} = \varepsilon$.
 
 ### Relation to the quantization document (Step 1)
 
-The derivation $n_s - 1 = 3 - 2\nu$ with $\nu \approx 3/2 + \varepsilon$ (for $\beta = 0$) established the functional form. The present document provides the physical content: $\varepsilon = (1/2)\, d\ln S/d\ln a$ and $\beta = 0$ from 2D conformal minimality.
+The derivation $n_s - 1 = 3 - 2\nu$ with $\nu \approx 3/2 + \varepsilon$ (for $\beta_S = 0$) established the functional form. The present document provides the physical content: $\varepsilon = (1/2)\, d\ln S/d\ln a$ and $\beta_S = 0$ from 2D conformal minimality.
 
 ### Relation to the gauge-invariant document (Step 2)
 
@@ -198,7 +198,7 @@ Step 2 established $n_s(\mathcal{R}) = n_s(\psi)$: the tilt is the same whether 
 | Quantity | Horizon-thermodynamic expression | Value (Planck 2018) |
 |----------|----------------------------------|---------------------|
 | $\varepsilon$ | $\frac{1}{2}\frac{d\ln S}{d\ln a} = -\frac{d\ln T}{d\ln a}$ | $0.0176$ |
-| $\beta$ | $2\xi = 0$ (minimal, 2D conformal) | $0$ |
+| $\beta_S$ | $2\xi = 0$ (minimal, 2D conformal) | $0$ |
 | $n_s - 1$ | $-\frac{d\ln S}{d\ln a} = \frac{d\ln T}{d\ln a}$ | $-0.0351$ |
 | $\frac{d\ln S}{d\ln a}$ | $2\varepsilon$ | $0.0351$ |
 
@@ -208,7 +208,7 @@ Step 2 established $n_s(\mathcal{R}) = n_s(\psi)$: the tilt is the same whether 
 
 - **Dynamical determination of $\varepsilon$.** Equation (6) expresses $\varepsilon$ in terms of $\dot{S}$, but within the horizon-centered framework, $\dot{S}$ is not predicted from the boundary field action alone. A complete dynamical theory of the horizon would need to specify what drives the change in $S$ — whether matter content, an inflaton field, or an intrinsic horizon mechanism.
 
-- **Tensor modes.** Derived in Step 7: the tensor pump field is $z_T = a$ (vs. $z_A = a/\sqrt\varepsilon$ for scalars), giving $n_T = -2\varepsilon$, $\Delta_h^2 = 2H^2/(\pi^2 M_{\rm Pl}^2)$, and $r = 16\varepsilon$. The standard consistency relation $r = -8n_T$ is satisfied.
+- **Tensor modes.** Derived in Step 6: the tensor pump field is $z_T = a$ (vs. $z_A = a/\sqrt\varepsilon$ for scalars), giving $n_T = -2\varepsilon$, $\Delta_h^2 = 2H^2/(\pi^2 M_{\rm Pl}^2)$, and $r = 16\varepsilon$. The standard consistency relation $r = -8n_T$ is satisfied.
 
 - **Running of the tilt.** The subleading correction (16) involves $\eta_\varepsilon$, which is not independently constrained by the present framework. A horizon-thermodynamic expression for $\eta_\varepsilon$ would require a model for $\ddot{S}$.
 
@@ -218,7 +218,7 @@ Step 2 established $n_s(\mathcal{R}) = n_s(\psi)$: the tilt is the same whether 
 
 ## 11. Conclusion
 
-The spectral tilt of the primordial power spectrum is determined by two horizon quantities: the rate of change of the horizon entropy $\varepsilon = (1/2)\, d\ln S/d\ln a$, and the effective mass of the horizon field, which vanishes ($\beta = 0$) for the minimal two-dimensional conformally invariant coupling. The resulting formula $n_s - 1 = -(d\ln S)/(d\ln a)$ expresses the observed red tilt as a consequence of the gradual growth of the causal horizon's entropy during inflation, derived entirely from intrinsic horizon-thermodynamic quantities. This closes the derivation of the tilt begun in the quantization document and completes the parameter-free specification of the spectral shape within the minimal horizon-centered framework.
+The spectral tilt of the primordial power spectrum is determined by two horizon quantities: the rate of change of the horizon entropy $\varepsilon = (1/2)\, d\ln S/d\ln a$, and the effective mass of the horizon field, which vanishes ($\beta_S = 0$) for the minimal two-dimensional conformally invariant coupling. The resulting formula $n_s - 1 = -(d\ln S)/(d\ln a)$ expresses the observed red tilt as a consequence of the gradual growth of the causal horizon's entropy during inflation, derived entirely from intrinsic horizon-thermodynamic quantities. This closes the derivation of the tilt begun in the quantization document and completes the parameter-free specification of the spectral shape within the minimal horizon-centered framework.
 
 ---
 

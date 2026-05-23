@@ -82,19 +82,19 @@ $$ds^2 = -(1+2\Phi)\,dt^2 + a^2(t)(1-2\Phi)\,\delta_{ij}\,dx^i\,dx^j \tag{8}$$
 
 where $\Phi = \Psi$ (no anisotropic stress). The perturbed geometric quantities on $\Sigma_t$ are:
 
-$$\delta\!\left({}^{(3)}R\right) = \frac{4k^2\Phi}{a^2}, \qquad \delta K = 3(\dot\Phi + H\Phi), \qquad \delta(K_{ij}K^{ij}) = 6H(\dot\Phi + H\Phi) \tag{9}$$
+$$\delta\!\left({}^{(3)}R\right) = -\frac{4k^2\Phi}{a^2}, \qquad \delta K = 3(\dot\Phi + H\Phi), \qquad \delta(K_{ij}K^{ij}) = -6H(\dot\Phi + H\Phi) \tag{9}$$
 
 where $k$ is the comoving wavenumber. Linearizing the Gauss constraint (2) using the background values (5):
 
-$$\delta\!\left({}^{(3)}R\right) + 2K\,\delta K - 2K_{ij}\delta K^{ij} = 16\pi G\,\delta\rho \tag{10}$$
+$$\delta\!\left({}^{(3)}R\right) + 2K\,\delta K - \delta(K_{ij}K^{ij}) = 16\pi G\,\delta\rho \tag{10}$$
 
-$$\frac{4k^2\Phi}{a^2} + 2(-3H)(3\delta K/3) - 2(-H)(3\delta K/3) = 16\pi G\,\delta\rho$$
+Substituting the background values $K = -3H$ and the perturbed quantities (9):
 
-Substituting $\delta K_{ij} = (\dot\Phi + H\Phi)h_{ij}$ so that $K_{ij}\delta K^{ij} = -H\cdot 3(\dot\Phi+H\Phi)$:
+$$-\frac{4k^2\Phi}{a^2} + 2(-3H)\cdot 3(\dot\Phi+H\Phi) - (-6H(\dot\Phi+H\Phi)) = 16\pi G\,\delta\rho$$
 
-$$\frac{4k^2\Phi}{a^2} - 6H\cdot 3(\dot\Phi+H\Phi)/3 + 6H(\dot\Phi+H\Phi) = 16\pi G\,\delta\rho$$
+$$-\frac{4k^2\Phi}{a^2} - 12H(\dot\Phi+H\Phi) = 16\pi G\,\delta\rho$$
 
-After simplification, the linearized Gauss constraint takes the standard form:
+Dividing by $-4$, the linearized Gauss constraint takes the standard form:
 
 $$\frac{k^2\Phi}{a^2} + 3H(\dot\Phi + H\Phi) = -4\pi G\,\delta\rho \tag{11}$$
 

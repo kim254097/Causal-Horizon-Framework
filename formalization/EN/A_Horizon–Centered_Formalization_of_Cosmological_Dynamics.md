@@ -190,17 +190,17 @@ $$n_s = 1 \tag{31}$$
 
 Introducing:
 
-$$m_\text{eff}^2 = \beta H^2 \tag{32}$$
+$$m_\text{eff}^2 = \beta_S H^2 \tag{32}$$
 
 and including the slow-roll parameter $\varepsilon = -\dot{H}/H^2 = \frac{1}{2}\frac{d\ln S}{d\ln a}$:
 
-$$n_s - 1 = 3 - 2\nu \approx -2\varepsilon + \frac{2\beta}{3} \tag{33}$$
+$$n_s - 1 = 3 - 2\nu \approx -2\varepsilon + \frac{2\beta_S}{3} \tag{33}$$
 
-For the minimal horizon field ($\beta = 0$, from the two-dimensional conformal structure of the action), this reduces to
+For the minimal horizon field ($\beta_S = 0$, from the two-dimensional conformal structure of the action), this reduces to
 
 $$n_s - 1 = -\frac{d\ln S}{d\ln a} \tag{33a}$$
 
-where $S = \pi R_A^2/G$ is the horizon entropy. The tilt equals minus the fractional growth rate of the horizon entropy per e-fold. The full derivation of $\varepsilon$ and $\beta$ from intrinsic horizon quantities is given in the companion document *Spectral Tilt from Horizon Thermodynamics*.
+where $S = \pi R_A^2/G$ is the horizon entropy. The tilt equals minus the fractional growth rate of the horizon entropy per e-fold. The full derivation of $\varepsilon$ and $\beta_S$ from intrinsic horizon quantities is given in the companion document *Spectral Tilt from Horizon Thermodynamics*.
 
 ---
 

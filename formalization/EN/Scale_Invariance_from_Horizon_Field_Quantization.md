@@ -21,7 +21,7 @@ and the identification $\psi \sim \phi$ links boundary fluctuations to the cosmo
 Two results were left underived:
 
 - **Equation (29):** $\langle \phi(x)\phi(0) \rangle \sim |x|^{-\alpha}$ adopted as a statistical hypothesis.
-- **Equation (33):** $n_s - 1 \approx -2\beta$ stated by analogy with de Sitter scalar field theory.
+- **Equation (33):** $n_s - 1 \approx -2\beta_S$ stated by analogy with de Sitter scalar field theory.
 
 We derive both from the action (1) by canonical quantization.
 
@@ -105,13 +105,13 @@ This is the **Mukhanov–Sasaki equation** for the horizon perturbation $\psi_k$
 
 ### 4.2 Effective potential for de Sitter
 
-For de Sitter with $H = \text{const}$, $\varepsilon = 0$. Including $m_\text{eff}^2 = \beta H^2$ as a small correction, the effective potential takes the form
+For de Sitter with $H = \text{const}$, $\varepsilon = 0$. Including $m_\text{eff}^2 = \beta_S H^2$ as a small correction, the effective potential takes the form
 
 $$\frac{z_A''}{z_A} = \frac{\nu^2 - \frac{1}{4}}{\eta^2} \tag{15}$$
 
 with
 
-$$\nu^2 = \frac{9}{4} - \frac{m_\text{eff}^2}{H^2} = \frac{9}{4} - \beta \tag{16}$$
+$$\nu^2 = \frac{9}{4} - \frac{m_\text{eff}^2}{H^2} = \frac{9}{4} - \beta_S \tag{16}$$
 
 The mode equation becomes
 
@@ -151,7 +151,7 @@ $$|\psi_k(\eta_k)|^2 = \frac{|u_k(\eta_k)|^2}{a^2(\eta_k)} \tag{22}$$
 
 Using (21) evaluated near $|k\eta| = 1$:
 
-$$|\psi_k|_\text{freeze}^2 \approx \frac{2^{2\nu - 3}\,\Gamma(\nu)^2}{\pi}\,\frac{H^2}{c_s k^3}\,(1 + \mathcal{O}(\beta)) \tag{23}$$
+$$|\psi_k|_\text{freeze}^2 \approx \frac{2^{2\nu - 3}\,\Gamma(\nu)^2}{\pi}\,\frac{H^2}{c_s k^3}\,(1 + \mathcal{O}(\beta_S)) \tag{23}$$
 
 ---
 
@@ -169,17 +169,17 @@ where
 
 $$n_s - 1 = 3 - 2\nu \tag{26}$$
 
-**For the massless case** $\beta = 0$: $\nu = 3/2$, so $n_s - 1 = 0$.
+**For the massless case** $\beta_S = 0$: $\nu = 3/2$, so $n_s - 1 = 0$.
 
 The power spectrum is exactly scale invariant:
 
-$$\Delta_\psi^2(k)\big|_{\beta=0} = \frac{H^2}{2\pi^2 c_s} = \text{const} \tag{27}$$
+$$\Delta_\psi^2(k)\big|_{\beta_S=0} = \frac{H^2}{2\pi^2 c_s} = \text{const} \tag{27}$$
 
 This is the main result: **scale invariance is not a statistical hypothesis but a consequence of the Bunch–Davies vacuum and the de Sitter freeze-out mechanism**, applied to the horizon field through the comoving mode identification (2).
 
 The two-point function in position space follows directly from (27):
 
-$$\langle\phi(x)\phi(0)\rangle \sim \frac{1}{|x|^{2\nu}} = \frac{1}{|x|^3} \quad (\beta = 0) \tag{28}$$
+$$\langle\phi(x)\phi(0)\rangle \sim \frac{1}{|x|^{2\nu}} = \frac{1}{|x|^3} \quad (\beta_S = 0) \tag{28}$$
 
 recovering equation (29) of the formalization document with $\alpha = 3$ as a consequence of $\nu = 3/2$.
 
@@ -189,15 +189,15 @@ recovering equation (29) of the formalization document with $\alpha = 3$ as a co
 
 ### 7.1 Mass correction
 
-For $m_\text{eff}^2 = \beta H^2$ with $|\beta| \ll 1$:
+For $m_\text{eff}^2 = \beta_S H^2$ with $|\beta_S| \ll 1$:
 
-$$\nu = \sqrt{\frac{9}{4} - \beta} \approx \frac{3}{2} - \frac{\beta}{3} \tag{29}$$
+$$\nu = \sqrt{\frac{9}{4} - \beta_S} \approx \frac{3}{2} - \frac{\beta_S}{3} \tag{29}$$
 
 The spectral index:
 
-$$n_s - 1 = 3 - 2\nu \approx 3 - \left(3 - \frac{2\beta}{3}\right) = \frac{2\beta}{3} \tag{30}$$
+$$n_s - 1 = 3 - 2\nu \approx 3 - \left(3 - \frac{2\beta_S}{3}\right) = \frac{2\beta_S}{3} \tag{30}$$
 
-A positive effective mass $\beta > 0$ gives a mild blue tilt; a slightly tachyonic horizon field $\beta < 0$ gives a red tilt consistent with observations.
+A positive effective mass $\beta_S > 0$ gives a mild blue tilt; a slightly tachyonic horizon field $\beta_S < 0$ gives a red tilt consistent with observations.
 
 ### 7.2 Slow-roll correction
 
@@ -207,21 +207,21 @@ $$\frac{z_A''}{z_A} = \frac{1}{\eta^2}\left(2 + 3\varepsilon + \cdots\right) \ta
 
 leading to
 
-$$\nu \approx \frac{3}{2} + \varepsilon - \frac{\beta}{3} \tag{32}$$
+$$\nu \approx \frac{3}{2} + \varepsilon - \frac{\beta_S}{3} \tag{32}$$
 
 and
 
-$$n_s - 1 \approx -2\varepsilon + \frac{2\beta}{3} \tag{33}$$
+$$n_s - 1 \approx -2\varepsilon + \frac{2\beta_S}{3} \tag{33}$$
 
-The observed red tilt $n_s \approx 0.965$ is reproduced for $\varepsilon \approx 0.02$ with $\beta \approx 0$, or for a combination of non-zero $\varepsilon$ and $\beta$.
+The observed red tilt $n_s \approx 0.965$ is reproduced for $\varepsilon \approx 0.02$ with $\beta_S \approx 0$, or for a combination of non-zero $\varepsilon$ and $\beta_S$.
 
 ### 7.3 Comparison with Document 5
 
-Equation (33) of the formalization document originally stated $n_s - 1 \approx -2\beta$ without derivation. From the present analysis, this corresponds to the parameterization
+Equation (33) of the formalization document originally stated $n_s - 1 \approx -2\beta_S$ without derivation. From the present analysis, this corresponds to the parameterization
 
 $$\nu \equiv \frac{3}{2} + \beta_\nu \quad \Longrightarrow \quad n_s - 1 = -2\beta_\nu \tag{34}$$
 
-where $\beta_\nu = \varepsilon - \beta/3$ combines the slow-roll parameter and the mass correction. The formula (33) of Document 5 is recovered with the identification $\beta \to \beta_\nu$: a compound parameter capturing both slow variation of the horizon and the effective mass of $\phi$.
+where $\beta_\nu = \varepsilon - \beta_S/3$ combines the slow-roll parameter and the mass correction. The formula (33) of Document 5 is recovered with the identification $\beta_S \to \beta_\nu$: a compound parameter capturing both slow variation of the horizon and the effective mass of $\phi$.
 
 ---
 
@@ -244,7 +244,7 @@ This document replaces two open items in the formalization:
 | Item | Original Document 5 status | Present status |
 |------|---------------------------|----------------|
 | Eq. (29): $\langle\phi(x)\phi(0)\rangle \sim |x|^{-\alpha}$ | Minimal statistical hypothesis | Derived from BD vacuum: $\alpha = 2\nu = 3 - (n_s - 1)$ |
-| Eq. (33): $n_s - 1 \approx -2\beta$ | Analogy with de Sitter scalar | Derived: $n_s - 1 = 3 - 2\nu$, with $\nu(\beta, \varepsilon)$ from eq. (32) |
+| Eq. (33): $n_s - 1 \approx -2\beta_S$ | Analogy with de Sitter scalar | Derived: $n_s - 1 = 3 - 2\nu$, with $\nu(\beta_S, \varepsilon)$ from eq. (32) |
 
 The derivation uses the action (23) of Document 5 without modification. The only additional ingredient is the comoving mode identification (2) and the Bunch–Davies initial condition (19).
 
@@ -254,17 +254,17 @@ The derivation uses the action (23) of Document 5 without modification. The only
 
 The following gaps remain:
 
-- **Slow-roll evolution of $m_\text{eff}$.** The relation $m_\text{eff}^2 = \beta H^2$ is assumed constant. A dynamical model relating $\beta$ to the matter content would make (33) predictive.
+- **Slow-roll evolution of $m_\text{eff}$.** The relation $m_\text{eff}^2 = \beta_S H^2$ is assumed constant. A dynamical model relating $\beta_S$ to the matter content would make (33) predictive.
 
 - **Microscopic origin.** The Bunch–Davies vacuum is imposed as a natural UV condition; its justification from a microscopic model of horizon degrees of freedom remains open.
 
-The two gaps listed in the original version of this section have since been closed: the gauge-invariant identification $\mathcal{R} = [(1+\varepsilon)/\varepsilon]\psi$ was derived exactly in Step 2, and the tensor power spectrum was derived from horizon boundary modes in Step 7.
+The two gaps listed in the original version of this section have since been closed: the gauge-invariant identification $\mathcal{R} = [(1+\varepsilon)/\varepsilon]\psi$ was derived exactly in Step 2, and the tensor power spectrum was derived from horizon boundary modes in Step 6.
 
 ---
 
 ## 11. Conclusion
 
-Canonical quantization of the horizon field $\phi(\Omega, t)$, combined with the comoving mode identification $l_k(t) = k/(a(t)H(t))$, produces a mode equation of Mukhanov–Sasaki form. With Bunch–Davies initial conditions, this equation generates a scale-invariant power spectrum at freeze-out as a derived result. The spectral tilt is $n_s - 1 = 3 - 2\nu$, with $\nu$ controlled by the effective mass $m_\text{eff}^2 = \beta H^2$ and the slow-roll parameter $\varepsilon$. The two central open problems of Document 5 — equations (29) and (33) — are closed.
+Canonical quantization of the horizon field $\phi(\Omega, t)$, combined with the comoving mode identification $l_k(t) = k/(a(t)H(t))$, produces a mode equation of Mukhanov–Sasaki form. With Bunch–Davies initial conditions, this equation generates a scale-invariant power spectrum at freeze-out as a derived result. The spectral tilt is $n_s - 1 = 3 - 2\nu$, with $\nu$ controlled by the effective mass $m_\text{eff}^2 = \beta_S H^2$ and the slow-roll parameter $\varepsilon$. The two central open problems of Document 5 — equations (29) and (33) — are closed.
 
 ---
 

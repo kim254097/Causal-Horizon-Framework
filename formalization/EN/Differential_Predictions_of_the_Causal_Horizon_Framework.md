@@ -6,7 +6,7 @@
 
 ## Abstract
 
-Steps 1–4 of the Causal Horizon Framework (CHF) derived the primordial scalar power spectrum entirely from the geometry and thermodynamics of the apparent horizon, closing the four analytical gaps of the formalization document. The resulting tilt formula is $n_s - 1 = -2\varepsilon + 2\beta/3$, with $\varepsilon = \frac{1}{2}d\ln S/d\ln a$ (horizon entropy rate) and $\beta = 0$ for the minimal conformally coupled field on the two-dimensional horizon. This document identifies the observables by which the CHF differs from standard single-field inflation and specifies the conditions under which those differences are measurable. Four differential predictions are established. First, in the minimal case ($\beta = 0$), the CHF gives $n_s - 1 = -2\varepsilon$ — missing the second slow-roll contribution $\eta'$ that standard inflation allows as an independent degree of freedom. For the same background $\varepsilon$, the two frameworks predict tilts differing by $\eta'$; future CMB experiments with $\sigma(n_s) \sim 0.002$ will be sensitive to this at the level of $|\eta'| \sim 0.01$. Second, the standard consistency relation $r = 16\varepsilon$ was confirmed in Step 7 by deriving tensor modes from the horizon boundary, so the CHF predicts a specific line in the $(n_s, r)$ plane: $r = 8(1 - n_s)$, corresponding to $r \approx 0.28$ for the Planck 2018 central value $n_s = 0.9649$. This is in tension with the current bound $r < 0.056$. With $r = 16\varepsilon$ confirmed by Step 7, the tension is genuine: the minimal framework ($\beta = 0$) is excluded by Planck 2018, and $\beta_S < -0.042$ is required. Third, the running $\alpha_s = -d^2\ln S/dN^2$ contains no $\xi^2$ term from a cubic potential. Fourth, the minimal CHF action is quadratic in the boundary field, predicting $f_{NL}^{\rm CHF} = 0$ at leading order from the horizon, while standard slow-roll inflation gives $f_{NL} = \mathcal{O}(\varepsilon, \eta')$, small but nonzero. These predictions are derived, not assumed, and provide the empirical handles by which the CHF can be discriminated from — or falsified against — the standard inflationary paradigm.
+Steps 1–4 of the Causal Horizon Framework (CHF) derived the primordial scalar power spectrum entirely from the geometry and thermodynamics of the apparent horizon, closing the four analytical gaps of the formalization document. The resulting tilt formula is $n_s - 1 = -2\varepsilon + 2\beta_S/3$, with $\varepsilon = \frac{1}{2}d\ln S/d\ln a$ (horizon entropy rate) and $\beta_S = 0$ for the minimal conformally coupled field on the two-dimensional horizon. This document identifies the observables by which the CHF differs from standard single-field inflation and specifies the conditions under which those differences are measurable. Four differential predictions are established. First, in the minimal case ($\beta_S = 0$), the CHF gives $n_s - 1 = -2\varepsilon$ — missing the second slow-roll contribution $\eta'$ that standard inflation allows as an independent degree of freedom. For the same background $\varepsilon$, the two frameworks predict tilts differing by $\eta'$; future CMB experiments with $\sigma(n_s) \sim 0.002$ will be sensitive to this at the level of $|\eta'| \sim 0.01$. Second, the standard consistency relation $r = 16\varepsilon$ was confirmed in Step 6 by deriving tensor modes from the horizon boundary, so the CHF predicts a specific line in the $(n_s, r)$ plane: $r = 8(1 - n_s)$, corresponding to $r \approx 0.28$ for the Planck 2018 central value $n_s = 0.9649$. This is in tension with the current bound $r < 0.056$. With $r = 16\varepsilon$ confirmed by Step 6, the tension is genuine: the minimal framework ($\beta_S = 0$) is excluded by Planck 2018, and $\beta_S < -0.042$ is required. Third, the running $\alpha_s = -d^2\ln S/dN^2$ contains no $\xi^2$ term from a cubic potential. Fourth, the minimal CHF action is quadratic in the boundary field, predicting $f_{NL}^{\rm CHF} = 0$ at leading order from the horizon, while standard slow-roll inflation gives $f_{NL} = \mathcal{O}(\varepsilon, \eta')$, small but nonzero. These predictions are derived, not assumed, and provide the empirical handles by which the CHF can be discriminated from — or falsified against — the standard inflationary paradigm.
 
 ---
 
@@ -14,7 +14,7 @@ Steps 1–4 of the Causal Horizon Framework (CHF) derived the primordial scalar 
 
 A theoretical framework earns empirical weight by predicting observables differently from existing frameworks. Steps 1–4 of the CHF reproduced results already obtained in standard inflation (scale-invariant spectrum, tilt formula, boundary–bulk relation) from a different conceptual starting point — the horizon, not the bulk inflaton. Matching known results is necessary for consistency but not sufficient for discrimination.
 
-This document turns to the question of falsifiability: what would the CHF predict differently from a bulk inflationary model operating on the same background? The analysis proceeds as follows. Section 2 establishes the parameter structure of the CHF and compares it to that of standard inflation. Sections 3–6 derive the four differential predictions. Section 7 summarizes the current observational status. Section 8 records how Step 7 resolved Prediction 1.
+This document turns to the question of falsifiability: what would the CHF predict differently from a bulk inflationary model operating on the same background? The analysis proceeds as follows. Section 2 establishes the parameter structure of the CHF and compares it to that of standard inflation. Sections 3–6 derive the four differential predictions. Section 7 summarizes the current observational status. Section 8 records how Step 6 resolved Prediction 1.
 
 ---
 
@@ -34,9 +34,9 @@ This two-parameter freedom means that, for a given observed tilt $n_s$, the slow
 
 The CHF (Steps 1–3) gives:
 
-$$n_s - 1 = -2\varepsilon + \frac{2\beta}{3}, \qquad \varepsilon = \frac{1}{2}\frac{d\ln S}{d\ln a} \tag{2}$$
+$$n_s - 1 = -2\varepsilon + \frac{2\beta_S}{3}, \qquad \varepsilon = \frac{1}{2}\frac{d\ln S}{d\ln a} \tag{2}$$
 
-where $\beta = m_\text{eff}^2/H^2$ is the normalized effective mass of the horizon field. For the minimal horizon field ($\beta = 0$, the unique choice with no intrinsic coupling to the two-sphere curvature):
+where $\beta_S = m_\text{eff}^2/H^2$ is the normalized effective mass of the horizon field. For the minimal horizon field ($\beta_S = 0$, the unique choice with no intrinsic coupling to the two-sphere curvature):
 
 $$n_s - 1 = -2\varepsilon \qquad (\text{minimal CHF}) \tag{3}$$
 
@@ -48,23 +48,23 @@ The structural origin of this difference is the following. In standard inflation
 
 ## 3. Prediction 1: The $(n_s, r)$ Plane
 
-### 3.1 The CHF locus (confirmed by Step 7)
+### 3.1 The CHF locus (confirmed by Step 6)
 
-Step 7 derived the tensor power spectrum from the horizon boundary field and confirmed the standard consistency relation $r = 16\varepsilon$ (see Step 7, Section 8). Equation (3) then implies:
+Step 6 derived the tensor power spectrum from the horizon boundary field and confirmed the standard consistency relation $r = 16\varepsilon$ (see Step 6, Section 8). Equation (3) then implies:
 
-$$r_{\rm CHF}(\beta = 0) = 16\varepsilon = 8(1 - n_s) \tag{4}$$
+$$r_{\rm CHF}(\beta_S = 0) = 16\varepsilon = 8(1 - n_s) \tag{4}$$
 
 This is a line in the $(n_s, r)$ plane, parameterized by $\varepsilon$ alone. For the Planck 2018 central value $n_s = 0.9649$:
 
 $$r_{\rm CHF} = 8 \times 0.0351 = 0.281 \tag{5}$$
 
-Standard inflation, by contrast, spans a two-dimensional region in the $(n_s, r)$ plane: fixing $n_s$ leaves $r = 16\varepsilon = 8(1-n_s) - 8\eta'$ undetermined (since $\eta'$ is free). The CHF ($\beta=0$) collapses this to a single point.
+Standard inflation, by contrast, spans a two-dimensional region in the $(n_s, r)$ plane: fixing $n_s$ leaves $r = 16\varepsilon = 8(1-n_s) - 8\eta'$ undetermined (since $\eta'$ is free). The CHF ($\beta_S=0$) collapses this to a single point.
 
 ### 3.2 Tension with current data
 
-The Planck 2018 bound is $r < 0.056$ (95\% CL). The CHF prediction $r \approx 0.281$ lies well above this bound. Step 7 confirmed $r = 16\varepsilon$, so the tension is genuine and has two possible resolutions:
+The Planck 2018 bound is $r < 0.056$ (95\% CL). The CHF prediction $r \approx 0.281$ lies well above this bound. Step 6 confirmed $r = 16\varepsilon$, so the tension is genuine and has two possible resolutions:
 
-**(a) The minimal CHF ($\beta = 0$) is falsified.** With $r = 16\varepsilon$ confirmed, $\beta = 0$ is observationally excluded at 95\% CL by the combination $(n_s, r)_{\rm Planck}$. This is a genuine falsification of the minimal framework and a clear discriminant between the CHF and standard inflation (e.g., Starobinsky inflation, which gives $r \approx 0.004$ for $N = 55$).
+**(a) The minimal CHF ($\beta_S = 0$) is falsified.** With $r = 16\varepsilon$ confirmed, $\beta_S = 0$ is observationally excluded at 95\% CL by the combination $(n_s, r)_{\rm Planck}$. This is a genuine falsification of the minimal framework and a clear discriminant between the CHF and standard inflation (e.g., Starobinsky inflation, which gives $r \approx 0.004$ for $N = 55$).
 
 **(b) The horizon field is non-minimal ($\beta_S \neq 0$).** For $\beta_S \neq 0$, the tilt is $n_s - 1 = -2\varepsilon + 2\beta_S/3$. With $r = 16\varepsilon$, for fixed $n_s$:
 
@@ -80,7 +80,7 @@ A slightly tachyonic horizon field ($m_\text{eff}^2 < 0$) is required. This is n
 
 In the $(n_s, r)$ plane, the CHF prediction (4) lies on the line $r = 8(1-n_s)$. Standard slow-roll inflationary models populate a broad region below this line (since $\eta' < 0$ for models with concave potentials, making $n_s$ redder for the same $\varepsilon$ and hence the same $r$). The CHF line passes through or above most of the standard model predictions (Starobinsky, natural inflation, $\alpha$-attractors) that satisfy the Planck 2018 bound.
 
-The key diagnostic: a future measurement of $r$ above the current bound (e.g., $r \sim 0.01$–$0.05$) would be consistent with the $\beta < 0$ CHF but not with the minimal $\beta = 0$ case. A measurement of $r < 0.01$ would constrain $\beta \lesssim -0.065$ and further test the framework.
+The key diagnostic: a future measurement of $r$ above the current bound (e.g., $r \sim 0.01$–$0.05$) would be consistent with the $\beta_S < 0$ CHF but not with the minimal $\beta_S = 0$ case. A measurement of $r < 0.01$ would constrain $\beta_S \lesssim -0.065$ and further test the framework.
 
 ---
 
@@ -92,7 +92,7 @@ In standard inflation, the tilt receives a contribution from $\eta' = d\ln\varep
 
 $$\left(n_s - 1\right)_{\rm std} = -2\varepsilon - \eta' \tag{8}$$
 
-In the CHF ($\beta = 0$):
+In the CHF ($\beta_S = 0$):
 
 $$\left(n_s - 1\right)_{\rm CHF} = -2\varepsilon \tag{9}$$
 
@@ -186,20 +186,20 @@ The following table summarizes the four differential predictions against current
 
 | Prediction | CHF ($\beta_S=0$) | Standard inflation | Current constraint | Status |
 |------------|----------------|-------------------|-------------------|--------|
-| $r$ given $n_s = 0.9649$ | $r = 0.281$ | $r \in [0, 0.28]$ (2D family) | $r < 0.056$ | **Tension confirmed** — $r = 16\varepsilon$ from Step 7; requires $\beta_S < -0.042$ |
+| $r$ given $n_s = 0.9649$ | $r = 0.281$ | $r \in [0, 0.28]$ (2D family) | $r < 0.056$ | **Tension confirmed** — $r = 16\varepsilon$ from Step 6; requires $\beta_S < -0.042$ |
 | $\eta'$ contribution to tilt | $\eta' = 0$ | $\eta'$ free | $\sigma(n_s) = 0.004$ | Not yet discriminated |
 | $\alpha_s$ | $-2\varepsilon\eta_\varepsilon$, no $\xi^2$ | $-2\varepsilon\eta_H - \xi^2$ | $\alpha_s = -0.0045 \pm 0.0067$ | Consistent |
 | $f_{NL}$ (boundary) | $0$ | $\mathcal{O}(0.01)$ | $|f_{NL}| < 5$ | Consistent, not discriminable |
 
-The only prediction currently in tension is (i) the value of $r$ from the minimal CHF. Step 7 confirmed $r = 16\varepsilon$, establishing that the minimal framework ($\beta_S = 0$) is excluded by Planck 2018. Consistency with current data requires $\beta_S < -0.042$.
+The only prediction currently in tension is (i) the value of $r$ from the minimal CHF. Step 6 confirmed $r = 16\varepsilon$, establishing that the minimal framework ($\beta_S = 0$) is excluded by Planck 2018. Consistency with current data requires $\beta_S < -0.042$.
 
 ---
 
-## 8. Resolution by Step 7 (Tensor Perturbations)
+## 8. Resolution by Step 6 (Tensor Perturbations)
 
-Prediction 1 (the $(n_s, r)$ locus) depended on whether the CHF satisfies the standard consistency relation $r = 16\varepsilon$. Step 7 derived the tensor power spectrum from the two TT polarization modes on the apparent horizon boundary.
+Prediction 1 (the $(n_s, r)$ locus) depended on whether the CHF satisfies the standard consistency relation $r = 16\varepsilon$. Step 6 derived the tensor power spectrum from the two TT polarization modes on the apparent horizon boundary.
 
-**Key result of Step 7:** The tensor pump field is $z_T = a$ (vs. $z_A = a/\sqrt{\varepsilon}$ for scalars). This difference has a clear physical origin — tensor modes are perturbations of the *shape* of the horizon (traceless transverse shear), carrying no slow-roll suppression, while scalar modes perturb the *size* ($\psi = \delta R_A/R_A$), which is suppressed by $\sqrt\varepsilon$. The calculation yields:
+**Key result of Step 6:** The tensor pump field is $z_T = a$ (vs. $z_A = a/\sqrt{\varepsilon}$ for scalars). This difference has a clear physical origin — tensor modes are perturbations of the *shape* of the horizon (traceless transverse shear), carrying no slow-roll suppression, while scalar modes perturb the *size* ($\psi = \delta R_A/R_A$), which is suppressed by $\sqrt\varepsilon$. The calculation yields:
 
 $$\Delta_h^2 = \frac{2H^2}{\pi^2 M_{\rm Pl}^2}, \qquad n_T = -2\varepsilon, \qquad r = 16\varepsilon \tag{18}$$
 
@@ -207,7 +207,7 @@ The standard consistency relation $r = -8n_T$ is satisfied. The standard consist
 
 **Consequence for Prediction 1:** With $r = 16\varepsilon$ confirmed, the minimal CHF ($\beta_S = 0$) predicts $r \approx 0.281$ for $n_s = 0.9649$. This lies above the Planck 2018 bound $r < 0.056$ and the minimal framework is excluded at 95\% CL. A non-minimal scalar sector with $\beta_S < -0.042$ is required for consistency with current data.
 
-**CHF-specific relation:** Step 7 also established an additional consistency relation specific to the CHF (for $\beta_S = \beta_T = 0$):
+**CHF-specific relation:** Step 6 also established an additional consistency relation specific to the CHF (for $\beta_S = \beta_T = 0$):
 
 $$n_T = n_s - 1 \qquad \Longrightarrow \qquad r = 8(1 - n_s) \tag{19}$$
 
@@ -219,12 +219,12 @@ This relation is a differential prediction of the CHF relative to standard infla
 
 | Prediction | Expression | Observable | Discriminating power |
 |-----------|------------|------------|---------------------|
-| $(n_s, r)$ locus | $r = 8(1-n_s)$, confirmed $r=16\varepsilon$ (Step 7) | CMB $B$-modes | High — minimal CHF excluded at 95% CL by Planck 2018 |
+| $(n_s, r)$ locus | $r = 8(1-n_s)$, confirmed $r=16\varepsilon$ (Step 6) | CMB $B$-modes | High — minimal CHF excluded at 95% CL by Planck 2018 |
 | Absence of $\eta'$ | $(n_s - 1)_{\rm CHF} - (n_s-1)_{\rm std} = \eta'$ | Future $\sigma(n_s) \sim 0.002$ | Moderate — accessible with CMB-S4/LiteBIRD |
 | Running from thermodynamics | $\alpha_s = -d^2\ln S/dN^2$, no $\xi^2$ | CMB multipole shape | Low — $\xi^2$ contribution too small for current experiments |
 | Boundary non-Gaussianity | $f_{NL}^{\rm boundary} = 0$ | CMB bispectrum | Very low — $|f_{NL}| \sim 0.01$ below experimental reach |
 
-The framework's most immediate empirical handle is the value of $r$. The minimal CHF ($\beta_S = 0$) predicts $r \approx 0.28$; Step 7 confirmed $r = 16\varepsilon$, establishing this prediction as genuine and the minimal framework as excluded at 95\% CL by Planck 2018. Consistency with current data requires $\beta_S < -0.042$. The next discriminating observable is the absence of $\eta'$ in the tilt, accessible with future CMB experiments at $\sigma(n_s) \sim 0.002$.
+The framework's most immediate empirical handle is the value of $r$. The minimal CHF ($\beta_S = 0$) predicts $r \approx 0.28$; Step 6 confirmed $r = 16\varepsilon$, establishing this prediction as genuine and the minimal framework as excluded at 95\% CL by Planck 2018. Consistency with current data requires $\beta_S < -0.042$. The next discriminating observable is the absence of $\eta'$ in the tilt, accessible with future CMB experiments at $\sigma(n_s) \sim 0.002$.
 
 ---
 

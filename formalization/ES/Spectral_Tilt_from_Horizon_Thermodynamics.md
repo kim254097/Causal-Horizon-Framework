@@ -6,7 +6,7 @@
 
 ## Resumen
 
-Los documentos compañeros sobre cuantización del campo de horizonte (Paso 1) y teoría de perturbaciones gauge-invariante (Paso 2) derivaron la fórmula del tilt espectral $n_s - 1 = 3 - 2\nu$ en términos del parámetro $\nu(\varepsilon, \beta)$, donde $\varepsilon = -\dot{H}/H^2$ es el parámetro de rodadura lenta y $\beta = m_\text{eff}^2/H^2$ es la masa efectiva normalizada del campo de horizonte. Ambos parámetros fueron tratados como datos de entrada. Este documento los deriva desde el interior del marco centrado en el horizonte: $\varepsilon$ se identifica como la mitad de la tasa fraccional de cambio de la entropía del horizonte por e-fold, y $\beta = 0$ se establece como la elección mínima compatible con la estructura conforme bidimensional de la acción del horizonte. El tilt espectral resultante toma la forma
+Los documentos compañeros sobre cuantización del campo de horizonte (Paso 1) y teoría de perturbaciones gauge-invariante (Paso 2) derivaron la fórmula del tilt espectral $n_s - 1 = 3 - 2\nu$ en términos del parámetro $\nu(\varepsilon, \beta_S)$, donde $\varepsilon = -\dot{H}/H^2$ es el parámetro de rodadura lenta y $\beta_S = m_\text{eff}^2/H^2$ es la masa efectiva normalizada del campo de horizonte. Ambos parámetros fueron tratados como datos de entrada. Este documento los deriva desde el interior del marco centrado en el horizonte: $\varepsilon$ se identifica como la mitad de la tasa fraccional de cambio de la entropía del horizonte por e-fold, y $\beta_S = 0$ se establece como la elección mínima compatible con la estructura conforme bidimensional de la acción del horizonte. El tilt espectral resultante toma la forma
 
 $$n_s - 1 = -\frac{d\ln S}{d\ln a}$$
 
@@ -18,13 +18,13 @@ donde $S = \pi R_A^2 / G$ es la entropía del horizonte. Esta es la primera expr
 
 La fórmula del tilt derivada en el documento de cuantización es
 
-$$n_s - 1 = 3 - 2\nu, \qquad \nu \approx \frac{3}{2} + \varepsilon - \frac{\beta}{3} \tag{1}$$
+$$n_s - 1 = 3 - 2\nu, \qquad \nu \approx \frac{3}{2} + \varepsilon - \frac{\beta_S}{3} \tag{1}$$
 
 lo que produce
 
-$$n_s - 1 \approx -2\varepsilon + \frac{2\beta}{3} \tag{2}$$
+$$n_s - 1 \approx -2\varepsilon + \frac{2\beta_S}{3} \tag{2}$$
 
-Tanto $\varepsilon$ como $\beta$ fueron introducidos como parámetros externos. El programa de cosmología centrada en el horizonte requiere que estos sean derivables de cantidades intrínsecas del horizonte — no importadas de la teoría de rodadura lenta inflacionaria del bulk. Este documento provee esas derivaciones y produce una fórmula del tilt expresada enteramente en variables termodinámicas del horizonte.
+Tanto $\varepsilon$ como $\beta_S$ fueron introducidos como parámetros externos. El programa de cosmología centrada en el horizonte requiere que estos sean derivables de cantidades intrínsecas del horizonte — no importadas de la teoría de rodadura lenta inflacionaria del bulk. Este documento provee esas derivaciones y produce una fórmula del tilt expresada enteramente en variables termodinámicas del horizonte.
 
 ---
 
@@ -74,7 +74,7 @@ $$S_\phi \supset -\xi \int dt\, d\Omega\, R_A^2\, \mathcal{R}_2\, \phi^2 \tag{9}
 
 El escalar de Ricci de una dos-esfera de radio $R_A$ es $\mathcal{R}_2 = 2/R_A^2 = 2H^2$. El acoplamiento (9) contribuye una masa efectiva:
 
-$$m_\text{eff}^2 = \xi \mathcal{R}_2 = 2\xi H^2 \qquad \Longrightarrow \qquad \beta = 2\xi \tag{10}$$
+$$m_\text{eff}^2 = \xi \mathcal{R}_2 = 2\xi H^2 \qquad \Longrightarrow \qquad \beta_S = 2\xi \tag{10}$$
 
 ### 3.3 Minimalidad conforme en dos dimensiones
 
@@ -82,25 +82,25 @@ En dos dimensiones espacio-temporales, la acción Weyl-invariante (conformemente
 
 El horizonte es una superficie espacial bidimensional. La acción mínima para $\phi$ sobre el horizonte — la que no introduce ningún parámetro adimensional nuevo más allá de los ya presentes en el fondo — tiene por lo tanto
 
-$$\xi = 0 \qquad \Longrightarrow \qquad \beta = 0 \tag{11}$$
+$$\xi = 0 \qquad \Longrightarrow \qquad \beta_S = 0 \tag{11}$$
 
 Este es el **campo de horizonte mínimo**: se acopla al fondo solo a través de la estructura cinética $R_A^2(\nabla_\Omega\phi)^2$, que ya está fijada por la geometría de $S^2$, y no porta ningún término de masa intrínseca.
 
-### 3.4 Cuándo $\beta \neq 0$
+### 3.4 Cuándo $\beta_S \neq 0$
 
-Un $\beta$ no nulo surge si:
+Un $\beta_S$ no nulo surge si:
 
-- El campo de horizonte se acopla a la curvatura cuatro-dimensional ambiente: $\mathcal{R}_4 = 12H^2$ en de Sitter, dando $\beta = 12\xi_4$.
+- El campo de horizonte se acopla a la curvatura cuatro-dimensional ambiente: $\mathcal{R}_4 = 12H^2$ en de Sitter, dando $\beta_S = 12\xi_4$.
 - Hay un acoplamiento a la energía-estrés de la materia en el horizonte.
 - Las correcciones cuánticas generan una masa renormalizada.
 
-En todos estos casos $\beta$ se convierte en una constante de acoplamiento del modelo microscópico, no en una predicción del marco mínimo. El marco mínimo ($\beta = 0$) produce la predicción más limpia.
+En todos estos casos $\beta_S$ se convierte en una constante de acoplamiento del modelo microscópico, no en una predicción del marco mínimo. El marco mínimo ($\beta_S = 0$) produce la predicción más limpia.
 
 ---
 
 ## 4. El Tilt como Tasa Termodinámica del Horizonte
 
-Sustituyendo $\beta = 0$ en la ecuación (2):
+Sustituyendo $\beta_S = 0$ en la ecuación (2):
 
 $$n_s - 1 = -2\varepsilon \tag{12}$$
 
@@ -144,23 +144,23 @@ Para $\varepsilon$ constante (inflación de ley de potencia $a \propto t^{1/\var
 
 ---
 
-## 6. Tilt General con $\beta \neq 0$
+## 6. Tilt General con $\beta_S \neq 0$
 
-Para un campo de horizonte no mínimo con $\beta \neq 0$:
+Para un campo de horizonte no mínimo con $\beta_S \neq 0$:
 
-$$n_s - 1 = -2\varepsilon + \frac{2\beta}{3} = -\frac{d\ln S}{d\ln a} + \frac{2\beta}{3} \tag{18}$$
+$$n_s - 1 = -2\varepsilon + \frac{2\beta_S}{3} = -\frac{d\ln S}{d\ln a} + \frac{2\beta_S}{3} \tag{18}$$
 
-El término en $\beta$ desplaza el tilt en una cantidad constante (independiente de $k$). En términos del acoplamiento de curvatura $\xi$ (ec. 10):
+El término en $\beta_S$ desplaza el tilt en una cantidad constante (independiente de $k$). En términos del acoplamiento de curvatura $\xi$ (ec. 10):
 
 $$n_s - 1 = -\frac{d\ln S}{d\ln a} + \frac{4\xi}{3} \tag{19}$$
 
-El acoplamiento conforme a la curvatura cuatro-dimensional ($\xi_4 = 1/6$, $\beta = 2$) da un desplazamiento azul de $4/3$, lo que requeriría $\varepsilon > 2/3$ para mantener un tilt rojo — inconsistente con el $\varepsilon \ll 1$ observacionalmente requerido. Esto descarta el acoplamiento conforme cuatro-dimensional para el campo de horizonte y apoya la elección mínima bidimensional $\beta = 0$.
+El acoplamiento conforme a la curvatura cuatro-dimensional ($\xi_4 = 1/6$, $\beta_S = 2$) da un desplazamiento azul de $4/3$, lo que requeriría $\varepsilon > 2/3$ para mantener un tilt rojo — inconsistente con el $\varepsilon \ll 1$ observacionalmente requerido. Esto descarta el acoplamiento conforme cuatro-dimensional para el campo de horizonte y apoya la elección mínima bidimensional $\beta_S = 0$.
 
 ---
 
 ## 7. Restricción Observacional
 
-La medición de Planck 2018 $n_s = 0.9649 \pm 0.0042$ da, para el caso mínimo $\beta = 0$:
+La medición de Planck 2018 $n_s = 0.9649 \pm 0.0042$ da, para el caso mínimo $\beta_S = 0$:
 
 $$\varepsilon = \frac{1 - n_s}{2} = 0.0176 \pm 0.0021 \tag{20}$$
 
@@ -178,14 +178,14 @@ De (3): $S \propto H^{-2}$, de modo que $d\ln S/d\ln a = -2\, d\ln H/d\ln a = 2\
 
 ### Relación con el Documento 5
 
-El Documento 5 introdujo $m_\text{eff}^2 = \beta H^2$ y enunció $n_s - 1 \approx -2\beta$ por analogía. La presente derivación muestra:
+El Documento 5 introdujo $m_\text{eff}^2 = \beta_S H^2$ y enunció $n_s - 1 \approx -2\beta_S$ por analogía. La presente derivación muestra:
 
-- La cantidad llamada $\beta$ en el Documento 5 corresponde, en la notación del documento de cuantización, al parámetro compuesto $\beta_\nu = \varepsilon - \beta/3$ (ec. (34) del documento de cuantización).
-- Para el campo de horizonte mínimo ($\beta = 0$): $\beta_\nu = \varepsilon$ y $n_s - 1 = -2\varepsilon = -2\beta_\nu$, lo que recupera la fórmula del Documento 5 con la identificación $\beta_\text{Doc5} = \varepsilon$.
+- La cantidad llamada $\beta_S$ en el Documento 5 corresponde, en la notación del documento de cuantización, al parámetro compuesto $\beta_\nu = \varepsilon - \beta_S/3$ (ec. (34) del documento de cuantización).
+- Para el campo de horizonte mínimo ($\beta_S = 0$): $\beta_\nu = \varepsilon$ y $n_s - 1 = -2\varepsilon = -2\beta_\nu$, lo que recupera la fórmula del Documento 5 con la identificación $\beta_\text{Doc5} = \varepsilon$.
 
 ### Relación con el documento de cuantización (Paso 1)
 
-La derivación $n_s - 1 = 3 - 2\nu$ con $\nu \approx 3/2 + \varepsilon$ (para $\beta = 0$) estableció la forma funcional. El presente documento provee el contenido físico: $\varepsilon = (1/2)\, d\ln S/d\ln a$ y $\beta = 0$ desde la minimalidad conforme 2D.
+La derivación $n_s - 1 = 3 - 2\nu$ con $\nu \approx 3/2 + \varepsilon$ (para $\beta_S = 0$) estableció la forma funcional. El presente documento provee el contenido físico: $\varepsilon = (1/2)\, d\ln S/d\ln a$ y $\beta_S = 0$ desde la minimalidad conforme 2D.
 
 ### Relación con el documento gauge-invariante (Paso 2)
 
@@ -198,7 +198,7 @@ El Paso 2 estableció $n_s(\mathcal{R}) = n_s(\psi)$: el tilt es el mismo ya sea
 | Cantidad | Expresión termodinámica del horizonte | Valor (Planck 2018) |
 |----------|---------------------------------------|---------------------|
 | $\varepsilon$ | $\frac{1}{2}\frac{d\ln S}{d\ln a} = -\frac{d\ln T}{d\ln a}$ | $0.0176$ |
-| $\beta$ | $2\xi = 0$ (mínimo, conforme 2D) | $0$ |
+| $\beta_S$ | $2\xi = 0$ (mínimo, conforme 2D) | $0$ |
 | $n_s - 1$ | $-\frac{d\ln S}{d\ln a} = \frac{d\ln T}{d\ln a}$ | $-0.0351$ |
 | $\frac{d\ln S}{d\ln a}$ | $2\varepsilon$ | $0.0351$ |
 
@@ -208,7 +208,7 @@ El Paso 2 estableció $n_s(\mathcal{R}) = n_s(\psi)$: el tilt es el mismo ya sea
 
 - **Determinación dinámica de $\varepsilon$.** La ecuación (6) expresa $\varepsilon$ en términos de $\dot{S}$, pero dentro del marco centrado en el horizonte, $\dot{S}$ no está predicho solo desde la acción del campo de borde. Una teoría dinámica completa del horizonte necesitaría especificar qué impulsa el cambio en $S$ — ya sea el contenido de materia, un campo inflatón, o un mecanismo intrínseco del horizonte.
 
-- **Modos tensoriales.** Derivados en el Paso 7: el campo bomba tensorial es $z_T = a$ (frente a $z_A = a/\sqrt\varepsilon$ para escalares), dando $n_T = -2\varepsilon$, $\Delta_h^2 = 2H^2/(\pi^2 M_{\rm Pl}^2)$ y $r = 16\varepsilon$. La relación de consistencia estándar $r = -8n_T$ se satisface.
+- **Modos tensoriales.** Derivados en el Paso 6: el campo bomba tensorial es $z_T = a$ (frente a $z_A = a/\sqrt\varepsilon$ para escalares), dando $n_T = -2\varepsilon$, $\Delta_h^2 = 2H^2/(\pi^2 M_{\rm Pl}^2)$ y $r = 16\varepsilon$. La relación de consistencia estándar $r = -8n_T$ se satisface.
 
 - **Corrida del tilt.** La corrección sub-líder (16) involucra $\eta_\varepsilon$, que no está restringido independientemente por el marco presente. Una expresión termodinámica del horizonte para $\eta_\varepsilon$ requeriría un modelo para $\ddot{S}$.
 
@@ -218,7 +218,7 @@ El Paso 2 estableció $n_s(\mathcal{R}) = n_s(\psi)$: el tilt es el mismo ya sea
 
 ## 11. Conclusión
 
-El tilt espectral del espectro de potencias primordial está determinado por dos cantidades del horizonte: la tasa de cambio de la entropía del horizonte $\varepsilon = (1/2)\, d\ln S/d\ln a$, y la masa efectiva del campo de horizonte, que se anula ($\beta = 0$) para el acoplamiento conforme bidimensional mínimo. La fórmula resultante $n_s - 1 = -(d\ln S)/(d\ln a)$ expresa el tilt rojo observado como consecuencia del crecimiento gradual de la entropía del horizonte causal durante la inflación, derivada enteramente de cantidades termodinámicas intrínsecas del horizonte. Esto cierra la derivación del tilt comenzada en el documento de cuantización y completa la especificación libre de parámetros de la forma espectral dentro del marco mínimo centrado en el horizonte.
+El tilt espectral del espectro de potencias primordial está determinado por dos cantidades del horizonte: la tasa de cambio de la entropía del horizonte $\varepsilon = (1/2)\, d\ln S/d\ln a$, y la masa efectiva del campo de horizonte, que se anula ($\beta_S = 0$) para el acoplamiento conforme bidimensional mínimo. La fórmula resultante $n_s - 1 = -(d\ln S)/(d\ln a)$ expresa el tilt rojo observado como consecuencia del crecimiento gradual de la entropía del horizonte causal durante la inflación, derivada enteramente de cantidades termodinámicas intrínsecas del horizonte. Esto cierra la derivación del tilt comenzada en el documento de cuantización y completa la especificación libre de parámetros de la forma espectral dentro del marco mínimo centrado en el horizonte.
 
 ---
 

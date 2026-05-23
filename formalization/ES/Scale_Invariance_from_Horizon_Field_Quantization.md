@@ -21,7 +21,7 @@ y la identificación $\psi \sim \phi$ vincula las fluctuaciones de borde con la 
 Dos resultados quedaron sin derivar:
 
 - **Ecuación (29):** $\langle \phi(x)\phi(0) \rangle \sim |x|^{-\alpha}$ adoptada como hipótesis estadística.
-- **Ecuación (33):** $n_s - 1 \approx -2\beta$ enunciada por analogía con la teoría de campo escalar en de Sitter.
+- **Ecuación (33):** $n_s - 1 \approx -2\beta_S$ enunciada por analogía con la teoría de campo escalar en de Sitter.
 
 Derivamos ambas a partir de la acción (1) mediante cuantización canónica.
 
@@ -105,13 +105,13 @@ Esta es la **ecuación de Mukhanov–Sasaki** para la perturbación del horizont
 
 ### 4.2 Potencial efectivo para de Sitter
 
-Para de Sitter con $H = \text{const}$, $\varepsilon = 0$. Incluyendo $m_\text{eff}^2 = \beta H^2$ como corrección pequeña, el potencial efectivo toma la forma
+Para de Sitter con $H = \text{const}$, $\varepsilon = 0$. Incluyendo $m_\text{eff}^2 = \beta_S H^2$ como corrección pequeña, el potencial efectivo toma la forma
 
 $$\frac{z_A''}{z_A} = \frac{\nu^2 - \frac{1}{4}}{\eta^2} \tag{15}$$
 
 con
 
-$$\nu^2 = \frac{9}{4} - \frac{m_\text{eff}^2}{H^2} = \frac{9}{4} - \beta \tag{16}$$
+$$\nu^2 = \frac{9}{4} - \frac{m_\text{eff}^2}{H^2} = \frac{9}{4} - \beta_S \tag{16}$$
 
 La ecuación modal queda
 
@@ -151,7 +151,7 @@ $$|\psi_k(\eta_k)|^2 = \frac{|u_k(\eta_k)|^2}{a^2(\eta_k)} \tag{22}$$
 
 Usando (21) evaluada cerca de $|k\eta| = 1$:
 
-$$|\psi_k|_\text{cong}^2 \approx \frac{2^{2\nu - 3}\,\Gamma(\nu)^2}{\pi}\,\frac{H^2}{c_s k^3}\,(1 + \mathcal{O}(\beta)) \tag{23}$$
+$$|\psi_k|_\text{cong}^2 \approx \frac{2^{2\nu - 3}\,\Gamma(\nu)^2}{\pi}\,\frac{H^2}{c_s k^3}\,(1 + \mathcal{O}(\beta_S)) \tag{23}$$
 
 ---
 
@@ -169,17 +169,17 @@ donde
 
 $$n_s - 1 = 3 - 2\nu \tag{26}$$
 
-**Para el caso sin masa** $\beta = 0$: $\nu = 3/2$, luego $n_s - 1 = 0$.
+**Para el caso sin masa** $\beta_S = 0$: $\nu = 3/2$, luego $n_s - 1 = 0$.
 
 El espectro de potencias es exactamente invariante de escala:
 
-$$\Delta_\psi^2(k)\big|_{\beta=0} = \frac{H^2}{2\pi^2 c_s} = \text{const} \tag{27}$$
+$$\Delta_\psi^2(k)\big|_{\beta_S=0} = \frac{H^2}{2\pi^2 c_s} = \text{const} \tag{27}$$
 
 Este es el resultado principal: **la invarianza de escala no es una hipótesis estadística sino una consecuencia del vacío de Bunch–Davies y el mecanismo de congelamiento en de Sitter**, aplicados al campo del horizonte mediante la identificación del modo comóvil (2).
 
 La función de dos puntos en espacio de posiciones se sigue directamente de (27):
 
-$$\langle\phi(x)\phi(0)\rangle \sim \frac{1}{|x|^{2\nu}} = \frac{1}{|x|^3} \quad (\beta = 0) \tag{28}$$
+$$\langle\phi(x)\phi(0)\rangle \sim \frac{1}{|x|^{2\nu}} = \frac{1}{|x|^3} \quad (\beta_S = 0) \tag{28}$$
 
 recuperando la ecuación (29) del documento de formalización con $\alpha = 3$ como consecuencia de $\nu = 3/2$.
 
@@ -189,15 +189,15 @@ recuperando la ecuación (29) del documento de formalización con $\alpha = 3$ c
 
 ### 7.1 Corrección de masa
 
-Para $m_\text{eff}^2 = \beta H^2$ con $|\beta| \ll 1$:
+Para $m_\text{eff}^2 = \beta_S H^2$ con $|\beta_S| \ll 1$:
 
-$$\nu = \sqrt{\frac{9}{4} - \beta} \approx \frac{3}{2} - \frac{\beta}{3} \tag{29}$$
+$$\nu = \sqrt{\frac{9}{4} - \beta_S} \approx \frac{3}{2} - \frac{\beta_S}{3} \tag{29}$$
 
 El índice espectral:
 
-$$n_s - 1 = 3 - 2\nu \approx 3 - \left(3 - \frac{2\beta}{3}\right) = \frac{2\beta}{3} \tag{30}$$
+$$n_s - 1 = 3 - 2\nu \approx 3 - \left(3 - \frac{2\beta_S}{3}\right) = \frac{2\beta_S}{3} \tag{30}$$
 
-Una masa efectiva positiva $\beta > 0$ produce un leve tilt azul; un campo ligeramente taquiónico $\beta < 0$ produce un tilt rojo compatible con las observaciones.
+Una masa efectiva positiva $\beta_S > 0$ produce un leve tilt azul; un campo ligeramente taquiónico $\beta_S < 0$ produce un tilt rojo compatible con las observaciones.
 
 ### 7.2 Corrección de rodadura lenta
 
@@ -207,21 +207,21 @@ $$\frac{z_A''}{z_A} = \frac{1}{\eta^2}\left(2 + 3\varepsilon + \cdots\right) \ta
 
 lo que conduce a
 
-$$\nu \approx \frac{3}{2} + \varepsilon - \frac{\beta}{3} \tag{32}$$
+$$\nu \approx \frac{3}{2} + \varepsilon - \frac{\beta_S}{3} \tag{32}$$
 
 y
 
-$$n_s - 1 \approx -2\varepsilon + \frac{2\beta}{3} \tag{33}$$
+$$n_s - 1 \approx -2\varepsilon + \frac{2\beta_S}{3} \tag{33}$$
 
-El tilt rojo observado $n_s \approx 0.965$ se reproduce para $\varepsilon \approx 0.02$ con $\beta \approx 0$, o para una combinación de $\varepsilon$ y $\beta$ no nulos.
+El tilt rojo observado $n_s \approx 0.965$ se reproduce para $\varepsilon \approx 0.02$ con $\beta_S \approx 0$, o para una combinación de $\varepsilon$ y $\beta_S$ no nulos.
 
 ### 7.3 Comparación con el Documento 5
 
-La ecuación (33) del documento de formalización enunciaba originalmente $n_s - 1 \approx -2\beta$ sin derivación. Desde el análisis presente, esto corresponde a la parametrización
+La ecuación (33) del documento de formalización enunciaba originalmente $n_s - 1 \approx -2\beta_S$ sin derivación. Desde el análisis presente, esto corresponde a la parametrización
 
 $$\nu \equiv \frac{3}{2} + \beta_\nu \quad \Longrightarrow \quad n_s - 1 = -2\beta_\nu \tag{34}$$
 
-donde $\beta_\nu = \varepsilon - \beta/3$ combina el parámetro de rodadura lenta y la corrección de masa. La fórmula (33) del Documento 5 se recupera con la identificación $\beta \to \beta_\nu$: un parámetro compuesto que captura tanto la variación lenta del horizonte como la masa efectiva de $\phi$.
+donde $\beta_\nu = \varepsilon - \beta_S/3$ combina el parámetro de rodadura lenta y la corrección de masa. La fórmula (33) del Documento 5 se recupera con la identificación $\beta_S \to \beta_\nu$: un parámetro compuesto que captura tanto la variación lenta del horizonte como la masa efectiva de $\phi$.
 
 ---
 
@@ -244,7 +244,7 @@ Este documento reemplaza dos problemas abiertos de la formalización:
 | Ítem | Estado original en Documento 5 | Estado presente |
 |------|-------------------------------|-----------------|
 | Ec. (29): $\langle\phi(x)\phi(0)\rangle \sim |x|^{-\alpha}$ | Hipótesis estadística mínima | Derivada del vacío BD: $\alpha = 2\nu = 3 - (n_s - 1)$ |
-| Ec. (33): $n_s - 1 \approx -2\beta$ | Analogía con escalar de de Sitter | Derivada: $n_s - 1 = 3 - 2\nu$, con $\nu(\beta, \varepsilon)$ de la ec. (32) |
+| Ec. (33): $n_s - 1 \approx -2\beta_S$ | Analogía con escalar de de Sitter | Derivada: $n_s - 1 = 3 - 2\nu$, con $\nu(\beta_S, \varepsilon)$ de la ec. (32) |
 
 La derivación utiliza la acción (23) del Documento 5 sin modificación. El único ingrediente adicional es la identificación del modo comóvil (2) y la condición inicial de Bunch–Davies (19).
 
@@ -254,17 +254,17 @@ La derivación utiliza la acción (23) del Documento 5 sin modificación. El ún
 
 Quedan las siguientes brechas:
 
-- **Evolución dinámica de $m_\text{eff}$.** La relación $m_\text{eff}^2 = \beta H^2$ se asume constante. Un modelo dinámico que relacione $\beta$ con el contenido de materia haría la ecuación (33) predictiva.
+- **Evolución dinámica de $m_\text{eff}$.** La relación $m_\text{eff}^2 = \beta_S H^2$ se asume constante. Un modelo dinámico que relacione $\beta_S$ con el contenido de materia haría la ecuación (33) predictiva.
 
 - **Origen microscópico.** El vacío de Bunch–Davies se impone como condición UV natural; su justificación desde un modelo microscópico de los grados de libertad del horizonte permanece abierta.
 
-Las dos brechas listadas en la versión original de esta sección han sido cerradas: la identificación gauge-invariante $\mathcal{R} = [(1+\varepsilon)/\varepsilon]\psi$ fue derivada de forma exacta en el Paso 2, y el espectro de potencias tensorial fue derivado desde los modos del borde del horizonte en el Paso 7.
+Las dos brechas listadas en la versión original de esta sección han sido cerradas: la identificación gauge-invariante $\mathcal{R} = [(1+\varepsilon)/\varepsilon]\psi$ fue derivada de forma exacta en el Paso 2, y el espectro de potencias tensorial fue derivado desde los modos del borde del horizonte en el Paso 6.
 
 ---
 
 ## 11. Conclusión
 
-La cuantización canónica del campo de horizonte $\phi(\Omega, t)$, combinada con la identificación del modo comóvil $l_k(t) = k/(a(t)H(t))$, produce una ecuación modal de tipo Mukhanov–Sasaki. Con condiciones iniciales de Bunch–Davies, esta ecuación genera un espectro de potencias invariante de escala al congelamiento como resultado derivado. El índice espectral es $n_s - 1 = 3 - 2\nu$, con $\nu$ controlado por la masa efectiva $m_\text{eff}^2 = \beta H^2$ y el parámetro de rodadura lenta $\varepsilon$. Los dos problemas abiertos centrales del Documento 5 —ecuaciones (29) y (33)— quedan cerrados.
+La cuantización canónica del campo de horizonte $\phi(\Omega, t)$, combinada con la identificación del modo comóvil $l_k(t) = k/(a(t)H(t))$, produce una ecuación modal de tipo Mukhanov–Sasaki. Con condiciones iniciales de Bunch–Davies, esta ecuación genera un espectro de potencias invariante de escala al congelamiento como resultado derivado. El índice espectral es $n_s - 1 = 3 - 2\nu$, con $\nu$ controlado por la masa efectiva $m_\text{eff}^2 = \beta_S H^2$ y el parámetro de rodadura lenta $\varepsilon$. Los dos problemas abiertos centrales del Documento 5 —ecuaciones (29) y (33)— quedan cerrados.
 
 ---
 

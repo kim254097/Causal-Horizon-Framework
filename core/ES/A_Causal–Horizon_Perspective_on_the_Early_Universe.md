@@ -178,11 +178,17 @@ Estas afirmaciones deben entenderse como requisitos de consistencia conceptual, 
 Varias preguntas permanecen intencionalmente abiertas:
 
 - descripción microscópica de horizontes primordiales
-- mapeo cuantitativo borde-a-bulk
-- mecanismos de generación de perturbaciones
-- formulación gauge-invariante de la perturbación de curvatura $\mathcal{R}$ en términos de la perturbación del horizonte $\psi = \delta R_A / R_A$
+- mapeo cuantitativo borde-a-bulk más allá del límite súper-horizonte
 - origen de las escalas térmicas
 - relación entre la evolución del horizonte y la inflación convencional
+- determinación dinámica de $\varepsilon$ desde dentro del marco
+- corrimiento del tilt: expresión termodinámica del horizonte para $\dot\varepsilon$
+
+Los siguientes puntos listados como problemas abiertos en versiones anteriores del marco han sido resueltos en los documentos de formalización compañeros:
+
+- Formulación gauge-invariante de $\mathcal{R}$ en términos de $\psi$: derivada exactamente como $\mathcal{R} = [(1+\varepsilon)/\varepsilon]\,\psi$ en escalas súper-horizonte (*Gauge-Invariant Formulation of the Horizon Perturbation*).
+- Mecanismo de generación de perturbaciones: derivado a partir de la cuantización canónica del campo del horizonte con condiciones iniciales de Bunch–Davies (*Scale Invariance from Horizon Field Quantization*).
+- Sector tensorial: $n_T = -2\varepsilon$, $r = 16\varepsilon$, derivados a partir de los modos TT sobre el borde del horizonte (*Tensor Perturbations from the Horizon Boundary*).
 
 Estos problemas definen un programa de investigación futuro, no deficiencias del presente marco.
 

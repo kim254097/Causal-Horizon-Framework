@@ -106,11 +106,11 @@ This is the central result. Rearranging:
 
 $$\mathcal{R} = \frac{1 + \varepsilon}{\varepsilon}\,\psi \tag{14}$$
 
-The full expression including the sub-leading term $\dot{\Phi}/H$ is
+To make the $\dot{\Phi}$ dependence explicit, substitute $\Phi = \psi + \dot{\Phi}/H$ (from eq. 8) into eq. (11):
 
-$$\mathcal{R} = \frac{1}{\varepsilon}\left(\psi - \frac{\dot{\Phi}}{H}\right) + \psi + \frac{\dot{\Phi}}{\varepsilon H} = \frac{1+\varepsilon}{\varepsilon}\,\psi - \frac{\dot{\Phi}}{\varepsilon H}(1 - 1) = \frac{1+\varepsilon}{\varepsilon}\,\psi \tag{15}$$
+$$\mathcal{R} = \frac{1+\varepsilon}{\varepsilon}\,\psi + \frac{\dot\Phi}{H} \tag{15}$$
 
-which confirms (14) on super-horizon scales, where the $k^2$-suppressed velocity term in (7) is negligible.
+In the growing-mode limit $\dot{\Phi} \to 0$, the last term vanishes and eq. (14) is recovered. $\square$
 
 ---
 

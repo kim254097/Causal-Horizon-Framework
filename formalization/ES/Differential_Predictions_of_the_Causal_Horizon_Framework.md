@@ -6,7 +6,7 @@
 
 ## Resumen
 
-Los Pasos 1–4 del Marco del Horizonte Causal (CHF) derivaron el espectro de potencias escalar primordial íntegramente a partir de la geometría y la termodinámica del horizonte aparente, cerrando las cuatro brechas analíticas del documento de formalización. La fórmula resultante para el tilt es $n_s - 1 = -2\varepsilon + 2\beta/3$, con $\varepsilon = \frac{1}{2}d\ln S/d\ln a$ (tasa de entropía del horizonte) y $\beta = 0$ para el campo mínimamente acoplado en el horizonte bidimensional. Este documento identifica los observables mediante los cuales el CHF difiere de la inflación estándar de campo único y especifica las condiciones bajo las cuales esas diferencias son medibles. Se establecen cuatro predicciones diferenciales. Primera: en el caso mínimo ($\beta = 0$), el CHF da $n_s - 1 = -2\varepsilon$ — omitiendo la contribución del segundo parámetro de rodadura lenta $\eta'$ que la inflación estándar permite como grado de libertad independiente. Para el mismo $\varepsilon$ de fondo, los dos marcos predicen tilts que difieren en $\eta'$; experimentos futuros del CMB con $\sigma(n_s) \sim 0.002$ serán sensibles a esto al nivel de $|\eta'| \sim 0.01$. Segunda: la relación de consistencia estándar $r = 16\varepsilon$ fue confirmada en el Paso 7 al derivar los modos tensoriales desde el borde del horizonte, por lo que el CHF predice una línea específica en el plano $(n_s, r)$: $r = 8(1 - n_s)$, correspondiente a $r \approx 0.28$ para el valor central de Planck 2018 $n_s = 0.9649$. Esto está en tensión con la cota actual $r < 0.056$. Con $r = 16\varepsilon$ confirmado por el Paso 7, la tensión es genuina: el marco mínimo ($\beta = 0$) queda excluido por Planck 2018, y se requiere $\beta_S < -0.042$. Tercera: el corrimiento $\alpha_s = -d^2\ln S/dN^2$ no contiene término $\xi^2$ de un potencial cúbico. Cuarta: la acción mínima del CHF es cuadrática en el campo de borde, prediciendo $f_{NL}^{\rm CHF} = 0$ a orden líder desde el horizonte, mientras que la inflación estándar de rodadura lenta da $f_{NL} = \mathcal{O}(\varepsilon, \eta')$, pequeño pero no nulo. Estas predicciones son derivadas, no supuestas, y proporcionan los indicadores empíricos mediante los cuales el CHF puede ser discriminado o falsificado frente al paradigma inflacionario estándar.
+Los Pasos 1–4 del Marco del Horizonte Causal (CHF) derivaron el espectro de potencias escalar primordial íntegramente a partir de la geometría y la termodinámica del horizonte aparente, cerrando las cuatro brechas analíticas del documento de formalización. La fórmula resultante para el tilt es $n_s - 1 = -2\varepsilon + 2\beta_S/3$, con $\varepsilon = \frac{1}{2}d\ln S/d\ln a$ (tasa de entropía del horizonte) y $\beta_S = 0$ para el campo mínimamente acoplado en el horizonte bidimensional. Este documento identifica los observables mediante los cuales el CHF difiere de la inflación estándar de campo único y especifica las condiciones bajo las cuales esas diferencias son medibles. Se establecen cuatro predicciones diferenciales. Primera: en el caso mínimo ($\beta_S = 0$), el CHF da $n_s - 1 = -2\varepsilon$ — omitiendo la contribución del segundo parámetro de rodadura lenta $\eta'$ que la inflación estándar permite como grado de libertad independiente. Para el mismo $\varepsilon$ de fondo, los dos marcos predicen tilts que difieren en $\eta'$; experimentos futuros del CMB con $\sigma(n_s) \sim 0.002$ serán sensibles a esto al nivel de $|\eta'| \sim 0.01$. Segunda: la relación de consistencia estándar $r = 16\varepsilon$ fue confirmada en el Paso 6 al derivar los modos tensoriales desde el borde del horizonte, por lo que el CHF predice una línea específica en el plano $(n_s, r)$: $r = 8(1 - n_s)$, correspondiente a $r \approx 0.28$ para el valor central de Planck 2018 $n_s = 0.9649$. Esto está en tensión con la cota actual $r < 0.056$. Con $r = 16\varepsilon$ confirmado por el Paso 6, la tensión es genuina: el marco mínimo ($\beta_S = 0$) queda excluido por Planck 2018, y se requiere $\beta_S < -0.042$. Tercera: el corrimiento $\alpha_s = -d^2\ln S/dN^2$ no contiene término $\xi^2$ de un potencial cúbico. Cuarta: la acción mínima del CHF es cuadrática en el campo de borde, prediciendo $f_{NL}^{\rm CHF} = 0$ a orden líder desde el horizonte, mientras que la inflación estándar de rodadura lenta da $f_{NL} = \mathcal{O}(\varepsilon, \eta')$, pequeño pero no nulo. Estas predicciones son derivadas, no supuestas, y proporcionan los indicadores empíricos mediante los cuales el CHF puede ser discriminado o falsificado frente al paradigma inflacionario estándar.
 
 ---
 
@@ -14,7 +14,7 @@ Los Pasos 1–4 del Marco del Horizonte Causal (CHF) derivaron el espectro de po
 
 Un marco teórico gana peso empírico al predecir observables de forma distinta a los marcos existentes. Los Pasos 1–4 del CHF reprodujeron resultados ya obtenidos en la inflación estándar (espectro escala-invariante, fórmula del tilt, relación borde-bulk) desde un punto de partida conceptual diferente — el horizonte, no el inflatón en el bulk. Reproducir resultados conocidos es necesario para la consistencia pero no es suficiente para la discriminación.
 
-Este documento aborda la pregunta de la falsificabilidad: ¿qué predice el CHF de manera diferente a un modelo inflacionario en el bulk operando sobre el mismo fondo? El análisis procede como sigue. La Sección 2 establece la estructura de parámetros del CHF y la compara con la de la inflación estándar. Las Secciones 3–6 derivan las cuatro predicciones diferenciales. La Sección 7 resume el estado observacional actual. La Sección 8 registra cómo el Paso 7 resolvió la Predicción 1.
+Este documento aborda la pregunta de la falsificabilidad: ¿qué predice el CHF de manera diferente a un modelo inflacionario en el bulk operando sobre el mismo fondo? El análisis procede como sigue. La Sección 2 establece la estructura de parámetros del CHF y la compara con la de la inflación estándar. Las Secciones 3–6 derivan las cuatro predicciones diferenciales. La Sección 7 resume el estado observacional actual. La Sección 8 registra cómo el Paso 6 resolvió la Predicción 1.
 
 ---
 
@@ -34,9 +34,9 @@ Esta libertad de dos parámetros significa que, para un tilt observado $n_s$ dad
 
 El CHF (Pasos 1–3) da:
 
-$$n_s - 1 = -2\varepsilon + \frac{2\beta}{3}, \qquad \varepsilon = \frac{1}{2}\frac{d\ln S}{d\ln a} \tag{2}$$
+$$n_s - 1 = -2\varepsilon + \frac{2\beta_S}{3}, \qquad \varepsilon = \frac{1}{2}\frac{d\ln S}{d\ln a} \tag{2}$$
 
-donde $\beta = m_\text{eff}^2/H^2$ es la masa efectiva normalizada del campo de horizonte. Para el campo de horizonte mínimo ($\beta = 0$, la única elección sin acoplamiento intrínseco a la curvatura de la dos-esfera):
+donde $\beta_S = m_\text{eff}^2/H^2$ es la masa efectiva normalizada del campo de horizonte. Para el campo de horizonte mínimo ($\beta_S = 0$, la única elección sin acoplamiento intrínseco a la curvatura de la dos-esfera):
 
 $$n_s - 1 = -2\varepsilon \qquad (\text{CHF mínimo}) \tag{3}$$
 
@@ -48,21 +48,21 @@ El origen estructural de esta diferencia es el siguiente. En la inflación está
 
 ## 3. Predicción 1: El Plano $(n_s, r)$
 
-### 3.1 El lugar geométrico del CHF (confirmado por el Paso 7)
+### 3.1 El lugar geométrico del CHF (confirmado por el Paso 6)
 
-El Paso 7 derivó el espectro de potencias tensorial desde los modos TT del borde del horizonte aparente y confirmó la relación de consistencia estándar $r = 16\varepsilon$ (véase Paso 7, Sección 8). La ecuación (3) implica entonces:
+El Paso 6 derivó el espectro de potencias tensorial desde los modos TT del borde del horizonte aparente y confirmó la relación de consistencia estándar $r = 16\varepsilon$ (véase Paso 6, Sección 8). La ecuación (3) implica entonces:
 
-$$r_{\rm CHF}(\beta = 0) = 16\varepsilon = 8(1 - n_s) \tag{4}$$
+$$r_{\rm CHF}(\beta_S = 0) = 16\varepsilon = 8(1 - n_s) \tag{4}$$
 
 Esta es una línea en el plano $(n_s, r)$, parametrizada únicamente por $\varepsilon$. Para el valor central de Planck 2018 $n_s = 0.9649$:
 
 $$r_{\rm CHF} = 8 \times 0.0351 = 0.281 \tag{5}$$
 
-La inflación estándar, por el contrario, abarca una región bidimensional en el plano $(n_s, r)$: fijar $n_s$ deja $r = 16\varepsilon = 8(1-n_s) - 8\eta'$ indeterminado (dado que $\eta'$ es libre). El CHF ($\beta=0$) colapsa esta región a un único punto.
+La inflación estándar, por el contrario, abarca una región bidimensional en el plano $(n_s, r)$: fijar $n_s$ deja $r = 16\varepsilon = 8(1-n_s) - 8\eta'$ indeterminado (dado que $\eta'$ es libre). El CHF ($\beta_S=0$) colapsa esta región a un único punto.
 
 ### 3.2 Tensión con los datos actuales
 
-La cota de Planck 2018 es $r < 0.056$ (al 95\% CL). La predicción del CHF $r \approx 0.281$ se encuentra bien por encima de esta cota. El Paso 7 confirmó $r = 16\varepsilon$, por lo que la tensión es genuina y tiene dos posibles resoluciones:
+La cota de Planck 2018 es $r < 0.056$ (al 95\% CL). La predicción del CHF $r \approx 0.281$ se encuentra bien por encima de esta cota. El Paso 6 confirmó $r = 16\varepsilon$, por lo que la tensión es genuina y tiene dos posibles resoluciones:
 
 **(a) El CHF mínimo ($\beta_S = 0$) está falsificado.** Con $r = 16\varepsilon$ confirmado, $\beta_S = 0$ queda excluido observacionalmente al 95\% CL por la combinación $(n_s, r)_{\rm Planck}$. Esto es una falsificación genuina del marco mínimo y un discriminador claro entre el CHF y la inflación estándar (p.ej., la inflación de Starobinsky, que da $r \approx 0.004$ para $N = 55$).
 
@@ -80,7 +80,7 @@ Se requiere un campo de horizonte ligeramente taquiónico ($m_\text{eff}^2 < 0$)
 
 En el plano $(n_s, r)$, la predicción del CHF (4) se ubica sobre la línea $r = 8(1-n_s)$. Los modelos estándar de inflación de rodadura lenta pueblan una región amplia por debajo de esta línea (dado que $\eta' < 0$ para modelos con potenciales cóncavos, haciendo el tilt más rojo para el mismo $\varepsilon$ y por tanto el mismo $r$). La línea del CHF pasa por encima de la mayoría de las predicciones de modelos estándar (Starobinsky, inflación natural, $\alpha$-atractores) que satisfacen la cota de Planck 2018.
 
-El diagnóstico clave: una medición futura de $r$ por encima de la cota actual (p.ej., $r \sim 0.01$–$0.05$) sería consistente con el CHF de $\beta < 0$ pero no con el caso mínimo $\beta = 0$. Una medición de $r < 0.01$ restringiría $\beta \lesssim -0.065$ y pondría a prueba adicionalmente el marco.
+El diagnóstico clave: una medición futura de $r$ por encima de la cota actual (p.ej., $r \sim 0.01$–$0.05$) sería consistente con el CHF de $\beta_S < 0$ pero no con el caso mínimo $\beta_S = 0$. Una medición de $r < 0.01$ restringiría $\beta_S \lesssim -0.065$ y pondría a prueba adicionalmente el marco.
 
 ---
 
@@ -92,7 +92,7 @@ En la inflación estándar, el tilt recibe una contribución de $\eta' = d\ln\va
 
 $$\left(n_s - 1\right)_{\rm std} = -2\varepsilon - \eta' \tag{8}$$
 
-En el CHF ($\beta = 0$):
+En el CHF ($\beta_S = 0$):
 
 $$\left(n_s - 1\right)_{\rm CHF} = -2\varepsilon \tag{9}$$
 
@@ -186,20 +186,20 @@ La siguiente tabla resume las cuatro predicciones diferenciales frente a las res
 
 | Predicción | CHF ($\beta_S=0$) | Inflación estándar | Restricción actual | Estado |
 |------------|----------------|-------------------|-------------------|--------|
-| $r$ dado $n_s = 0.9649$ | $r = 0.281$ | $r \in [0, 0.28]$ (familia 2D) | $r < 0.056$ | **Tensión confirmada** — $r = 16\varepsilon$ por el Paso 7; se requiere $\beta_S < -0.042$ |
+| $r$ dado $n_s = 0.9649$ | $r = 0.281$ | $r \in [0, 0.28]$ (familia 2D) | $r < 0.056$ | **Tensión confirmada** — $r = 16\varepsilon$ por el Paso 6; se requiere $\beta_S < -0.042$ |
 | Contribución de $\eta'$ al tilt | $\eta' = 0$ | $\eta'$ libre | $\sigma(n_s) = 0.004$ | No discriminado aún |
 | $\alpha_s$ | $-2\varepsilon\eta_\varepsilon$, sin $\xi^2$ | $-2\varepsilon\eta_H - \xi^2$ | $\alpha_s = -0.0045 \pm 0.0067$ | Consistente |
 | $f_{NL}$ (borde) | $0$ | $\mathcal{O}(0.01)$ | $|f_{NL}| < 5$ | Consistente, no discriminable |
 
-La única predicción actualmente en tensión es (i) el valor de $r$ del CHF mínimo. El Paso 7 confirmó $r = 16\varepsilon$, estableciendo que el marco mínimo ($\beta_S = 0$) queda excluido por Planck 2018. La consistencia con los datos actuales requiere $\beta_S < -0.042$.
+La única predicción actualmente en tensión es (i) el valor de $r$ del CHF mínimo. El Paso 6 confirmó $r = 16\varepsilon$, estableciendo que el marco mínimo ($\beta_S = 0$) queda excluido por Planck 2018. La consistencia con los datos actuales requiere $\beta_S < -0.042$.
 
 ---
 
-## 8. Resolución por el Paso 7 (Perturbaciones Tensoriales)
+## 8. Resolución por el Paso 6 (Perturbaciones Tensoriales)
 
-La Predicción 1 (el lugar en el plano $(n_s, r)$) dependía de si el CHF satisface la relación de consistencia estándar $r = 16\varepsilon$. El Paso 7 derivó el espectro de potencias tensorial desde los dos modos TT de polarización sobre el borde del horizonte aparente.
+La Predicción 1 (el lugar en el plano $(n_s, r)$) dependía de si el CHF satisface la relación de consistencia estándar $r = 16\varepsilon$. El Paso 6 derivó el espectro de potencias tensorial desde los dos modos TT de polarización sobre el borde del horizonte aparente.
 
-**Resultado clave del Paso 7:** El campo bomba tensorial es $z_T = a$ (frente a $z_A = a/\sqrt{\varepsilon}$ para escalares). Esta diferencia tiene un origen físico claro — los modos tensoriales son perturbaciones de la *forma* del horizonte (cizallamiento TT sin traza), sin supresión de rodadura lenta, mientras que los modos escalares perturban el *tamaño* ($\psi = \delta R_A/R_A$), suprimido por $\sqrt\varepsilon$. El cálculo da:
+**Resultado clave del Paso 6:** El campo bomba tensorial es $z_T = a$ (frente a $z_A = a/\sqrt{\varepsilon}$ para escalares). Esta diferencia tiene un origen físico claro — los modos tensoriales son perturbaciones de la *forma* del horizonte (cizallamiento TT sin traza), sin supresión de rodadura lenta, mientras que los modos escalares perturban el *tamaño* ($\psi = \delta R_A/R_A$), suprimido por $\sqrt\varepsilon$. El cálculo da:
 
 $$\Delta_h^2 = \frac{2H^2}{\pi^2 M_{\rm Pl}^2}, \qquad n_T = -2\varepsilon, \qquad r = 16\varepsilon \tag{18}$$
 
@@ -207,7 +207,7 @@ La relación de consistencia estándar $r = -8n_T$ se satisface. La relación de
 
 **Consecuencia para la Predicción 1:** Con $r = 16\varepsilon$ confirmado, el CHF mínimo ($\beta_S = 0$) predice $r \approx 0.281$ para $n_s = 0.9649$. Esto supera la cota de Planck 2018 $r < 0.056$ y el marco mínimo queda excluido al 95\% CL. Se requiere un sector escalar no mínimo con $\beta_S < -0.042$ para la consistencia con los datos actuales.
 
-**Relación adicional del CHF:** El Paso 7 también estableció una relación de consistencia adicional específica del CHF (para $\beta_S = \beta_T = 0$):
+**Relación adicional del CHF:** El Paso 6 también estableció una relación de consistencia adicional específica del CHF (para $\beta_S = \beta_T = 0$):
 
 $$n_T = n_s - 1 \qquad \Longrightarrow \qquad r = 8(1 - n_s) \tag{19}$$
 
@@ -219,12 +219,12 @@ Esta relación es una predicción diferencial del CHF respecto a la inflación e
 
 | Predicción | Expresión | Observable | Poder discriminante |
 |-----------|------------|------------|---------------------|
-| Lugar en $(n_s, r)$ | $r = 8(1-n_s)$, confirmado $r=16\varepsilon$ (Paso 7) | Modos $B$ del CMB | Alto — CHF mínimo excluido al 95% CL por Planck 2018 |
+| Lugar en $(n_s, r)$ | $r = 8(1-n_s)$, confirmado $r=16\varepsilon$ (Paso 6) | Modos $B$ del CMB | Alto — CHF mínimo excluido al 95% CL por Planck 2018 |
 | Ausencia de $\eta'$ | $(n_s - 1)_{\rm CHF} - (n_s-1)_{\rm std} = \eta'$ | Futuro $\sigma(n_s) \sim 0.002$ | Moderado — accesible con CMB-S4/LiteBIRD |
 | Corrimiento desde termodinámica | $\alpha_s = -d^2\ln S/dN^2$, sin $\xi^2$ | Forma del espectro CMB | Bajo — contribución de $\xi^2$ demasiado pequeña |
 | No-gaussianidad de borde | $f_{NL}^{\rm borde} = 0$ | Bispectro CMB | Muy bajo — $|f_{NL}| \sim 0.01$ bajo alcance experimental |
 
-El indicador empírico más inmediato del marco es el valor de $r$. El CHF mínimo ($\beta_S = 0$) predice $r \approx 0.28$; el Paso 7 confirmó $r = 16\varepsilon$, estableciendo esta predicción como genuina y el marco mínimo como excluido al 95\% CL por Planck 2018. La consistencia con los datos actuales requiere $\beta_S < -0.042$. El siguiente observable discriminante es la ausencia de $\eta'$ en el tilt, accesible con experimentos futuros del CMB a $\sigma(n_s) \sim 0.002$.
+El indicador empírico más inmediato del marco es el valor de $r$. El CHF mínimo ($\beta_S = 0$) predice $r \approx 0.28$; el Paso 6 confirmó $r = 16\varepsilon$, estableciendo esta predicción como genuina y el marco mínimo como excluido al 95\% CL por Planck 2018. La consistencia con los datos actuales requiere $\beta_S < -0.042$. El siguiente observable discriminante es la ausencia de $\eta'$ en el tilt, accesible con experimentos futuros del CMB a $\sigma(n_s) \sim 0.002$.
 
 ---
 

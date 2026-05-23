@@ -38,86 +38,68 @@ No claims of observational discrepancy are made.
 
 # Structural Organization
 
-The documents are organized hierarchically.
+Documents are in English (`EN/`) and Spanish (`ES/`) subdirectories within each folder. The English version is the primary reference.
 
 ## 1. Positioning
 
-`positioning/On_the_Scope_and_Intent_of_Horizon_Centered_Approaches.pdf`
+`positioning/EN/On_the_Scope_and_Intent_of_Horizon_Centered_Approaches.md`
 
-Primary entry point.
-
-Defines:
-
-- scope
-- intended interpretation
-- evaluation criteria
-- limits of claims
-
-This document should be read first.
+Primary entry point. Defines scope, intended interpretation, evaluation criteria, and limits of claims. Read this first.
 
 ---
 
 ## 2. Core Framework
 
-`core/A_Causal–Horizon_Perspective_on_the_Early_Universe.pdf`
+`core/EN/A_Causal–Horizon_Perspective_on_the_Early_Universe.md`
 
-Introduces a horizon-centered interpretation of cosmology in which observable domains are treated as causally bounded structures.
-
-The document operates primarily at an interpretative level and establishes structural consistency principles.
+Introduces a horizon-centered interpretation of early-universe cosmology. The observable universe is treated as a causally bounded domain. Operates at the interpretative level and establishes structural consistency principles.
 
 ---
 
 ## 3. Ontological Layer
 
-`ontology/Ontology_Of_Causally_Self-consistent_Regions.pdf`
+`ontology/EN/Ontology_Of_Causally_Self-consistent_Regions.md`
 
 Introduces causally self-consistent regions (CSCRs) as minimal ontological structures compatible with horizon-centered descriptions.
-
-The document does not introduce a complete ontology.
 
 ---
 
 ## 4. Conceptual Scaffold
 
-`scaffold/Causal_Horizons_As_A_Conceptual_Scaffold_In_Gravitational_And_Cosmological_Physics.pdf`
+`scaffold/EN/Causal_Horizons_As_A_Conceptual_Scaffold_In_Gravitational_And_Cosmological_Physics.md`
 
-Identifies recurring structural principles shared across:
-
-- horizon thermodynamics
-- holographic viewpoints
-- cosmological horizons
-- causal-structure approaches
-
-The scaffold is organizational and does not imply unification.
+Identifies recurring structural principles across horizon thermodynamics, holographic viewpoints, and causal-structure approaches. Organizational — does not imply unification.
 
 ---
 
-## 5. Effective Realization
+## 5. Formalization
 
-`formalization/A_Horizon-Centered_Formalization_of_Cosmological_Dynamics.pdf`
+`formalization/EN/A_Horizon–Centered_Formalization_of_Cosmological_Dynamics.md`
 
-Provides one possible effective realization of the conceptual framework.
+The main technical document. Recovers Friedmann dynamics from horizon thermodynamics and develops the perturbation pipeline linking horizon fluctuations to the primordial power spectrum.
 
-Demonstrates that:
+### Companion documents (Steps 1–6)
 
-- standard Friedmann behavior may be reformulated through horizon thermodynamics
-- perturbations may be represented through boundary variables
+Six companion papers derive the results referenced in the main formalization document:
 
-This realization does not exhaust the framework.
-
-Alternative realizations remain possible.
+| Step | Document |
+|------|----------|
+| 1 | `formalization/EN/Boundary_Bulk_Relation_Gauss_Codazzi.md` |
+| 2 | `formalization/EN/Gauge_Invariant_Formulation_of_Horizon_Perturbation.md` |
+| 3 | `formalization/EN/Scale_Invariance_from_Horizon_Field_Quantization.md` |
+| 4 | `formalization/EN/Spectral_Tilt_from_Horizon_Thermodynamics.md` |
+| 5 | `formalization/EN/Differential_Predictions_of_the_Causal_Horizon_Framework.md` |
+| 6 | `formalization/EN/Tensor_Perturbations_from_the_Horizon_Boundary.md` |
 
 ---
 
 # Reading Order
 
-Recommended order:
-
-1. Positioning note
-2. Core framework
-3. Ontology
-4. Scaffold
-5. Formal realization
+1. `positioning/EN/`
+2. `core/EN/`
+3. `ontology/EN/`
+4. `scaffold/EN/`
+5. `formalization/EN/` — main document first, then Steps 1–6 in order
 
 ---
 
