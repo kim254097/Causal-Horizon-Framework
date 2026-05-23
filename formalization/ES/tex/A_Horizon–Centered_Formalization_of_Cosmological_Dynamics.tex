@@ -1,0 +1,276 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{geometry}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\geometry{margin=2.5cm}
+
+\title{Una Formalizaci\'on Centrada en el Horizonte de la Din\'amica Cosmol\'ogica y las Perturbaciones}
+\author{Kevin Mu\~noz}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+Desarrollamos una formalización centrada en el horizonte de la dinámica cosmológica y las perturbaciones, en la cual el horizonte aparente se trata como el grado de libertad físico primario. Construyendo sobre un marco conceptual previamente introducido, mostramos que la dinámica estándar de Friedmann puede recuperarse a partir de la termodinámica de horizontes y que las perturbaciones cosmológicas pueden describirse consistentemente como fluctuaciones de la frontera causal.
+
+Derivamos una cadena lineal cerrada de perturbaciones que conecta las fluctuaciones del horizonte con las perturbaciones de densidad y con la perturbación de curvatura comóvil. Bajo supuestos estadísticos mínimos, el marco reproduce un espectro casi invariante de escala compatible con las observaciones. El enfoque permanece plenamente consistente con la Relatividad General y la fenomenología estándar, mientras proporciona una interpretación basada en el borde de la evolución cosmológica.
+\end{abstract}
+
+\section{Introducción}
+
+La cosmología estándar describe el universo en términos de la dinámica del espacio-tiempo de bulk gobernada por la Relatividad General, con la expansión codificada en el factor de escala $a(t)$. Los horizontes se tratan típicamente como estructuras derivadas.
+
+En contraste, la termodinámica de horizontes sugiere que las fronteras causales codifican información físicamente relevante, con entropía que escala con el área en lugar del volumen. Esto motiva perspectivas alternativas en las que los horizontes causales desempeñan un papel estructuralmente primario.
+
+El presente trabajo proporciona una realización formal de un marco centrado en el horizonte en el que la dinámica cosmológica y las perturbaciones se describen en términos del horizonte aparente. El objetivo no es modificar la Relatividad General, sino reformular su contenido cosmológico en términos de accesibilidad causal y termodinámica de borde.
+
+La recuperación termodinámica de la ecuación de Friedmann en la Sección~3 sigue el enfoque de Cai y Kim (2005), quienes demostraron por primera vez esta derivación para horizontes aparentes FRW. El presente trabajo la extiende desarrollando un pipeline de perturbaciones --- que vincula las fluctuaciones del horizonte con las perturbaciones de densidad y la estructura espectral (Secciones 4--11) --- no abordado en la literatura previa de gravedad termodinámica.
+
+\section{Geometría de Fondo y Variable del Horizonte}
+
+Consideramos un espacio-tiempo homogéneo e isótropo con parámetro de Hubble:
+\begin{equation}
+H = \frac{\dot{a}}{a} \tag{1}
+\end{equation}
+
+El radio del horizonte aparente es:
+\begin{equation}
+R_A = \frac{1}{\sqrt{H^2 + \frac{k}{a^2}}} \tag{2}
+\end{equation}
+
+Para geometría espacialmente plana ($k = 0$):
+\begin{equation}
+R_A = \frac{1}{H} \tag{3}
+\end{equation}
+
+Tomamos $R_A(t)$ como la variable fundamental, interpretando la evolución cosmológica como el crecimiento de un dominio causalmente accesible.
+
+\section{Termodinámica del Horizonte y Dinámica de Fondo}
+
+Asignamos cantidades termodinámicas al horizonte:
+\begin{equation}
+S = \frac{A}{4G} = \frac{\pi R_A^2}{G} \tag{4}
+\end{equation}
+\begin{equation}
+T = \frac{1}{2\pi R_A} \tag{5}
+\end{equation}
+\begin{equation}
+V = \frac{4}{3}\pi R_A^3 \tag{6}
+\end{equation}
+\begin{equation}
+E = \rho V \tag{7}
+\end{equation}
+
+Imponemos el primer principio:
+\begin{equation}
+dE = T\,dS - P\,dV \tag{8}
+\end{equation}
+
+Usando la conservación de energía:
+\begin{equation}
+\dot{\rho} + 3H(\rho + P) = 0 \tag{9}
+\end{equation}
+
+y $R_A = 1/H$, obtenemos:
+\begin{equation}
+\dot{H} = -4\pi G(\rho + P) \tag{10}
+\end{equation}
+
+que se integra a:
+\begin{equation}
+H^2 = \frac{8\pi G}{3}\rho + C \tag{11}
+\end{equation}
+
+Así, la dinámica estándar de Friedmann se recupera a partir de la termodinámica de horizontes. Para geometría espacialmente plana ($k = 0$), la constante de integración $C$ se anula, recuperando la ecuación de Friedmann plana estándar $H^2 = \frac{8\pi G}{3}\rho$. Todo el análisis de perturbaciones posterior asume este caso plano.
+
+\section{Perturbaciones del Horizonte}
+
+Introducimos perturbaciones en el radio del horizonte:
+\begin{equation}
+R_A(t, \mathbf{x}) = \bar{R}_A(t)\left[1 + \psi(t, \mathbf{x})\right] \tag{12}
+\end{equation}
+
+donde:
+\begin{equation}
+\psi = \frac{\delta R_A}{R_A} \tag{13}
+\end{equation}
+
+es adimensional y se trata como la variable de perturbación fundamental.
+
+\section{Relación con la Expansión y las Perturbaciones de Densidad}
+
+Usando $H = 1/R_A$, obtenemos a orden lineal:
+\begin{equation}
+\frac{\delta H}{H} = -\psi \tag{14}
+\end{equation}
+
+A partir de la ecuación de Friedmann (la restricción de Gauss para la hipersuperficie de Cauchy FRW, $H^2 = 8\pi G\rho/3$):
+\begin{equation}
+H^2 \propto \rho \tag{15}
+\end{equation}
+
+la restricción de Gauss linealizada (ver documento compañero \textit{La Relación Borde--Bulk desde Gauss--Codazzi}) da, en el límite super-horizonte ($k \ll aH$):
+\begin{equation}
+\frac{\delta\rho}{\rho} = -2\psi\!\left(1 + \frac{1}{3}\!\left(\frac{k}{aH}\right)^{\!2}\right) \approx -2\psi \tag{16}
+\end{equation}
+
+El término líder $\delta\rho/\rho = -2\psi$ es exacto para $k \ll aH$ (límite de universo separado). La extensión sub-horizonte da la ecuación de Poisson $\delta\rho/\rho \approx -(2/3)(k/aH)^2\psi$ para $k \gg aH$. Por tanto:
+\begin{equation}
+\delta\rho \propto \psi \tag{17}
+\end{equation}
+
+\section{Relación con la Perturbación de Curvatura}
+
+La relación gauge-invariante entre $\psi$ y la perturbación de curvatura comóvil, derivada en el documento compañero \textit{Formulación Gauge-Invariante de la Perturbación del Horizonte}, es exacta en escalas super-horizonte:
+\begin{equation}
+\mathcal{R} = \frac{1+\varepsilon}{\varepsilon}\,\psi \tag{18}
+\end{equation}
+
+donde $\varepsilon = -\dot{H}/H^2$. Para inflación de rodadura lenta ($\varepsilon \ll 1$), $\mathcal{R} \approx \psi/\varepsilon$; durante la dominación de radiación y materia ($\varepsilon = \mathcal{O}(1)$), $\mathcal{R} \approx \psi$ en orden de magnitud.
+
+\section{Descripción Estadística}
+
+Asumimos estadística gaussiana:
+\begin{equation}
+\langle\psi(\mathbf{k})\psi(\mathbf{k}')\rangle = (2\pi)^3\delta(\mathbf{k} + \mathbf{k}')P_\psi(k) \tag{19}
+\end{equation}
+
+con:
+\begin{equation}
+P_\psi(k) = Ak^{n_s - 1} \tag{20}
+\end{equation}
+
+Los espectros de potencias primordiales se relacionan por (ver documento compañero):
+\begin{equation}
+P_\mathcal{R}(k) = \left(\frac{1+\varepsilon}{\varepsilon}\right)^2 P_\psi(k) \approx \frac{P_\psi(k)}{\varepsilon^2} \quad (\varepsilon \ll 1) \tag{21}
+\end{equation}
+
+La forma espectral es idéntica; solo la amplitud difiere por el factor $[(1+\varepsilon)/\varepsilon]^2$.
+
+\section{Campo Efectivo del Horizonte}
+
+Introducimos un campo escalar efectivo definido sobre el horizonte:
+\begin{equation}
+\phi(\Omega, t) \tag{22}
+\end{equation}
+
+con acción:
+\begin{equation}
+S = \int dt\, d\Omega\, R_A^2 \left[(\partial_t\phi)^2 + \frac{c_s^2}{R_A^2}(\nabla_\Omega\phi)^2 + m_\text{eff}^2\phi^2\right] \tag{23}
+\end{equation}
+
+e identificamos:
+\begin{equation}
+\psi \sim \phi \tag{24}
+\end{equation}
+
+\section{Estructura de Modos y Congelamiento}
+
+Expandiendo en armónicos esféricos:
+\begin{equation}
+\phi = \sum_{l,m} \phi_{lm}(t) Y_{lm}(\Omega) \tag{25}
+\end{equation}
+
+la frecuencia del modo es:
+\begin{equation}
+\omega_l^2 = \frac{c_s^2}{R_A^2}l(l+1) + m_\text{eff}^2 \tag{26}
+\end{equation}
+
+Los modos se congelan cuando:
+\begin{equation}
+\omega \sim H \tag{27}
+\end{equation}
+
+Usando $R_A = 1/H$, esto da:
+\begin{equation}
+l \sim kR_A \tag{28}
+\end{equation}
+
+\section{Espectro}
+
+La cuantización canónica de $\phi$ con condiciones iniciales de Bunch--Davies, combinada con la identificación de modos comóviles $l_k(t) = k/(a(t)H(t))$, produce una ecuación de modo de forma Mukhanov--Sasaki (ver documento compañero: \textit{Invarianza de Escala desde la Cuantización del Campo de Horizonte}). La función de dos puntos resultante es:
+\begin{equation}
+\langle\phi(x)\phi(0)\rangle \sim \frac{1}{|x|^{2\nu}} \tag{29}
+\end{equation}
+
+con $\nu$ determinado por el potencial efectivo. Para el caso sin masa en de Sitter, $\nu = 3/2$.
+
+Esto da:
+\begin{equation}
+P(k) \sim k^{3 - 2\nu} \tag{30}
+\end{equation}
+
+Para $\nu = 3/2$ (sin masa, de Sitter):
+\begin{equation}
+n_s = 1 \tag{31}
+\end{equation}
+
+Introduciendo:
+\begin{equation}
+m_\text{eff}^2 = \beta_S H^2 \tag{32}
+\end{equation}
+
+e incluyendo el parámetro de rodadura lenta $\varepsilon = -\dot{H}/H^2 = \frac{1}{2}\frac{d\ln S}{d\ln a}$:
+\begin{equation}
+n_s - 1 = 3 - 2\nu \approx -2\varepsilon + \frac{2\beta_S}{3} \tag{33}
+\end{equation}
+
+Para el campo de horizonte mínimo ($\beta_S = 0$, de la estructura conforme bidimensional de la acción), esto se reduce a:
+\begin{equation}
+n_s - 1 = -\frac{d\ln S}{d\ln a} \tag{33a}
+\end{equation}
+
+donde $S = \pi R_A^2/G$ es la entropía del horizonte. El tilt es igual al negativo de la tasa de crecimiento fraccional de la entropía del horizonte por e-fold.
+
+\section{Conexión con los Observables}
+
+El espectro angular de potencia está dado por:
+\begin{equation}
+C_\ell = 4\pi \int \frac{dk}{k} P_\mathcal{R}(k) |\Delta_\ell(k)|^2 \tag{34}
+\end{equation}
+
+con:
+\begin{equation}
+\ell \sim kr_* \tag{35}
+\end{equation}
+
+\section{Interpretación}
+
+El marco proporciona una descripción dual:
+
+\begin{itemize}
+  \item \textbf{Estándar:} los campos de bulk generan perturbaciones
+  \item \textbf{Centrado en el horizonte:} las fluctuaciones del borde codifican las perturbaciones
+\end{itemize}
+
+\section{Limitaciones y Problemas Abiertos}
+
+\begin{itemize}
+  \item Sin modelo microscópico de los grados de libertad del horizonte
+  \item Relación gauge-invariante $\mathcal{R} = [(1+\varepsilon)/\varepsilon]\,\psi$ y corrección de amplitud $P_\mathcal{R} \approx P_\psi/\varepsilon^2$ derivadas en el documento compañero \textit{Formulación Gauge-Invariante de la Perturbación del Horizonte}
+  \item Espectro escala-invariante (ec.~29) e inclinación espectral (ec.~33) derivados desde cuantización canónica y condiciones de Bunch--Davies en \textit{Invarianza de Escala desde la Cuantización del Campo de Horizonte}
+  \item Tilt expresado como tasa de entropía del horizonte $n_s - 1 = -(d\ln S)/(d\ln a)$ y masa efectiva derivada de la estructura conforme 2D en \textit{Inclinación Espectral desde la Termodinámica del Horizonte}
+  \item Perturbaciones tensoriales derivadas en \textit{Perturbaciones Tensoriales desde el Borde del Horizonte}: $n_T = -2\varepsilon$, $\Delta_h^2 = 2H^2/(\pi^2 M_{\rm Pl}^2)$, $r = 16\varepsilon$, CHF mínimo excluido al 95\% CL; se requiere $\beta_S < -0.042$
+  \item Pendiente: determinación dinámica de $\varepsilon$ desde el propio marco; función de transferencia sub-horizonte
+\end{itemize}
+
+\section{Conclusión}
+
+Hemos construido una formalización centrada en el horizonte de la dinámica cosmológica y las perturbaciones que reproduce los resultados estándar mientras proporciona una interpretación basada en el borde. El marco es compatible con la Relatividad General y los datos observacionales, e identifica un conjunto claro de problemas abiertos para desarrollo futuro.
+
+\begin{thebibliography}{9}
+\bibitem{bekenstein1973} J. D. Bekenstein, ``Black holes and entropy,'' \textit{Phys. Rev. D} \textbf{7}, 2333 (1973).
+\bibitem{hawking1975} S. W. Hawking, ``Particle creation by black holes,'' \textit{Commun. Math. Phys.} \textbf{43}, 199 (1975).
+\bibitem{gibbons1977} G. W. Gibbons y S. W. Hawking, ``Cosmological event horizons, thermodynamics, and particle creation,'' \textit{Phys. Rev. D} \textbf{15}, 2738 (1977).
+\bibitem{jacobson1995} T. Jacobson, ``Thermodynamics of spacetime: The Einstein equation of state,'' \textit{Phys. Rev. Lett.} \textbf{75}, 1260 (1995).
+\bibitem{cai2005} R.-G. Cai y S. P. Kim, ``First law of thermodynamics and Friedmann equations of Friedmann-Robertson-Walker universe,'' \textit{JHEP} \textbf{0502}, 050 (2005).
+\bibitem{padmanabhan2013} T. Padmanabhan, ``Thermodynamical aspects of gravity: New insights,'' \textit{Phys. Rep.} \textbf{531}, 115 (2013).
+\bibitem{mukhanov2005} V. Mukhanov, \textit{Physical Foundations of Cosmology}, Cambridge University Press (2005).
+\end{thebibliography}
+
+\end{document}

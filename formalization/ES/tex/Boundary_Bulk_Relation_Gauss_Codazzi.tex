@@ -1,0 +1,255 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{geometry}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\geometry{margin=2.5cm}
+
+\title{La Relaci\'on Borde--Bulk $\delta\rho/\rho = -2\psi$ desde las Ecuaciones de Gauss--Codazzi}
+\author{Kevin Mu\~noz}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+La formalización de la dinámica cosmológica centrada en el horizonte deriva la relación $\delta\rho/\rho = -2\psi$ linealizando la ecuación de Friedmann del fondo. Si bien es consistente, esto es una verificación y no una derivación: no establece el origen geométrico de la relación, no especifica su dominio de validez, y no proporciona la extensión sub-horizonte. Este documento cierra esa brecha. Mostramos que la ecuación de Friedmann es la restricción de Gauss para la hipersuperficie de Cauchy FRW, y que su perturbación ---la restricción hamiltoniana completa--- da
+\[
+\frac{\delta\rho}{\rho} = -2\psi\!\left(1 + \frac{1}{3}\left(\frac{k}{aH}\right)^2\right)
+\]
+donde $k$ es el número de onda comóvil. En escalas super-horizonte ($k \ll aH$), esto se reduce exactamente al resultado del Documento~5. La corrección sub-horizonte es la ecuación de Poisson, derivada aquí como la restricción de Codazzi (momento) en el mismo formalismo. La relación borde--bulk es por tanto una consecuencia rigurosa de las ecuaciones de Einstein, válida en el límite de universo separado de la estructura de embedding de Gauss.
+\end{abstract}
+
+\section{Motivación}
+
+En el Documento~5 del Marco Causal de Horizonte, la relación de perturbación clave
+\begin{equation}
+\frac{\delta\rho}{\rho} = -2\psi \tag{1}
+\end{equation}
+se deriva en tres líneas: $R_A = 1/H$ da $\delta H/H = -\psi$; la ecuación de Friedmann $H^2 \propto \rho$ da $\delta\rho/\rho = 2\delta H/H = -2\psi$. Si bien es correcta, esta derivación:
+
+\begin{itemize}
+  \item Usa la ecuación de Friedmann del fondo aplicada localmente, sin justificación geométrica
+  \item No especifica un gauge ni un dominio de validez
+  \item No muestra correcciones sub-horizonte
+  \item No demuestra que (1) sea consecuencia de la geometría de embedding del horizonte en el espaciotiempo
+\end{itemize}
+
+El presente documento proporciona esta derivación a partir de las ecuaciones de Gauss--Codazzi para la hipersuperficie de Cauchy FRW.
+
+\section{Las Ecuaciones de Gauss--Codazzi en Forma 3+1}
+
+En la descomposición 3+1 (ADM) del espaciotiempo, una hipersuperficie de Cauchy $\Sigma_t$ está embebida en el espaciotiempo 4D $(\mathcal{M}, g_{\mu\nu})$ con:
+
+\begin{itemize}
+  \item \textbf{Métrica intrínseca} $h_{ij}$: la 3-métrica inducida sobre $\Sigma_t$
+  \item \textbf{Curvatura extrínseca} $K_{ij} = -\frac{1}{2}\mathcal{L}_n h_{ij}$: cómo se dobla $\Sigma_t$ en $\mathcal{M}$, con $n^\mu$ la normal unitaria futura
+\end{itemize}
+
+La \textbf{ecuación de Gauss} (contraída dos veces) da la restricción hamiltoniana:
+\begin{equation}
+{}^{(3)}R + K^2 - K_{ij}K^{ij} = 16\pi G\,\rho_\text{ADM} \tag{2}
+\end{equation}
+
+La \textbf{ecuación de Codazzi} (contraída una vez) da la restricción de momento:
+\begin{equation}
+D_j\!\left(K^{ij} - h^{ij}K\right) = 8\pi G\,J^i \tag{3}
+\end{equation}
+
+Juntas, (2) y (3) codifican toda la información sobre cómo el contenido de materia restringe la geometría de $\Sigma_t$ y su tasa de expansión.
+
+\section{La Ecuación de Friedmann como Restricción de Gauss del Fondo}
+
+Para un fondo FRW plano ($k=0$) con métrica
+\begin{equation}
+ds^2 = -dt^2 + a^2(t)\,\delta_{ij}\,dx^i\,dx^j \tag{4}
+\end{equation}
+
+la hipersuperficie de Cauchy $\Sigma_t$ tiene:
+\begin{equation}
+{}^{(3)}R = 0, \qquad K_{ij} = -H\,h_{ij}, \qquad K = -3H, \qquad K_{ij}K^{ij} = 3H^2 \tag{5}
+\end{equation}
+
+Sustituyendo en la restricción de Gauss (2):
+\begin{equation}
+0 + 9H^2 - 3H^2 = 16\pi G\rho \tag{6}
+\end{equation}
+
+\begin{equation}
+\boxed{H^2 = \frac{8\pi G}{3}\rho} \tag{7}
+\end{equation}
+
+La ecuación de Friedmann es la restricción de Gauss para la hipersuperficie de Cauchy FRW. El radio del horizonte aparente $R_A = 1/H$ queda determinado por la geometría de embedding de $\Sigma_t$ en el espaciotiempo.
+
+\section{Perturbación de la Restricción de Gauss}
+
+Perturbamos alrededor del fondo FRW en gauge de Newton (longitudinal):
+\begin{equation}
+ds^2 = -(1+2\Phi)\,dt^2 + a^2(t)(1-2\Phi)\,\delta_{ij}\,dx^i\,dx^j \tag{8}
+\end{equation}
+
+donde $\Phi = \Psi$ (sin tensión anisotrópica). Las cantidades geométricas perturbadas sobre $\Sigma_t$ son:
+\begin{equation}
+\delta\!\left({}^{(3)}R\right) = -\frac{4k^2\Phi}{a^2}, \qquad \delta K = 3(\dot\Phi + H\Phi), \qquad \delta(K_{ij}K^{ij}) = -6H(\dot\Phi + H\Phi) \tag{9}
+\end{equation}
+
+Linealizando la restricción de Gauss (2):
+\begin{equation}
+\delta\!\left({}^{(3)}R\right) + 2K\,\delta K - \delta(K_{ij}K^{ij}) = 16\pi G\,\delta\rho \tag{10}
+\end{equation}
+
+Dividiendo por $-4$, la restricción hamiltoniana linealizada toma la forma estándar:
+\begin{equation}
+\frac{k^2\Phi}{a^2} + 3H(\dot\Phi + H\Phi) = -4\pi G\,\delta\rho \tag{11}
+\end{equation}
+
+Esta es la \textbf{restricción hamiltoniana perturbada}.
+
+\section{Derivación de $\delta\rho/\rho = -2\psi$ (Límite Super-Horizonte)}
+
+\subsection{El modo creciente desde la restricción de Codazzi}
+
+La restricción de momento en gauge de Newton es:
+\begin{equation}
+\dot\Phi + H\Phi = -4\pi G(\rho + P)\,V \tag{12}
+\end{equation}
+
+En escalas \textbf{super-horizonte} ($k \to 0$), $V \propto k/aH \to 0$. Para el modo creciente, $\dot\Phi \approx 0$, es decir, $\Phi \approx \text{const}$.
+
+\subsection{La restricción hamiltoniana en el límite de onda larga}
+
+Sustituyendo $\dot\Phi = 0$ en (11) y tomando $k \to 0$:
+\begin{equation}
+3H^2\Phi = -4\pi G\,\delta\rho \tag{13}
+\end{equation}
+
+Usando $4\pi G\rho = 3H^2/2$:
+\begin{equation}
+\frac{\delta\rho}{\rho} = -2\Phi \tag{14}
+\end{equation}
+
+Con $\psi \equiv -\delta H/H \approx \Phi$ en el límite super-horizonte de modo creciente:
+\begin{equation}
+\boxed{\frac{\delta\rho}{\rho} = -2\psi} \tag{15}
+\end{equation}
+
+Esta es la relación borde--bulk del Documento~5, ahora derivada como el \textbf{límite super-horizonte de la restricción de Gauss}.
+
+\section{Extensión Completa Dependiente de $k$}
+
+Reteniendo el término $k^2\Phi/a^2$ en (11) con $\dot\Phi = 0$:
+\begin{equation}
+\frac{\delta\rho}{\rho} = -2\Phi\!\left(1 + \frac{k^2}{3a^2H^2}\right) \tag{16}
+\end{equation}
+
+Usando $\psi \approx \Phi$:
+\begin{equation}
+\boxed{\frac{\delta\rho}{\rho} = -2\psi\!\left(1 + \frac{1}{3}\left(\frac{k}{aH}\right)^2\right)} \tag{17}
+\end{equation}
+
+Esta es la \textbf{relación borde--bulk completa de la restricción de Gauss}, válida para todo $k$.
+
+\paragraph{Regímenes límite.}
+
+\textbf{Super-horizonte} ($k \ll aH$):
+\begin{equation}
+\frac{\delta\rho}{\rho} \approx -2\psi \tag{18}
+\end{equation}
+
+\textbf{Cruce del horizonte} ($k = aH$):
+\begin{equation}
+\frac{\delta\rho}{\rho} = -\frac{8}{3}\,\psi \tag{19}
+\end{equation}
+
+\textbf{Sub-horizonte} ($k \gg aH$):
+\begin{equation}
+\frac{\delta\rho}{\rho} \approx -\frac{2}{3}\!\left(\frac{k}{aH}\right)^2\psi \tag{20}
+\end{equation}
+La ecuación de Poisson newtoniana.
+
+\section{La Ecuación de Codazzi como Relación de Velocidad del Bulk}
+
+La restricción de momento proporciona la relación complementaria para el campo de velocidades. Para el modo creciente en escalas super-horizonte ($\dot\Phi = 0$, $k \to 0$):
+\begin{equation}
+V_\text{super-horiz} = -\frac{H\Phi}{\varepsilon H^2} = -\frac{\psi}{\varepsilon H} \tag{21}
+\end{equation}
+
+\section{Interpretación de Universo Separado}
+
+Para $k \ll aH$, cada parche de tamaño Hubble evoluciona como un universo FRW independiente con parámetros locales $H_\text{loc}$ y $\rho_\text{loc}$.
+
+Cada parche satisface:
+\begin{equation}
+H_\text{loc}^2 = \frac{8\pi G}{3}\rho_\text{loc} \tag{22}
+\end{equation}
+
+Linealizando con $\psi = -\delta H/H$:
+\begin{equation}
+\frac{\delta\rho}{\rho} = -2\psi \tag{23}
+\end{equation}
+
+La derivación de la restricción de Gauss es la justificación geométrica de la aproximación de universo separado.
+
+\section{Especificación de Gauge y Validez}
+
+La relación $\delta\rho/\rho = -2\psi$ se cumple precisamente cuando:
+
+\begin{enumerate}
+  \item La condición super-horizonte $k \ll aH$ se satisface
+  \item La condición de modo creciente $\dot\Phi \approx 0$ se cumple
+  \item La aproximación adiabática de fluido único aplica
+\end{enumerate}
+
+\section{Correcciones al Documento 5}
+
+\paragraph{Ecuación (16) --- Ahora un teorema.} La relación $\delta\rho/\rho = -2\psi$ se actualiza de una verificación de consistencia algebraica a un teorema: es el límite super-horizonte de la restricción de Gauss linealizada.
+
+\paragraph{Extensión sub-horizonte.} El Documento~5 no proporcionaba la extensión a $k$ finito. El resultado completo es la ecuación (17).
+
+\paragraph{Corrección de signo.} La restricción hamiltoniana correcta es:
+\begin{equation}
+3H(\dot\Phi + H\Phi) + \frac{k^2\Phi}{a^2} = -4\pi G\,\delta\rho \tag{24}
+\end{equation}
+
+\section{Problemas Abiertos Restantes}
+
+\begin{itemize}
+  \item \textbf{Perturbaciones no adiabáticas.} Para perturbaciones de entropía ($\delta S \neq 0$), aparecen términos adicionales en la restricción de Gauss.
+  \item \textbf{Más allá de la aproximación de modo creciente.} Una función de transferencia completa requiere resolver las ecuaciones de perturbación acopladas.
+  \item \textbf{Gauss--Codazzi de 2-superficie para el horizonte aparente.} Una derivación usando las ecuaciones de Gauss--Codazzi para la 2-superficie misma (el horizonte aparente) permanece abierta.
+\end{itemize}
+
+\section{Resumen}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lll}
+\toprule
+Resultado & Ecuación & Origen \\
+\midrule
+Friedmann como restricción de Gauss & $H^2 = 8\pi G\rho/3$ & ec.~(2) con geometría FRW \\
+Restricción de Gauss perturbada & $k^2\Phi/a^2 + 3H(\dot\Phi+H\Phi) = -4\pi G\delta\rho$ & ec.~(11) \\
+Relación borde--bulk (exacta) & $\delta\rho/\rho = -2\psi[1 + (k/aH)^2/3]$ & ec.~(17) \\
+Límite super-horizonte & $\delta\rho/\rho = -2\psi$ & ec.~(15) \\
+Límite sub-horizonte (Poisson) & $\delta\rho/\rho = -(2/3)(k/aH)^2\psi$ & ec.~(20) \\
+Campo de velocidad (Codazzi) & $V = -\psi/(\varepsilon H)$ & ec.~(21) \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Conclusión}
+
+La relación $\delta\rho/\rho = -2\psi$ es el límite super-horizonte de modo creciente de la restricción de Gauss linealizada para la hipersuperficie de Cauchy FRW. La extensión sub-horizonte, dada por la ecuación (17), transiciona a la ecuación de Poisson newtoniana para $k \gg aH$. La restricción de Codazzi proporciona la relación complementaria para el campo de velocidades del bulk.
+
+\begin{thebibliography}{9}
+\bibitem{adm2008} R. Arnowitt, S. Deser, y C. W. Misner, ``Republication of: The dynamics of general relativity,'' \textit{Gen. Relat. Gravit.} \textbf{40}, 1997 (2008).
+\bibitem{bardeen1980} J. M. Bardeen, ``Gauge invariant cosmological perturbations,'' \textit{Phys. Rev. D} \textbf{22}, 1882 (1980).
+\bibitem{hayward1996} S. A. Hayward, ``Gravitational energy in spherical symmetry,'' \textit{Phys. Rev. D} \textbf{53}, 1938 (1996).
+\bibitem{cai2005} R.-G. Cai y S. P. Kim, ``First law of thermodynamics and Friedmann equations of Friedmann-Robertson-Walker universe,'' \textit{JHEP} \textbf{0502}, 050 (2005).
+\bibitem{dodelson2003} S. Dodelson, \textit{Modern Cosmology}, Academic Press (2003).
+\end{thebibliography}
+
+\end{document}

@@ -1,0 +1,207 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[spanish]{babel}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{geometry}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\geometry{margin=2.5cm}
+
+\title{Formulaci\'on Gauge-Invariante de la Perturbaci\'on del Horizonte y su Relaci\'on con la Perturbaci\'on de Curvatura Com\'ovil}
+\author{Kevin Mu\~noz}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+La formalización de la dinámica cosmológica centrada en el horizonte identifica la perturbación del horizonte $\psi = \delta R_A / R_A$ con la perturbación de curvatura comóvil $\mathcal{R}$, pero deja la derivación gauge-invariante de esta identificación como un problema abierto. Este documento cierra esa brecha. Trabajando en gauge de Newton, calculamos $\psi$ a partir de la condición de horizonte aparente perturbado y realizamos la transformación de gauge al gauge comóvil, donde $\mathcal{R}$ está definida. La relación exacta en escalas super-horizonte es
+\[
+\psi = \frac{\varepsilon}{1 + \varepsilon}\,\mathcal{R}
+\]
+donde $\varepsilon = -\dot{H}/H^2$ es el parámetro de rodadura lenta. Para inflación de rodadura lenta ($\varepsilon \ll 1$), $\psi \approx \varepsilon\,\mathcal{R}$, de modo que los espectros de potencias primordiales satisfacen $P_\mathcal{R}(k) \approx P_\psi(k)/\varepsilon^2$. La forma espectral es idéntica para $\psi$ y $\mathcal{R}$. Este documento reemplaza la identificación esquemática $\mathcal{R} \sim \psi$ del Documento~5 por un resultado derivado y gauge-invariante, y corrige la ecuación (21) de ese documento.
+\end{abstract}
+
+\section{Motivación}
+
+En la formalización (Documento~5), la perturbación de curvatura comóvil se introduce mediante la identificación esquemática
+\begin{equation}
+\mathcal{R} \sim \psi \tag{1}
+\end{equation}
+con la observación de que ``un tratamiento gauge-invariante completo sigue siendo un problema abierto.'' El espectro de potencias fue establecido como $P_\mathcal{R} = P_\psi$, lo cual solo es correcto salvo factores que involucran $\varepsilon$.
+
+El presente documento deriva la relación gauge-invariante precisa entre $\psi$ y $\mathcal{R}$.
+
+\section{Configuración: Perturbaciones Escalares en Gauge de Newton}
+
+Consideramos un fondo FRW plano perturbado por modos escalares. En el \textbf{gauge de Newton (longitudinal)}, la métrica toma la forma
+\begin{equation}
+ds^2 = -(1 + 2\Phi)dt^2 + a^2(t)(1 - 2\Phi)\delta_{ij}\,dx^i dx^j \tag{2}
+\end{equation}
+
+donde $\Phi = \Psi$ para un fluido perfecto sin tensión anisotrópica. Las ecuaciones de fondo son
+\begin{equation}
+H^2 = \frac{8\pi G}{3}\rho, \qquad \dot{H} = -4\pi G(\rho + P) = -\varepsilon H^2 \tag{3}
+\end{equation}
+
+A primer orden, la perturbación métrica satisface la ligadura hamiltoniana
+\begin{equation}
+3H(\dot{\Phi} + H\Phi) + \frac{k^2}{a^2}\Phi = -4\pi G\,\delta\rho \tag{4}
+\end{equation}
+
+y la ligadura de momento
+\begin{equation}
+\dot{\Phi} + H\Phi = -4\pi G(\rho + P)\,V \tag{5}
+\end{equation}
+
+\section{La Perturbación del Horizonte en Gauge de Newton}
+
+La tasa de expansión local efectiva es
+\begin{equation}
+H_\text{loc}(\mathbf{x}, t) = H + \dot{\Phi} - H\Phi + \frac{k^2 V}{3a} \tag{6}
+\end{equation}
+
+La perturbación fraccional del radio del horizonte aparente es
+\begin{equation}
+\psi \equiv \frac{\delta R_A}{R_A} = -\frac{\delta H}{H} = -\frac{\dot{\Phi} - H\Phi}{H} - \frac{k^2 V}{3aH} \tag{7}
+\end{equation}
+
+\textbf{En escalas super-horizonte} ($k \ll aH$), el término de velocidad está suprimido:
+\begin{equation}
+\psi \approx -\frac{\dot{\Phi}}{H} + \Phi \qquad (k \ll aH) \tag{8}
+\end{equation}
+
+Para el modo creciente, $\dot{\Phi} \to 0$, por lo que
+\begin{equation}
+\psi \approx \Phi \qquad \text{(super-horizonte, gauge de Newton)} \tag{9}
+\end{equation}
+
+\section{La Perturbación de Curvatura Comóvil}
+
+La perturbación de curvatura comóvil se define como
+\begin{equation}
+\mathcal{R} = \Phi - \frac{H}{\dot{H}}\left(\dot{\Phi} + H\Phi\right) \tag{10}
+\end{equation}
+
+Expandiendo con $\dot{H} = -\varepsilon H^2$ y tomando el límite super-horizonte $\dot{\Phi} \to 0$:
+\begin{equation}
+\mathcal{R} \approx \Phi\,\frac{1 + \varepsilon}{\varepsilon} \tag{11}
+\end{equation}
+
+\section{Relación Gauge-Invariante Entre $\psi$ y $\mathcal{R}$}
+
+Combinando las ecuaciones (9) y (11):
+\begin{equation}
+\psi \approx \Phi = \frac{\varepsilon}{1+\varepsilon}\,\mathcal{R} \tag{12}
+\end{equation}
+
+Reordenando:
+\begin{equation}
+\mathcal{R} = \frac{1 + \varepsilon}{\varepsilon}\,\psi \tag{13}
+\end{equation}
+
+Este es el resultado central, válido en escalas super-horizonte para el modo creciente en el caso adiabático de fluido único.
+
+\section{Casos Límite}
+
+\paragraph{Inflación de rodadura lenta ($\varepsilon \ll 1$).}
+\begin{equation}
+\psi \approx \varepsilon\,\mathcal{R} \qquad \Longrightarrow \qquad \mathcal{R} \approx \frac{\psi}{\varepsilon} \tag{14}
+\end{equation}
+
+\paragraph{Dominación de radiación ($\varepsilon = 2$).}
+\begin{equation}
+\psi = \frac{2}{3}\,\mathcal{R} \tag{15}
+\end{equation}
+
+\paragraph{Dominación de materia ($\varepsilon = 3/2$).}
+\begin{equation}
+\psi = \frac{3}{5}\,\mathcal{R} \tag{16}
+\end{equation}
+
+\section{Derivación por Transformación de Gauge}
+
+Bajo una reparametrización temporal $t \to t + \delta t(\mathbf{x}, t)$:
+\begin{equation}
+\Phi \to \Phi - H\,\delta t, \qquad \Psi_\text{metric} \to \Psi_\text{metric} + H\,\delta t \tag{17}
+\end{equation}
+
+Para llegar al gauge comóvil ($V_\text{com} = 0$), elegimos $\delta t = -V/a$. En este gauge:
+\begin{equation}
+\mathcal{R} = \Phi_\text{Newton} + H \cdot \frac{V}{a} \tag{18}
+\end{equation}
+
+De la ligadura de momento (5): $HV/a = -(\dot{\Phi} + H\Phi)/(\varepsilon H^2)$. Sustituyendo:
+\begin{equation}
+\mathcal{R} = \Phi\left(\frac{1+\varepsilon}{\varepsilon}\right) - \frac{\dot{\Phi}}{\varepsilon H} \tag{19}
+\end{equation}
+
+En escalas super-horizonte ($\dot{\Phi} \to 0$), con $\psi \approx \Phi$, esto recupera (13). $\square$
+
+\section{Comportamiento Sub-Horizonte}
+
+En escalas sub-horizonte ($k \gg aH$):
+\begin{equation}
+\Phi \approx 3\left(\frac{aH}{k}\right)^2 \psi \to 0 \quad (k \gg aH) \tag{20}
+\end{equation}
+
+La identificación (12) se desintegra para $k \sim aH$. La relación relevante para la física del CMB es siempre el valor primordial establecido en la salida del horizonte.
+
+\section{Implicación para los Espectros de Potencias}
+
+De la relación gauge-invariante (13):
+\begin{equation}
+P_\mathcal{R}(k) = \left(\frac{1+\varepsilon}{\varepsilon}\right)^2 P_\psi(k) \tag{21}
+\end{equation}
+
+Para inflación de rodadura lenta ($\varepsilon \ll 1$):
+\begin{equation}
+P_\mathcal{R}(k) \approx \frac{P_\psi(k)}{\varepsilon^2}, \qquad \Delta_\mathcal{R}^2 = \frac{H^2}{2\pi^2 c_s \varepsilon^2} \tag{22}
+\end{equation}
+
+El \textbf{tilt espectral} no cambia:
+\begin{equation}
+n_s - 1 = \frac{d\ln P_\mathcal{R}}{d\ln k} = \frac{d\ln P_\psi}{d\ln k} \tag{23}
+\end{equation}
+
+\section{Correcciones al Documento 5}
+
+\paragraph{Ecuación (18): $\mathcal{R} \sim \psi$.} Reemplazada por el resultado gauge-invariante exacto:
+\begin{equation}
+\mathcal{R} = \frac{1+\varepsilon}{\varepsilon}\,\psi \tag{24}
+\end{equation}
+
+\paragraph{Ecuación (21): $P_\mathcal{R}(k) = P_\psi(k)$.} Reemplazada por:
+\begin{equation}
+P_\mathcal{R}(k) = \left(\frac{1+\varepsilon}{\varepsilon}\right)^2 P_\psi(k) \approx \frac{P_\psi(k)}{\varepsilon^2} \quad (\varepsilon \ll 1) \tag{25}
+\end{equation}
+
+\section{Problema Abierto Restante}
+
+La derivación está restringida al caso adiabático de fluido único y al límite super-horizonte. Extensiones a $k$ finito y a perturbaciones multi-fluido permanecen abiertas.
+
+\section{Resumen}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{lll}
+\toprule
+Resultado & Expresión & Dominio de validez \\
+\midrule
+Relación gauge-invariante & $\psi = \frac{\varepsilon}{1+\varepsilon}\,\mathcal{R}$ & Super-horizonte, adiabático, fluido único \\
+Límite de rodadura lenta & $\mathcal{R} \approx \psi/\varepsilon$ & $\varepsilon \ll 1$ \\
+Relación de espectros & $P_\mathcal{R} = \frac{(1+\varepsilon)^2}{\varepsilon^2}\,P_\psi$ & Super-horizonte, primordial \\
+Tilt espectral & $n_s(\mathcal{R}) - 1 = n_s(\psi) - 1 = 3 - 2\nu$ & Todas las escalas, orden líder \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\begin{thebibliography}{9}
+\bibitem{bardeen1980} J. M. Bardeen, ``Gauge invariant cosmological perturbations,'' \textit{Phys. Rev. D} \textbf{22}, 1882 (1980).
+\bibitem{kodama1984} H. Kodama y M. Sasaki, ``Cosmological perturbation theory,'' \textit{Prog. Theor. Phys. Suppl.} \textbf{78}, 1 (1984).
+\bibitem{mukhanov1992} V. F. Mukhanov, H. A. Feldman y R. H. Brandenberger, ``Theory of cosmological perturbations,'' \textit{Phys. Rep.} \textbf{215}, 203 (1992).
+\bibitem{weinberg2008} S. Weinberg, \textit{Cosmology}, Oxford University Press (2008).
+\end{thebibliography}
+
+\end{document}

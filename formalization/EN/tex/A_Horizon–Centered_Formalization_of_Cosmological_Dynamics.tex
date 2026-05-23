@@ -1,0 +1,275 @@
+\documentclass[12pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{geometry}
+\usepackage{booktabs}
+\usepackage{hyperref}
+\geometry{margin=2.5cm}
+
+\title{A Horizon-Centered Formalization of Cosmological Dynamics and Perturbations}
+\author{Kevin Mu\~noz}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{abstract}
+We develop a horizon-centered formalization of cosmological dynamics and perturbations in which the apparent horizon is treated as the primary physical degree of freedom. Building on a previously introduced conceptual framework, we show that standard Friedmann dynamics can be recovered from horizon thermodynamics and that cosmological perturbations may be consistently described as fluctuations of the causal boundary.
+
+We derive a closed linear perturbation pipeline linking horizon fluctuations to density perturbations and to the comoving curvature perturbation. Under minimal statistical assumptions, the framework reproduces a nearly scale-invariant spectrum compatible with observations. The approach remains fully consistent with General Relativity and standard phenomenology, while providing a boundary-based interpretation of cosmological evolution.
+\end{abstract}
+
+\section{Introduction}
+
+Standard cosmology describes the universe in terms of bulk spacetime dynamics governed by General Relativity, with expansion encoded in the scale factor $a(t)$. Horizons are typically treated as derived structures.
+
+In contrast, horizon thermodynamics suggests that causal boundaries encode physically relevant information, with entropy scaling with area rather than volume. This motivates alternative perspectives in which causal horizons play a structurally primary role.
+
+The present work provides a formal realization of a horizon-centered framework in which cosmological dynamics and perturbations are described in terms of the apparent horizon. The goal is not to modify General Relativity, but to reformulate its cosmological content in terms of causal accessibility and boundary thermodynamics.
+
+The thermodynamic recovery of the Friedmann equation in Section~3 follows the approach of Cai and Kim (2005), who first demonstrated this derivation for FRW apparent horizons. The present work extends this by developing a perturbation pipeline --- linking horizon fluctuations to density perturbations and spectral structure (Sections 4--11) --- not addressed in prior thermodynamic gravity literature.
+
+\section{Background Geometry and Horizon Variable}
+
+We consider a homogeneous and isotropic spacetime with Hubble parameter:
+\begin{equation}
+H = \frac{\dot{a}}{a} \tag{1}
+\end{equation}
+
+The apparent horizon radius is:
+\begin{equation}
+R_A = \frac{1}{\sqrt{H^2 + \frac{k}{a^2}}} \tag{2}
+\end{equation}
+
+For spatially flat geometry ($k = 0$):
+\begin{equation}
+R_A = \frac{1}{H} \tag{3}
+\end{equation}
+
+We take $R_A(t)$ as the fundamental variable, interpreting cosmological evolution as the growth of a causally accessible domain.
+
+\section{Horizon Thermodynamics and Background Dynamics}
+
+We assign thermodynamic quantities to the horizon:
+\begin{equation}
+S = \frac{A}{4G} = \frac{\pi R_A^2}{G} \tag{4}
+\end{equation}
+\begin{equation}
+T = \frac{1}{2\pi R_A} \tag{5}
+\end{equation}
+\begin{equation}
+V = \frac{4}{3}\pi R_A^3 \tag{6}
+\end{equation}
+\begin{equation}
+E = \rho V \tag{7}
+\end{equation}
+
+We impose the first law:
+\begin{equation}
+dE = T\,dS - P\,dV \tag{8}
+\end{equation}
+
+Using energy conservation:
+\begin{equation}
+\dot{\rho} + 3H(\rho + P) = 0 \tag{9}
+\end{equation}
+
+and $R_A = 1/H$, we obtain:
+\begin{equation}
+\dot{H} = -4\pi G(\rho + P) \tag{10}
+\end{equation}
+
+which integrates to:
+\begin{equation}
+H^2 = \frac{8\pi G}{3}\rho + C \tag{11}
+\end{equation}
+
+Thus, standard Friedmann dynamics are recovered from horizon thermodynamics. For spatially flat geometry ($k = 0$), the integration constant $C$ vanishes, recovering the standard flat Friedmann equation $H^2 = \frac{8\pi G}{3}\rho$. All subsequent perturbation analysis assumes this flat case.
+
+\section{Perturbations of the Horizon}
+
+We introduce perturbations in the horizon radius:
+\begin{equation}
+R_A(t, \mathbf{x}) = \bar{R}_A(t)\left[1 + \psi(t, \mathbf{x})\right] \tag{12}
+\end{equation}
+
+where:
+\begin{equation}
+\psi = \frac{\delta R_A}{R_A} \tag{13}
+\end{equation}
+
+is dimensionless and treated as the fundamental perturbation variable.
+
+\section{Relation to Expansion and Density Perturbations}
+
+Using $H = 1/R_A$, we obtain at linear order:
+\begin{equation}
+\frac{\delta H}{H} = -\psi \tag{14}
+\end{equation}
+
+From the Friedmann equation (the Gauss constraint for the FRW Cauchy hypersurface, $H^2 = 8\pi G\rho/3$):
+\begin{equation}
+H^2 \propto \rho \tag{15}
+\end{equation}
+
+the linearized Gauss constraint (see companion document \textit{The Boundary--Bulk Relation from Gauss--Codazzi}) gives, in the super-horizon limit ($k \ll aH$):
+\begin{equation}
+\frac{\delta\rho}{\rho} = -2\psi\!\left(1 + \frac{1}{3}\!\left(\frac{k}{aH}\right)^{\!2}\right) \approx -2\psi \tag{16}
+\end{equation}
+
+The leading term $\delta\rho/\rho = -2\psi$ is exact for $k \ll aH$ (separate-universe limit). The sub-horizon extension gives the Poisson equation $\delta\rho/\rho \approx -(2/3)(k/aH)^2\psi$ for $k \gg aH$. Thus:
+\begin{equation}
+\delta\rho \propto \psi \tag{17}
+\end{equation}
+
+\section{Relation to the Curvature Perturbation}
+
+The gauge-invariant relation between $\psi$ and the comoving curvature perturbation, derived in the companion document \textit{Gauge-Invariant Formulation of the Horizon Perturbation}, is exact on super-horizon scales:
+\begin{equation}
+\mathcal{R} = \frac{1+\varepsilon}{\varepsilon}\,\psi \tag{18}
+\end{equation}
+
+where $\varepsilon = -\dot{H}/H^2$. For slow-roll inflation ($\varepsilon \ll 1$), $\mathcal{R} \approx \psi/\varepsilon$; during radiation and matter domination ($\varepsilon = \mathcal{O}(1)$), $\mathcal{R} \approx \psi$ at order of magnitude.
+
+\section{Statistical Description}
+
+We assume Gaussian statistics:
+\begin{equation}
+\langle\psi(\mathbf{k})\psi(\mathbf{k}')\rangle = (2\pi)^3\delta(\mathbf{k} + \mathbf{k}')P_\psi(k) \tag{19}
+\end{equation}
+
+with:
+\begin{equation}
+P_\psi(k) = Ak^{n_s - 1} \tag{20}
+\end{equation}
+
+The primordial power spectra are related by (see companion document):
+\begin{equation}
+P_\mathcal{R}(k) = \left(\frac{1+\varepsilon}{\varepsilon}\right)^2 P_\psi(k) \approx \frac{P_\psi(k)}{\varepsilon^2} \quad (\varepsilon \ll 1) \tag{21}
+\end{equation}
+
+The spectral shape is identical; only the amplitude differs by the factor $[(1+\varepsilon)/\varepsilon]^2$.
+
+\section{Effective Horizon Field}
+
+We introduce an effective scalar field defined on the horizon:
+\begin{equation}
+\phi(\Omega, t) \tag{22}
+\end{equation}
+
+with action:
+\begin{equation}
+S = \int dt\, d\Omega\, R_A^2 \left[(\partial_t\phi)^2 + \frac{c_s^2}{R_A^2}(\nabla_\Omega\phi)^2 + m_\text{eff}^2\phi^2\right] \tag{23}
+\end{equation}
+
+and identify:
+\begin{equation}
+\psi \sim \phi \tag{24}
+\end{equation}
+
+\section{Mode Structure and Freeze-out}
+
+Expanding in spherical harmonics:
+\begin{equation}
+\phi = \sum_{l,m} \phi_{lm}(t) Y_{lm}(\Omega) \tag{25}
+\end{equation}
+
+the mode frequency is:
+\begin{equation}
+\omega_l^2 = \frac{c_s^2}{R_A^2}l(l+1) + m_\text{eff}^2 \tag{26}
+\end{equation}
+
+Modes freeze when:
+\begin{equation}
+\omega \sim H \tag{27}
+\end{equation}
+
+Using $R_A = 1/H$, this yields:
+\begin{equation}
+l \sim kR_A \tag{28}
+\end{equation}
+
+\section{Spectrum}
+
+Canonical quantization of $\phi$ with Bunch--Davies initial conditions, combined with the comoving mode identification $l_k(t) = k/(a(t)H(t))$, yields a mode equation of Mukhanov--Sasaki form (see companion document: \textit{Scale Invariance from Horizon Field Quantization}). The resulting two-point function is:
+\begin{equation}
+\langle\phi(x)\phi(0)\rangle \sim \frac{1}{|x|^{2\nu}} \tag{29}
+\end{equation}
+
+with $\nu$ determined by the effective potential. For the massless de Sitter case, $\nu = 3/2$.
+
+This yields:
+\begin{equation}
+P(k) \sim k^{3 - 2\nu} \tag{30}
+\end{equation}
+
+For $\nu = 3/2$ (massless, de Sitter):
+\begin{equation}
+n_s = 1 \tag{31}
+\end{equation}
+
+Introducing:
+\begin{equation}
+m_\text{eff}^2 = \beta_S H^2 \tag{32}
+\end{equation}
+
+and including the slow-roll parameter $\varepsilon = -\dot{H}/H^2 = \frac{1}{2}\frac{d\ln S}{d\ln a}$:
+\begin{equation}
+n_s - 1 = 3 - 2\nu \approx -2\varepsilon + \frac{2\beta_S}{3} \tag{33}
+\end{equation}
+
+For the minimal horizon field ($\beta_S = 0$, from the two-dimensional conformal structure of the action), this reduces to:
+\begin{equation}
+n_s - 1 = -\frac{d\ln S}{d\ln a} \tag{33a}
+\end{equation}
+
+where $S = \pi R_A^2/G$ is the horizon entropy. The tilt equals minus the fractional growth rate of the horizon entropy per e-fold.
+
+\section{Connection to Observables}
+
+The angular power spectrum is given by:
+\begin{equation}
+C_\ell = 4\pi \int \frac{dk}{k} P_\mathcal{R}(k) |\Delta_\ell(k)|^2 \tag{34}
+\end{equation}
+
+with:
+\begin{equation}
+\ell \sim kr_* \tag{35}
+\end{equation}
+
+\section{Interpretation}
+
+The framework provides a dual description:
+
+\begin{itemize}
+  \item \textbf{Standard:} bulk fields generate perturbations
+  \item \textbf{Horizon-centered:} boundary fluctuations encode perturbations
+\end{itemize}
+
+\section{Limitations and Open Problems}
+
+\begin{itemize}
+  \item No microscopic model of horizon degrees of freedom
+  \item Gauge-invariant relation $\mathcal{R} = [(1+\varepsilon)/\varepsilon]\,\psi$ and amplitude correction $P_\mathcal{R} \approx P_\psi/\varepsilon^2$ derived in companion document \textit{Gauge-Invariant Formulation of the Horizon Perturbation}
+  \item Scale-invariant spectrum (eq.~29) and spectral tilt (eq.~33) derived from canonical quantization and Bunch--Davies initial conditions in \textit{Scale Invariance from Horizon Field Quantization}
+  \item Tilt expressed as horizon entropy rate $n_s - 1 = -(d\ln S)/(d\ln a)$ and effective mass derived from 2D conformal structure in \textit{Spectral Tilt from Horizon Thermodynamics}
+  \item Tensor perturbations derived in \textit{Tensor Perturbations from the Horizon Boundary}: $n_T = -2\varepsilon$, $\Delta_h^2 = 2H^2/(\pi^2 M_{\rm Pl}^2)$, $r = 16\varepsilon$, minimal CHF excluded at 95\% CL; $\beta_S < -0.042$ required
+  \item Remaining open: dynamical determination of $\varepsilon$ from within the framework; sub-horizon transfer function
+\end{itemize}
+
+\section{Conclusion}
+
+We have constructed a horizon-centered formalization of cosmological dynamics and perturbations that reproduces standard results while providing a boundary-based interpretation. The framework is compatible with General Relativity and observational data, and identifies a clear set of open problems for future development.
+
+\begin{thebibliography}{9}
+\bibitem{bekenstein1973} J. D. Bekenstein, ``Black holes and entropy,'' \textit{Phys. Rev. D} \textbf{7}, 2333 (1973).
+\bibitem{hawking1975} S. W. Hawking, ``Particle creation by black holes,'' \textit{Commun. Math. Phys.} \textbf{43}, 199 (1975).
+\bibitem{gibbons1977} G. W. Gibbons and S. W. Hawking, ``Cosmological event horizons, thermodynamics, and particle creation,'' \textit{Phys. Rev. D} \textbf{15}, 2738 (1977).
+\bibitem{jacobson1995} T. Jacobson, ``Thermodynamics of spacetime: The Einstein equation of state,'' \textit{Phys. Rev. Lett.} \textbf{75}, 1260 (1995).
+\bibitem{cai2005} R.-G. Cai and S. P. Kim, ``First law of thermodynamics and Friedmann equations of Friedmann-Robertson-Walker universe,'' \textit{JHEP} \textbf{0502}, 050 (2005).
+\bibitem{padmanabhan2013} T. Padmanabhan, ``Thermodynamical aspects of gravity: New insights,'' \textit{Phys. Rep.} \textbf{531}, 115 (2013).
+\bibitem{mukhanov2005} V. Mukhanov, \textit{Physical Foundations of Cosmology}, Cambridge University Press (2005).
+\end{thebibliography}
+
+\end{document}
