@@ -14,7 +14,7 @@ Steps 1–4 of the Causal Horizon Framework derived the primordial scalar power 
 
 Step 5 identified three differential predictions of the CHF. The sharpest was the $(n_s, r)$ consistency line $r = 8(1-n_s)$, which required assuming $r = 16\varepsilon$ — a result borrowed from the standard bulk calculation and not yet derived within the CHF. Step 5 left two possibilities open: either the CHF tensor spectrum matches the standard result ($r = 16\varepsilon$ confirmed, minimal framework falsified), or it differs (standard consistency relation broken, framework viable). The present document resolves this by deriving the tensor power spectrum directly from the horizon boundary.
 
-The structure of the derivation parallels Step 1 (scalar quantization). The two tensor polarizations are identified as fields on the horizon 2-sphere, a boundary action is derived by dimensional reduction from the bulk Einstein–Hilbert action, and the mode equation is obtained via the comoving mode identification $l_k(t) = k/(a(t)H(t))$ introduced in Step 1. The key new input is the physical distinction between scalar (size) and tensor (shape) perturbations of the horizon, which determines why $z_T = a$ rather than $z_A = a/\sqrt\varepsilon$.
+The structure of the derivation parallels Step 3 (scalar quantization). The two tensor polarizations are identified as fields on the horizon 2-sphere, a boundary action is derived by dimensional reduction from the bulk Einstein–Hilbert action, and the mode equation is obtained via the comoving mode identification $l_k(t) = k/(a(t)H(t))$ introduced in Step 3. The key new input is the physical distinction between scalar (size) and tensor (shape) perturbations of the horizon, which determines why $z_T = a$ rather than $z_A = a/\sqrt\varepsilon$.
 
 ---
 
@@ -32,7 +32,7 @@ where $e^i_A$ are the tangent vectors to the 2-sphere and $\gamma_{AB}$ is the r
 
 ### 2.2 Mode identification
 
-Each polarization mode $h_k^\lambda(t)$ with comoving wavenumber $k$ is identified with the angular mode $l_k(t) = k/(a(t)H(t))$ on the horizon 2-sphere, exactly as in the scalar case (Step 1, eq. (2)). Freeze-out occurs when $l_k = 1$, i.e., $k = a(t_k)H$, which is the standard horizon-crossing condition. The two-sphere restriction of a plane-wave tensor mode is dominated by the $l = l_k$ angular mode at the horizon.
+Each polarization mode $h_k^\lambda(t)$ with comoving wavenumber $k$ is identified with the angular mode $l_k(t) = k/(a(t)H(t))$ on the horizon 2-sphere, exactly as in the scalar case (Step 3, eq. (2)). Freeze-out occurs when $l_k = 1$, i.e., $k = a(t_k)H$, which is the standard horizon-crossing condition. The two-sphere restriction of a plane-wave tensor mode is dominated by the $l = l_k$ angular mode at the horizon.
 
 ---
 
@@ -64,7 +64,7 @@ This is the **Mukhanov–Sasaki equation for tensor modes**, with pump field $z_
 
 ### 3.3 Comparison with the scalar case
 
-In Step 1, the scalar canonical variable was $u_k = z_A\psi_k$ with $z_A = a/\sqrt\varepsilon$. The effective potential in the scalar mode equation is $z_A''/z_A$. For tensor modes, the pump field is simply $z_T = a$, and the effective potential is $a''/a$. Specifically:
+In Step 3, the scalar canonical variable was $u_k = z_A\psi_k$ with $z_A = a/\sqrt\varepsilon$. The effective potential in the scalar mode equation is $z_A''/z_A$. For tensor modes, the pump field is simply $z_T = a$, and the effective potential is $a''/a$. Specifically:
 
 $$\frac{a''}{a} = \mathcal{H}^2(2 + \varepsilon + \cdots), \qquad \frac{z_A''}{z_A} = \mathcal{H}^2(2 + 3\varepsilon + \cdots) \tag{6}$$
 
@@ -96,7 +96,7 @@ The tensor mode equation (5) becomes:
 
 $$\mu_k^{\lambda,''} + \left[k^2 - \frac{\nu_T^2 - \tfrac{1}{4}}{\eta^2}\right]\mu_k^\lambda = 0 \tag{8}$$
 
-This has the same form as the scalar equation (Step 1, eq. (17)) with $\nu_S = 3/2 + \varepsilon - \beta_S/3$. For $\beta_S = 0$: $\nu_S = \nu_T = 3/2 + \varepsilon$. The two mode equations are identical at this order.
+This has the same form as the scalar equation (Step 3, eq. (17)) with $\nu_S = 3/2 + \varepsilon - \beta_S/3$. For $\beta_S = 0$: $\nu_S = \nu_T = 3/2 + \varepsilon$. The two mode equations are identical at this order.
 
 ### 5.2 Bunch–Davies initial conditions
 
@@ -104,7 +104,7 @@ At early times ($|k\eta| \gg 1$), equation (8) reduces to a free oscillator. The
 
 $$\mu_k^\lambda(\eta) \xrightarrow{|k\eta|\to\infty} \frac{1}{\sqrt{2k}}\,e^{-ik\eta} \tag{9}$$
 
-This is the unique choice compatible with the local Minkowski vacuum on sub-horizon scales, and is the same condition imposed for scalar modes in Step 1.
+This is the unique choice compatible with the local Minkowski vacuum on sub-horizon scales, and is the same condition imposed for scalar modes in Step 3.
 
 ### 5.3 Exact solution and freeze-out amplitude
 

@@ -138,15 +138,17 @@ $$P_\mathcal{R}(k) = P_\psi(k) \tag{21}$$
 
 Introducimos un campo escalar efectivo definido sobre el horizonte:
 
-$$\phi(\Omega, t) \tag{22}$$
+$$\phi_{\rm can}(\Omega, t) \tag{22}$$
 
 con acción:
 
-$$S = \int dt\, d\Omega\, R_A^2 \left[(\partial_t\phi)^2 + \frac{c_s^2}{R_A^2}(\nabla_\Omega\phi)^2 + m_\text{eff}^2\phi^2\right] \tag{23}$$
+$$S = \int dt\, d\Omega\, R_A^2 \left[(\partial_t\phi_{\rm can})^2 + \frac{c_s^2}{R_A^2}(\nabla_\Omega\phi_{\rm can})^2 + m_\text{eff}^2\phi_{\rm can}^2\right] \tag{23}$$
 
-e identificamos:
+El campo canónicamente normalizado se relaciona con la variable de perturbación del horizonte mediante:
 
-$$\psi \sim \phi \tag{24}$$
+$$\phi_{\rm can} = \frac{M_{\rm Pl}}{\sqrt{\varepsilon}}\,\psi \tag{24}$$
+
+Esta normalización está fijada por consistencia con la acción de Einstein–Hilbert de segundo orden en gauge comóvil: expandir la acción de GR alrededor de FRW e imponer el constraint comóvil da $S^{(2)}_{\rm GR}(\psi) = (M_{\rm Pl}^2/\varepsilon)\int d^4x\,a^3[\dot\psi^2 - (\nabla\psi)^2/a^2]$, del cual $\phi_{\rm can} = (M_{\rm Pl}/\sqrt{\varepsilon})\psi$ es el campo con coeficiente cinético unitario. Con esta identificación, el vacío de Bunch–Davies da $\Delta^2_{\phi_{\rm can}} = H^2/(2\pi^2)$, que produce $\Delta^2_{\mathcal{R}} = H^2/(2\pi^2\varepsilon M_{\rm Pl}^2)$, consistente con el resultado estándar. Para el campo de horizonte mínimo, $c_s = 1$, sin introducir ningún parámetro adimensional nuevo más allá de los ya presentes en el fondo. La acción (23) se introduce aquí como descripción efectiva; su derivación bottom-up desde la geometría del horizonte de atrapamiento es un problema abierto tratado en la nota técnica compañera.
 
 ---
 
@@ -190,9 +192,13 @@ $$m_\text{eff}^2 = \beta_S H^2 \tag{32}$$
 
 se obtiene:
 
-$$n_s - 1 \approx -2\beta_S \tag{33}$$
+$$n_s - 1 = 3 - 2\nu \approx -2\varepsilon + \frac{2\beta_S}{3} \tag{33}$$
 
-El coeficiente $-2$ sigue por analogía con la dinámica de un campo escalar en un fondo de de Sitter; una derivación rigurosa a partir de la acción del campo del horizonte (23) sigue siendo un problema abierto.
+Para el campo de horizonte mínimo ($\beta_S = 0$, de la estructura conforme bidimensional de la acción), esto se reduce a
+
+$$n_s - 1 = -\frac{d\ln S}{d\ln a} \tag{33a}$$
+
+donde $S = \pi R_A^2/G$ es la entropía del horizonte. El tilt es igual a menos la tasa de crecimiento fraccional de la entropía del horizonte por e-fold. La derivación completa de $\varepsilon$ y $\beta_S$ a partir de cantidades intrínsecas del horizonte se da en el documento compañero *Spectral Tilt from Horizon Thermodynamics*.
 
 ---
 
@@ -217,14 +223,39 @@ El marco proporciona una descripción dual:
 
 ---
 
-## 13. Limitaciones y Problemas Abiertos
+## 13. Estructura del Programa y Problemas Abiertos
+
+Los resultados de este marco ocupan tres niveles epistémicos distintos. Su separación es esencial para evaluar el estado actual del programa e identificar direcciones de investigación productivas.
+
+**Nivel 1 — Resultados establecidos.** Los siguientes se sostienen independientemente de cualquier cálculo pendiente y sobreviven cualquier revisión futura del sector escalar:
+
+- Recuperación de la dinámica de Friedmann desde la termodinámica del horizonte (Sección 3; enfoque Cai–Kim 2005)
+- Variable de perturbación del horizonte $\psi = \delta R_A/R_A$ y su relación con perturbaciones de densidad: $\delta\rho/\rho = -2\psi$ en el límite súper-horizonte (documento compañero *The Boundary–Bulk Relation from Gauss–Codazzi*)
+- Relación gauge-invariante $\mathcal{R} = [(1+\varepsilon)/\varepsilon]\,\psi$, exacta en escalas súper-horizonte (documento compañero *Gauge-Invariant Formulation of the Horizon Perturbation*)
+- Normalización canónica $\phi_{\rm can} = (M_{\rm Pl}/\sqrt{\varepsilon})\,\psi$, fijada por consistencia con la acción de Einstein–Hilbert en gauge comóvil (ec. 24 arriba)
+- Espectro y tilt $n_s - 1 = -2\varepsilon + 2\beta_S/3$ (documentos compañeros *Scale Invariance from Horizon Field Quantization* y *Spectral Tilt from Horizon Thermodynamics*)
+- Sector tensorial completo: $n_T = -2\varepsilon$, $\Delta_h^2 = 2H^2/(\pi^2 M_{\rm Pl}^2)$, $r = 16\varepsilon$, relación de consistencia $r = -8n_T$ (documento compañero *Tensor Perturbations from the Horizon Boundary*, derivado por reducción dimensional desde la acción tensorial de Einstein–Hilbert)
+- CHF mínimo ($\beta_S = 0$) excluido al 95% CL por Planck 2018; se requiere $\beta_S < -0.042$
+
+**Nivel 2 — Resultados consistentes con la EFT.** Los siguientes son correctos dentro del marco pero dependen de importar estructura estándar de GR:
+
+- La acción (23) es consistente con $S^{(2)}_{\rm GR}(\psi)$ obtenida vía reducción EH $\to$ ADM $\to$ gauge comóvil. Esta es una verificación top-down, no una derivación bottom-up.
+- La normalización de la ec. (24) se establece por esta ruta top-down. La ruta alternativa bottom-up (desde la geometría del horizonte de atrapamiento directamente) es objeto del Nivel 3.
+- La conjetura $\beta_S = c_{\rm geom}\,\varepsilon$ para alguna constante $c_{\rm geom}$ determinada geométricamente está motivada pero no demostrada.
+
+**Nivel 3 — Programa abierto.** El problema abierto central del sector escalar es:
+
+$$\delta^2 S_{\rm trapping}\big|_{\mathcal{H}} \stackrel{?}{=} \frac{M_{\rm Pl}^2}{\varepsilon}\int dt\,d\Omega\left[\dot\psi^2 - H^2(\nabla_\Omega\psi)^2 + \beta_{\rm geom}H^2\psi^2\right]$$
+
+Si esta igualdad se sostiene — con la acción del horizonte de atrapamiento de Hayward (1994) como punto de partida — el sector escalar adquiere una derivación bottom-up estructuralmente paralela al sector tensorial. Si falla, la acción (23) permanece como un postulado consistente con la EFT apoyado por verificación top-down, y el marco permanece como una reinterpretación coherente de GR estándar centrada en el borde, en lugar de una teoría independiente.
+
+Esta pregunta está precisamente formulada y actualmente abierta. El obstáculo técnico es el cálculo de $\delta^2(\Box_h R)$ en la métrica FRW perturbada, que determina si las cancelaciones de constraints de GR que eliminan los términos $\psi^2$ en la acción ADM del bulk operan idénticamente en el borde del horizonte de atrapamiento. El cálculo se desarrolla en la nota técnica compañera.
+
+**Problemas abiertos adicionales:**
 
 - Sin modelo microscópico de los grados de libertad del horizonte
-- Relación gauge-invariante $\mathcal{R} = [(1+\varepsilon)/\varepsilon]\,\psi$ y corrección de amplitud $P_\mathcal{R} \approx P_\psi/\varepsilon^2$ derivadas en el documento compañero *Gauge-Invariant Formulation of the Horizon Perturbation*
-- Espectro escala-invariante (ec. 29) e inclinación espectral (ec. 33) derivados desde cuantización canónica y condiciones de Bunch–Davies en *Scale Invariance from Horizon Field Quantization*
-- Tilt expresado como tasa de entropía del horizonte $n_s - 1 = -(d\ln S)/(d\ln a)$ y masa efectiva derivada de la estructura conforme 2D en *Spectral Tilt from Horizon Thermodynamics*
-- Perturbaciones tensoriales derivadas en *Tensor Perturbations from the Horizon Boundary*: $n_T = -2\varepsilon$, $\Delta_h^2 = 2H^2/(\pi^2 M_{\rm Pl}^2)$, $r = 16\varepsilon$, CHF mínimo excluido al 95% CL; se requiere $\beta_S < -0.042$
-- Pendiente: determinación dinámica de $\varepsilon$ desde el propio marco; función de transferencia sub-horizonte
+- Determinación dinámica de $\varepsilon$ (o equivalentemente $\dot{S}$) desde cantidades intrínsecas del horizonte, sin input del inflaton bulk
+- Función de transferencia sub-horizonte: dependencia completa en $k$ de la relación $\psi_k \to \delta\rho/\rho$ para $k \gg aH$
 
 ---
 

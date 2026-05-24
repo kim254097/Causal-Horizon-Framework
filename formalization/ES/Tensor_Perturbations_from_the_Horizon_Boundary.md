@@ -14,7 +14,7 @@ Los Pasos 1–4 del Marco del Horizonte Causal derivaron el espectro de potencia
 
 El Paso 5 identificó tres predicciones diferenciales del CHF. La más aguda fue la línea de consistencia $(n_s, r)$: $r = 8(1-n_s)$, que requirió asumir $r = 16\varepsilon$ — un resultado tomado prestado del cálculo estándar en el bulk y aún no derivado dentro del CHF. El Paso 5 dejó abiertas dos posibilidades: o bien el espectro tensorial del CHF coincide con el resultado estándar ($r = 16\varepsilon$ confirmado, marco mínimo falsificado), o bien difiere (relación de consistencia estándar rota, marco viable). El presente documento resuelve esto derivando el espectro de potencias tensorial directamente desde el borde del horizonte.
 
-La estructura de la derivación es paralela al Paso 1 (cuantización escalar). Las dos polarizaciones tensoriales se identifican como campos en la dos-esfera del horizonte, se deriva una acción de borde por reducción dimensional desde la acción de Einstein–Hilbert en el bulk, y la ecuación de modo se obtiene mediante la identificación de modos comóviles $l_k(t) = k/(a(t)H(t))$ introducida en el Paso 1. El nuevo ingrediente clave es la distinción física entre perturbaciones escalares (de tamaño) y tensoriales (de forma) del horizonte, que determina por qué $z_T = a$ y no $z_A = a/\sqrt\varepsilon$.
+La estructura de la derivación es paralela al Paso 3 (cuantización escalar). Las dos polarizaciones tensoriales se identifican como campos en la dos-esfera del horizonte, se deriva una acción de borde por reducción dimensional desde la acción de Einstein–Hilbert en el bulk, y la ecuación de modo se obtiene mediante la identificación de modos comóviles $l_k(t) = k/(a(t)H(t))$ introducida en el Paso 3. El nuevo ingrediente clave es la distinción física entre perturbaciones escalares (de tamaño) y tensoriales (de forma) del horizonte, que determina por qué $z_T = a$ y no $z_A = a/\sqrt\varepsilon$.
 
 ---
 
@@ -32,7 +32,7 @@ donde $e^i_A$ son los vectores tangentes a la dos-esfera y $\gamma_{AB}$ es la m
 
 ### 2.2 Identificación de modos
 
-Cada modo de polarización $h_k^\lambda(t)$ con número de onda comóvil $k$ se identifica con el modo angular $l_k(t) = k/(a(t)H(t))$ en la dos-esfera del horizonte, exactamente como en el caso escalar (Paso 1, ec. (2)). El congelamiento ocurre cuando $l_k = 1$, es decir, $k = a(t_k)H$, que es la condición estándar de cruce del horizonte.
+Cada modo de polarización $h_k^\lambda(t)$ con número de onda comóvil $k$ se identifica con el modo angular $l_k(t) = k/(a(t)H(t))$ en la dos-esfera del horizonte, exactamente como en el caso escalar (Paso 3, ec. (2)). El congelamiento ocurre cuando $l_k = 1$, es decir, $k = a(t_k)H$, que es la condición estándar de cruce del horizonte.
 
 ---
 
@@ -64,7 +64,7 @@ Esta es la **ecuación de Mukhanov–Sasaki para modos tensoriales**, con campo 
 
 ### 3.3 Comparación con el caso escalar
 
-En el Paso 1, la variable canónica escalar era $u_k = z_A\psi_k$ con $z_A = a/\sqrt\varepsilon$. Para modos tensoriales, el campo bomba es simplemente $z_T = a$. Específicamente:
+En el Paso 3, la variable canónica escalar era $u_k = z_A\psi_k$ con $z_A = a/\sqrt\varepsilon$. Para modos tensoriales, el campo bomba es simplemente $z_T = a$. Específicamente:
 
 $$\frac{a''}{a} = \mathcal{H}^2(2 + \varepsilon + \cdots), \qquad \frac{z_A''}{z_A} = \mathcal{H}^2(2 + 3\varepsilon + \cdots) \tag{6}$$
 
@@ -96,7 +96,7 @@ La ecuación de modo tensorial (5) se convierte en:
 
 $$\mu_k^{\lambda,''} + \left[k^2 - \frac{\nu_T^2 - \tfrac{1}{4}}{\eta^2}\right]\mu_k^\lambda = 0 \tag{8}$$
 
-Esta tiene la misma forma que la ecuación escalar (Paso 1, ec. (17)) con $\nu_S = 3/2 + \varepsilon - \beta_S/3$. Para $\beta_S = 0$: $\nu_S = \nu_T = 3/2 + \varepsilon$. Las dos ecuaciones de modo son idénticas a este orden.
+Esta tiene la misma forma que la ecuación escalar (Paso 3, ec. (17)) con $\nu_S = 3/2 + \varepsilon - \beta_S/3$. Para $\beta_S = 0$: $\nu_S = \nu_T = 3/2 + \varepsilon$. Las dos ecuaciones de modo son idénticas a este orden.
 
 ### 5.2 Condiciones iniciales de Bunch–Davies
 
@@ -104,7 +104,7 @@ En tiempos tempranos ($|k\eta| \gg 1$), la ecuación (8) se reduce a un oscilado
 
 $$\mu_k^\lambda(\eta) \xrightarrow{|k\eta|\to\infty} \frac{1}{\sqrt{2k}}\,e^{-ik\eta} \tag{9}$$
 
-Esta es la única elección compatible con el vacío de Minkowski local en escalas sub-horizonte, y es la misma condición impuesta para los modos escalares en el Paso 1.
+Esta es la única elección compatible con el vacío de Minkowski local en escalas sub-horizonte, y es la misma condición impuesta para los modos escalares en el Paso 3.
 
 ### 5.3 Solución exacta y amplitud en el congelamiento
 

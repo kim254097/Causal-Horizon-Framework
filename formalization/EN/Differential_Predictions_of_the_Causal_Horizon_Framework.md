@@ -32,7 +32,7 @@ This two-parameter freedom means that, for a given observed tilt $n_s$, the slow
 
 ### 2.2 The CHF scalar sector
 
-The CHF (Steps 1–3) gives:
+The CHF (Steps 1–4) gives:
 
 $$n_s - 1 = -2\varepsilon + \frac{2\beta_S}{3}, \qquad \varepsilon = \frac{1}{2}\frac{d\ln S}{d\ln a} \tag{2}$$
 
@@ -42,7 +42,7 @@ $$n_s - 1 = -2\varepsilon \qquad (\text{minimal CHF}) \tag{3}$$
 
 This is a single-parameter relation: given the observed $n_s$, $\varepsilon$ is uniquely fixed to $(1-n_s)/2$. The second slow-roll parameter $\eta'$ that appears in standard inflation is absent from the CHF at this order.
 
-The structural origin of this difference is the following. In standard inflation, the mode variable is $u_k = z\mathcal{R}_k$ with $z = a\sqrt{2\varepsilon}\,M_{\rm Pl}$. The effective potential in the mode equation is $z''/z$, which involves both $\varepsilon$ and $\eta' = \dot\varepsilon/(H\varepsilon)$ at leading slow-roll order. In the CHF, the mode variable is $u_k = z_A\psi_k$ with $z_A = a/\sqrt{\varepsilon}$. The effective potential $z_A''/z_A$ involves $\varepsilon$ at leading order but the $\eta'$ correction enters at a different subleading level, effectively absent from the tilt at the order computed in Step 1. For power-law inflation ($\eta' = 0$), the two mode equations are equivalent. For general slow-roll ($\eta' \neq 0$), the CHF and the bulk description predict different tilts for the same background.
+The structural origin of this difference is the following. In standard inflation, the mode variable is $u_k = z\mathcal{R}_k$ with $z = a\sqrt{2\varepsilon}\,M_{\rm Pl}$. The effective potential in the mode equation is $z''/z$, which involves both $\varepsilon$ and $\eta' = \dot\varepsilon/(H\varepsilon)$ at leading slow-roll order. In the CHF, the mode variable is $u_k = z_A\psi_k$ with $z_A = a/\sqrt{\varepsilon}$. The effective potential $z_A''/z_A$ involves $\varepsilon$ at leading order but the $\eta'$ correction enters at a different subleading level, effectively absent from the tilt at the order computed in Step 3. For power-law inflation ($\eta' = 0$), the two mode equations are equivalent. For general slow-roll ($\eta' \neq 0$), the CHF and the bulk description predict different tilts for the same background.
 
 ---
 

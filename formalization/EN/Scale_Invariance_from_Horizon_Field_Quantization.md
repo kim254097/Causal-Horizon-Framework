@@ -16,7 +16,7 @@ In the horizon-centered formalization (Document 5 of the Causal Horizon Framewor
 
 $$S = \int dt\, d\Omega\, R_A^2 \left[(\partial_t \phi)^2 + \frac{c_s^2}{R_A^2}(\nabla_\Omega \phi)^2 + m_\text{eff}^2 \phi^2\right] \tag{1}$$
 
-and the identification $\psi \sim \phi$ links boundary fluctuations to the cosmological perturbation variable $\psi = \delta R_A / R_A$.
+and the identification $\psi \sim \phi$ links boundary fluctuations to the cosmological perturbation variable $\psi = \delta R_A / R_A$. For the minimal horizon field, $c_s = 1$, introducing no new dimensionless parameter beyond those already present in the background; all derivations below adopt this value.
 
 Two results were left underived:
 
@@ -101,7 +101,7 @@ where $z_A(\eta) \equiv a(\eta)/\sqrt{\varepsilon(\eta)}$ and primes denote $d/d
 
 $$u_k'' + \left[c_s^2 k^2 - \frac{z_A''}{z_A}\right]u_k = 0 \tag{14}$$
 
-This is the **Mukhanov–Sasaki equation** for the horizon perturbation $\psi_k$, derived here directly from the horizon field action (1) through the comoving mode identification.
+This is the **Mukhanov–Sasaki equation** for the horizon perturbation $\psi_k$. The equation is obtained by recasting the horizon field action (1) in the Mukhanov variable $u_k = z_A\psi_k$ through the comoving mode identification. The structural equivalence with the standard MS equation reflects the EFT consistency of the horizon field description with GR (the two share the same mode equation because $z_A = a/\sqrt\varepsilon$ coincides with the standard pump field when $\psi = \varepsilon\mathcal{R}$); it is not an independent derivation of the MS equation from boundary-first principles.
 
 ### 4.2 Effective potential for de Sitter
 

@@ -236,7 +236,7 @@ Document 5 did not provide the extension of (16) to finite $k$. The full result 
 
 ### Equation (4) of the gauge-invariant companion document (Step 2)
 
-The Hamiltonian constraint in that document originally had a sign error: $-3H(\dot\Phi + H\Phi) + k^2\Phi/a^2 = 4\pi G\delta\rho$. This was corrected in Step 8. The correct form, derived here from the Gauss constraint, is:
+The Hamiltonian constraint in that document originally had a sign error: $-3H(\dot\Phi + H\Phi) + k^2\Phi/a^2 = 4\pi G\delta\rho$. This was corrected in Step 1. The correct form, derived here from the Gauss constraint, is:
 
 $$3H(\dot\Phi + H\Phi) + \frac{k^2\Phi}{a^2} = -4\pi G\,\delta\rho \tag{33}$$
 

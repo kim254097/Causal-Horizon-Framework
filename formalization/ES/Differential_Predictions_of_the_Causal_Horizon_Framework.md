@@ -32,7 +32,7 @@ Esta libertad de dos parámetros significa que, para un tilt observado $n_s$ dad
 
 ### 2.2 El sector escalar del CHF
 
-El CHF (Pasos 1–3) da:
+El CHF (Pasos 1–4) da:
 
 $$n_s - 1 = -2\varepsilon + \frac{2\beta_S}{3}, \qquad \varepsilon = \frac{1}{2}\frac{d\ln S}{d\ln a} \tag{2}$$
 
@@ -42,7 +42,7 @@ $$n_s - 1 = -2\varepsilon \qquad (\text{CHF mínimo}) \tag{3}$$
 
 Esta es una relación de un solo parámetro: dado el $n_s$ observado, $\varepsilon$ queda fijado unívocamente a $(1-n_s)/2$. El segundo parámetro de rodadura lenta $\eta'$ que aparece en la inflación estándar está ausente del CHF a este orden.
 
-El origen estructural de esta diferencia es el siguiente. En la inflación estándar, la variable del modo es $u_k = z\mathcal{R}_k$ con $z = a\sqrt{2\varepsilon}\,M_{\rm Pl}$. El potencial efectivo en la ecuación del modo, $z''/z$, involucra tanto $\varepsilon$ como $\eta' = \dot\varepsilon/(H\varepsilon)$ a orden líder en rodadura lenta. En el CHF, la variable del modo es $u_k = z_A\psi_k$ con $z_A = a/\sqrt{\varepsilon}$. El potencial efectivo $z_A''/z_A$ involucra $\varepsilon$ a orden líder, pero la corrección por $\eta'$ entra a un nivel subleader diferente, efectivamente ausente del tilt al orden calculado en el Paso 1. Para la inflación en ley de potencias ($\eta' = 0$), las dos ecuaciones de modo son equivalentes. Para la rodadura lenta general ($\eta' \neq 0$), el CHF y la descripción en el bulk predicen tilts diferentes para el mismo fondo.
+El origen estructural de esta diferencia es el siguiente. En la inflación estándar, la variable del modo es $u_k = z\mathcal{R}_k$ con $z = a\sqrt{2\varepsilon}\,M_{\rm Pl}$. El potencial efectivo en la ecuación del modo, $z''/z$, involucra tanto $\varepsilon$ como $\eta' = \dot\varepsilon/(H\varepsilon)$ a orden líder en rodadura lenta. En el CHF, la variable del modo es $u_k = z_A\psi_k$ con $z_A = a/\sqrt{\varepsilon}$. El potencial efectivo $z_A''/z_A$ involucra $\varepsilon$ a orden líder, pero la corrección por $\eta'$ entra a un nivel subleader diferente, efectivamente ausente del tilt al orden calculado en el Paso 3. Para la inflación en ley de potencias ($\eta' = 0$), las dos ecuaciones de modo son equivalentes. Para la rodadura lenta general ($\eta' \neq 0$), el CHF y la descripción en el bulk predicen tilts diferentes para el mismo fondo.
 
 ---
 

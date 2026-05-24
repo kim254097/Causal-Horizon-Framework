@@ -162,11 +162,13 @@ En escalas sub-horizonte ($k \gg aH$), la ligadura hamiltoniana (4) se reduce a 
 
 $$\frac{k^2}{a^2}\Phi \approx -4\pi G\,\delta\rho \tag{22}$$
 
-De $\delta\rho/\rho = -2\psi$ (ec. (16) del Documento 5) y $4\pi G\rho = 3H^2/2$:
+Invirtiendo con $4\pi G\rho = 3H^2/2$: $\Phi = -\tfrac{3}{2}(aH/k)^2(\delta\rho/\rho)$. En escalas sub-horizonte, el documento compañero (Paso 1) da $\delta\rho/\rho \approx -\tfrac{2}{3}(k/aH)^2\psi$ (ec. (23) del Paso 1). Sustituyendo:
 
-$$\Phi \approx 3\left(\frac{aH}{k}\right)^2 \psi \quad (k \gg aH) \tag{23}$$
+$$\Phi \approx \psi \quad (k \gg aH) \tag{23}$$
 
-En escalas sub-horizonte, $\Phi \to 0$: la perturbación del horizonte $\psi$ oscila libremente (impulsada por ondas locales de densidad), mientras que $\mathcal{R}$ permanece congelada en su valor super-horizonte. La identificación (13) se desintegra para $k \sim aH$.
+La perturbación del horizonte rastrea así el potencial gravitacional newtoniano en escalas sub-horizonte; la razón $\Phi/\psi$ permanece del orden de la unidad. Lo que cambia es la relación con $\mathcal{R}$: $\mathcal{R}$ se conserva en su valor super-horizonte mientras $\psi$ continúa evolucionando con las ondas de densidad locales. La identificación gauge-invariante (13) deja por tanto de ser válida para $k \sim aH$ y es reemplazada por:
+
+$$\psi_\text{sub-horizonte} \sim -\frac{\dot{\Phi}}{H} \sim \frac{k}{aH}\,\psi_\text{super-horizonte} \tag{24}$$
 
 La relación relevante para la física del CMB es siempre el valor primordial, establecido en la salida del horizonte ($k = aH$) y recuperado por la fórmula super-horizonte (13).
 
@@ -176,25 +178,25 @@ La relación relevante para la física del CMB es siempre el valor primordial, e
 
 De la relación gauge-invariante (14):
 
-$$P_\mathcal{R}(k) = \left(\frac{1+\varepsilon}{\varepsilon}\right)^2 P_\psi(k) \tag{24}$$
+$$P_\mathcal{R}(k) = \left(\frac{1+\varepsilon}{\varepsilon}\right)^2 P_\psi(k) \tag{25}$$
 
 Para inflación de rodadura lenta ($\varepsilon \ll 1$):
 
-$$P_\mathcal{R}(k) \approx \frac{P_\psi(k)}{\varepsilon^2} \tag{25}$$
+$$P_\mathcal{R}(k) \approx \frac{P_\psi(k)}{\varepsilon^2} \tag{26}$$
 
-Combinando con el resultado del documento compañero sobre cuantización (Paso 1, ec. (27)), donde $\Delta_\psi^2(k) = (H^2/(2\pi^2 c_s))\,k^{n_s-1}$:
+Combinando con el resultado del documento compañero sobre cuantización (Paso 3, ec. (27)), donde $\Delta_\psi^2(k) = (H^2/(2\pi^2 c_s))\,k^{n_s-1}$:
 
-$$P_\mathcal{R}(k) \approx \frac{P_\psi(k)}{\varepsilon^2}, \qquad \Delta_\mathcal{R}^2 = \frac{\Delta_\psi^2}{\varepsilon^2} \tag{26}$$
+$$P_\mathcal{R}(k) \approx \frac{P_\psi(k)}{\varepsilon^2}, \qquad \Delta_\mathcal{R}^2 = \frac{\Delta_\psi^2}{\varepsilon^2} \tag{27}$$
 
 La amplitud es
 
-$$\Delta_\mathcal{R}^2 = \frac{H^2}{2\pi^2 c_s \varepsilon^2} \tag{27}$$
+$$\Delta_\mathcal{R}^2 = \frac{H^2}{2\pi^2 c_s \varepsilon^2} \tag{28}$$
 
 Esto coincide con el resultado estándar de inflación de rodadura lenta $\Delta_\mathcal{R}^2 = H^2/(8\pi^2\varepsilon M_\text{Pl}^2)$ salvo factores de normalización determinados por las convenciones de unidades de la acción del campo de horizonte.
 
 El **tilt espectral** no cambia:
 
-$$n_s - 1 = \frac{d\ln P_\mathcal{R}}{d\ln k} = \frac{d\ln P_\psi}{d\ln k} \tag{28}$$
+$$n_s - 1 = \frac{d\ln P_\mathcal{R}}{d\ln k} = \frac{d\ln P_\psi}{d\ln k} \tag{29}$$
 
 ya que el factor $(1+\varepsilon)^2/\varepsilon^2$ evaluado en el cruce del horizonte ($k = aH$) tiene una dependencia en $k$ de orden $\varepsilon$ o $\eta_\varepsilon \equiv \dot{\varepsilon}/(H\varepsilon)$, que son correcciones sub-líderes de rodadura lenta ya incluidas en la fórmula $n_s - 1 = 3 - 2\nu$ del documento de cuantización. El resultado del tilt es así robusto a la corrección de amplitud.
 
@@ -208,7 +210,7 @@ Este documento corrigió dos elementos de la formalización original:
 
 Reemplazada por el resultado gauge-invariante exacto en escalas super-horizonte:
 
-$$\mathcal{R} = \frac{1+\varepsilon}{\varepsilon}\,\psi \tag{29}$$
+$$\mathcal{R} = \frac{1+\varepsilon}{\varepsilon}\,\psi \tag{30}$$
 
 La identificación $\mathcal{R} \sim \psi$ es válida en orden de magnitud cuando $\varepsilon = \mathcal{O}(1)$ (dominación de radiación/materia). Durante la inflación de rodadura lenta, $\mathcal{R} = \psi/\varepsilon \gg \psi$.
 
@@ -216,7 +218,7 @@ La identificación $\mathcal{R} \sim \psi$ es válida en orden de magnitud cuand
 
 Reemplazada por:
 
-$$P_\mathcal{R}(k) = \left(\frac{1+\varepsilon}{\varepsilon}\right)^2 P_\psi(k) \approx \frac{P_\psi(k)}{\varepsilon^2} \quad (\varepsilon \ll 1) \tag{30}$$
+$$P_\mathcal{R}(k) = \left(\frac{1+\varepsilon}{\varepsilon}\right)^2 P_\psi(k) \approx \frac{P_\psi(k)}{\varepsilon^2} \quad (\varepsilon \ll 1) \tag{31}$$
 
 La forma espectral es la misma; solo difiere la amplitud.
 

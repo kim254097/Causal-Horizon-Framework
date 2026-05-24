@@ -179,7 +179,13 @@ $$V = -\frac{\dot\Phi + H\Phi}{\varepsilon H^2} \tag{25}$$
 Para el modo creciente en escalas super-horizonte ($\dot\Phi = 0$, $k \to 0$):
 $$V_\text{super-horiz} = -\frac{H\Phi}{\varepsilon H^2} = -\frac{\psi}{\varepsilon H} \tag{26}$$
 
-El potencial de velocidad es $V = -\psi/(\varepsilon H)$ a orden líder, mostrando que la ecuación de Codazzi proporciona un campo de velocidades del bulk consistente generado por la perturbación del horizonte $\psi$.
+Para el modo creciente en escalas sub-horizonte, desde la restricción hamiltoniana sub-horizonte:
+$$\frac{k^2\Phi}{a^2} \approx -4\pi G\,\delta\rho \quad \Rightarrow \quad \dot\Phi \approx \frac{-k^2/(4\pi G\,a^2) - \delta\dot\rho}{...} \tag{27}$$
+
+En el límite cuasi-estático sub-horizonte ($\dot\Phi \approx 0$):
+$$V_\text{sub-horiz} = -\frac{H\psi}{\varepsilon H^2} = -\frac{\psi}{\varepsilon H} \tag{28}$$
+
+El potencial de velocidad es $V = -\psi/(\varepsilon H)$ a orden líder en ambos límites, mostrando que la ecuación de Codazzi proporciona un campo de velocidades del bulk consistente generado por la perturbación del horizonte $\psi$ en ambos regímenes.
 
 ---
 
@@ -188,13 +194,13 @@ El potencial de velocidad es $V = -\psi/(\varepsilon H)$ a orden líder, mostran
 El límite super-horizonte (ec. 21) admite una interpretación física clara en la **aproximación de universo separado**: para $k \ll aH$, cada parche de tamaño Hubble del universo evoluciona como un universo FRW independiente con sus propios parámetros locales $H_\text{loc}$ y $\rho_\text{loc}$.
 
 Cada parche satisface la restricción de Gauss local:
-$$H_\text{loc}^2 = \frac{8\pi G}{3}\rho_\text{loc} \tag{27}$$
+$$H_\text{loc}^2 = \frac{8\pi G}{3}\rho_\text{loc} \tag{29}$$
 
 Escribiendo $H_\text{loc} = H + \delta H$ y $\rho_\text{loc} = \rho + \delta\rho$:
-$$2H\,\delta H = \frac{8\pi G}{3}\,\delta\rho \tag{28}$$
+$$2H\,\delta H = \frac{8\pi G}{3}\,\delta\rho \tag{30}$$
 
 Usando $4\pi G\rho = 3H^2/2$ y $\psi = -\delta H/H$:
-$$\frac{\delta\rho}{\rho} = \frac{2\,\delta H}{H} = -2\psi \tag{29}$$
+$$\frac{\delta\rho}{\rho} = \frac{2\,\delta H}{H} = -2\psi \tag{31}$$
 
 Esto es idéntico a (17). La derivación de la restricción de Gauss es la justificación geométrica de la aproximación de universo separado: se cumple precisamente cuando el término de gradiente espacial $k^2\Phi/a^2$ en (11) es despreciable comparado con $3H^2\Phi$ — es decir, cuando $k \ll aH$.
 
@@ -204,9 +210,11 @@ Esto es idéntico a (17). La derivación de la restricción de Gauss es la justi
 
 La ecuación (17) se deriva en **gauge de Newton** con la identificación $\psi \approx \Phi$ (válida en escalas super-horizonte; ver Paso 2). En un gauge general, el enunciado apropiado es:
 
-$$\frac{\delta\rho}{\rho}\bigg|_\text{comóvil} = -2\psi_\text{comóvil} + \mathcal{O}\!\left(\frac{k^2}{a^2H^2}\right) \tag{30}$$
+$$\frac{\delta\rho}{\rho}\bigg|_\text{comóvil} = -2\psi_\text{comóvil} + \mathcal{O}\!\left(\frac{k^2}{a^2H^2}\right) \tag{32}$$
 
-donde tanto $\delta\rho$ como $\psi$ se evalúan en el gauge comóvil. La relación $\delta\rho/\rho = -2\psi$ se cumple precisamente cuando:
+donde tanto $\delta\rho$ como $\psi$ se evalúan en el gauge comóvil (4-velocidad del fluido sin perturbar). En el gauge comóvil: $\psi_\text{comóvil} = \varepsilon/(1+\varepsilon) \times \mathcal{R}$ (del Paso 2), por lo que (32) es consistente con la conservación super-horizonte estándar de $\mathcal{R}$.
+
+La relación $\delta\rho/\rho = -2\psi$ se cumple precisamente cuando:
 
 1. La condición super-horizonte $k \ll aH$ se satisface
 2. La condición de modo creciente $\dot\Phi \approx 0$ se cumple
@@ -228,9 +236,9 @@ El Documento 5 no proporcionaba la extensión de (16) a $k$ finito. El resultado
 
 ### Error de signo en el documento compañero (Paso 2)
 
-La restricción hamiltoniana en ese documento tenía originalmente un error de signo: $-3H(\dot\Phi + H\Phi) + k^2\Phi/a^2 = 4\pi G\delta\rho$. Esto fue corregido en el Paso 8. La forma correcta, derivada aquí, es:
+La restricción hamiltoniana en ese documento tenía originalmente un error de signo: $-3H(\dot\Phi + H\Phi) + k^2\Phi/a^2 = 4\pi G\delta\rho$. Esto fue corregido en el Paso 1. La forma correcta, derivada aquí, es:
 
-$$3H(\dot\Phi + H\Phi) + \frac{k^2\Phi}{a^2} = -4\pi G\,\delta\rho \tag{31}$$
+$$3H(\dot\Phi + H\Phi) + \frac{k^2\Phi}{a^2} = -4\pi G\,\delta\rho \tag{33}$$
 
 El resultado super-horizonte $\delta\rho/\rho = -2\psi$ no está afectado por esta corrección; solo la extensión sub-horizonte (ec. 23) cambia de signo.
 

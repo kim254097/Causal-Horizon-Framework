@@ -168,11 +168,11 @@ On sub-horizon scales ($k \gg aH$), the Hamiltonian constraint (4) reduces to th
 
 $$\frac{k^2}{a^2}\Phi \approx -4\pi G\,\delta\rho \tag{23}$$
 
-From $\delta\rho/\rho = -2\psi$ (eq. (16) of Document 5) and $4\pi G\rho = 3H^2/2$:
+Inverting with $4\pi G\rho = 3H^2/2$: $\Phi = -\tfrac{3}{2}(aH/k)^2(\delta\rho/\rho)$. On sub-horizon scales, the companion document (Step 1) gives $\delta\rho/\rho \approx -\tfrac{2}{3}(k/aH)^2\psi$ (eq. (23) of Step 1). Substituting:
 
-$$\Phi \approx 3\left(\frac{aH}{k}\right)^2 \psi \quad (k \gg aH) \tag{24}$$
+$$\Phi \approx \psi \quad (k \gg aH) \tag{24}$$
 
-On sub-horizon scales, $\Phi \to 0$: the horizon perturbation $\psi$ oscillates freely (driven by local density waves), while $\mathcal{R}$ remains frozen at its super-horizon value. The identification (13) breaks down at $k \sim aH$ and is replaced by:
+The horizon perturbation thus tracks the Newtonian gravitational potential on sub-horizon scales; the ratio $\Phi/\psi$ remains of order unity. What changes is the relation to $\mathcal{R}$: $\mathcal{R}$ is conserved at its super-horizon value while $\psi$ continues to evolve with the local density waves. The gauge-invariant identification (13) therefore breaks down at $k \sim aH$ and is replaced by:
 
 $$\psi_\text{sub-horizon} \sim -\frac{\dot{\Phi}}{H} \sim \frac{k}{aH}\,\psi_\text{super-horizon} \tag{25}$$
 
@@ -190,7 +190,7 @@ For slow-roll inflation ($\varepsilon \ll 1$):
 
 $$P_\mathcal{R}(k) \approx \frac{P_\psi(k)}{\varepsilon^2} \tag{27}$$
 
-Combining with the result from the companion document on quantization (Step 1, eq. (27)), where $\Delta_\psi^2(k) = (H^2/(2\pi^2 c_s))\,k^{n_s-1}$:
+Combining with the result from the companion document on quantization (Step 3, eq. (27)), where $\Delta_\psi^2(k) = (H^2/(2\pi^2 c_s))\,k^{n_s-1}$:
 
 $$P_\mathcal{R}(k) \approx \frac{P_\psi(k)}{\varepsilon^2}, \qquad \Delta_\mathcal{R}^2 = \frac{\Delta_\psi^2}{\varepsilon^2} \tag{28}$$
 

@@ -6,11 +6,11 @@
 
 ## Abstract
 
-The companion documents on horizon field quantization (Step 1) and gauge-invariant perturbation theory (Step 2) derived the spectral tilt formula $n_s - 1 = 3 - 2\nu$ in terms of the parameter $\nu(\varepsilon, \beta_S)$, where $\varepsilon = -\dot{H}/H^2$ is the slow-roll parameter and $\beta_S = m_\text{eff}^2/H^2$ is the normalized effective mass of the horizon field. Both parameters were treated as inputs. This document derives them from within the horizon-centered framework: $\varepsilon$ is identified as half the fractional rate of change of the horizon entropy per e-fold, and $\beta_S = 0$ is established as the minimal choice consistent with the two-dimensional conformal structure of the horizon action. The resulting spectral tilt takes the form
+The companion documents on horizon field quantization (Step 3) and gauge-invariant perturbation theory (Step 2) derived the spectral tilt formula $n_s - 1 = 3 - 2\nu$ in terms of the parameter $\nu(\varepsilon, \beta_S)$, where $\varepsilon = -\dot{H}/H^2$ is the slow-roll parameter and $\beta_S = m_\text{eff}^2/H^2$ is the normalized effective mass of the horizon field. Both parameters were treated as inputs. This document derives them from within the horizon-centered framework: $\varepsilon$ is identified as half the fractional rate of change of the horizon entropy per e-fold, and $\beta_S = 0$ is established as the minimal choice consistent with the two-dimensional conformal structure of the horizon action. The resulting spectral tilt takes the form
 
 $$n_s - 1 = -\frac{d\ln S}{d\ln a}$$
 
-where $S = \pi R_A^2 / G$ is the horizon entropy. This is the first expression of the tilt entirely in terms of intrinsic horizon quantities, without importing parameters from bulk field theory. The observed value $n_s \approx 0.965$ translates to a horizon entropy growth rate of $3.5\%$ per e-fold during inflation.
+where $S = \pi R_A^2 / G$ is the horizon entropy. This is the tilt expressed without explicit reference to the bulk inflaton field: the parameter $\varepsilon = \frac{1}{2}d\ln S/d\ln a$ is defined intrinsically in terms of the horizon entropy, though it encodes the same dynamical information as the bulk slow-roll parameter. A derivation of the time evolution of $\varepsilon$ from intrinsic horizon quantities alone — without bulk input — remains an open problem of the framework. The observed value $n_s \approx 0.965$ translates to a horizon entropy growth rate of $3.5\%$ per e-fold during inflation.
 
 ---
 
@@ -130,7 +130,7 @@ Equation (13) holds to leading order in $\varepsilon$. The first subleading corr
 
 $$\eta_\varepsilon \equiv \frac{\dot{\varepsilon}}{H\varepsilon} = \frac{d\ln\varepsilon}{d\ln a} \tag{15}$$
 
-In the effective potential for the mode equation (Step 1, eq. (31)), the next term in the expansion gives
+In the effective potential for the mode equation (Step 3, eq. (31)), the next term in the expansion gives
 
 $$n_s - 1 = -2\varepsilon - \eta_\varepsilon + \mathcal{O}(\varepsilon^2) \tag{16}$$
 
@@ -183,7 +183,7 @@ Document 5 introduced $m_\text{eff}^2 = \beta_S H^2$ and stated $n_s - 1 \approx
 - The quantity called $\beta_S$ in Document 5 corresponds, in the notation of the quantization document, to the compound parameter $\beta_\nu = \varepsilon - \beta_S/3$ (eq. (34) of the quantization document).
 - For the minimal horizon field ($\beta_S = 0$): $\beta_\nu = \varepsilon$ and $n_s - 1 = -2\varepsilon = -2\beta_\nu$, which recovers Document 5's formula with the identification $\beta_\text{Doc5} = \varepsilon$.
 
-### Relation to the quantization document (Step 1)
+### Relation to the quantization document (Step 3)
 
 The derivation $n_s - 1 = 3 - 2\nu$ with $\nu \approx 3/2 + \varepsilon$ (for $\beta_S = 0$) established the functional form. The present document provides the physical content: $\varepsilon = (1/2)\, d\ln S/d\ln a$ and $\beta_S = 0$ from 2D conformal minimality.
 

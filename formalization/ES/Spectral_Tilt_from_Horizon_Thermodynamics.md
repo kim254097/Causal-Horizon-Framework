@@ -6,11 +6,11 @@
 
 ## Resumen
 
-Los documentos compañeros sobre cuantización del campo de horizonte (Paso 1) y teoría de perturbaciones gauge-invariante (Paso 2) derivaron la fórmula del tilt espectral $n_s - 1 = 3 - 2\nu$ en términos del parámetro $\nu(\varepsilon, \beta_S)$, donde $\varepsilon = -\dot{H}/H^2$ es el parámetro de rodadura lenta y $\beta_S = m_\text{eff}^2/H^2$ es la masa efectiva normalizada del campo de horizonte. Ambos parámetros fueron tratados como datos de entrada. Este documento los deriva desde el interior del marco centrado en el horizonte: $\varepsilon$ se identifica como la mitad de la tasa fraccional de cambio de la entropía del horizonte por e-fold, y $\beta_S = 0$ se establece como la elección mínima compatible con la estructura conforme bidimensional de la acción del horizonte. El tilt espectral resultante toma la forma
+Los documentos compañeros sobre cuantización del campo de horizonte (Paso 3) y teoría de perturbaciones gauge-invariante (Paso 2) derivaron la fórmula del tilt espectral $n_s - 1 = 3 - 2\nu$ en términos del parámetro $\nu(\varepsilon, \beta_S)$, donde $\varepsilon = -\dot{H}/H^2$ es el parámetro de rodadura lenta y $\beta_S = m_\text{eff}^2/H^2$ es la masa efectiva normalizada del campo de horizonte. Ambos parámetros fueron tratados como datos de entrada. Este documento los deriva desde el interior del marco centrado en el horizonte: $\varepsilon$ se identifica como la mitad de la tasa fraccional de cambio de la entropía del horizonte por e-fold, y $\beta_S = 0$ se establece como la elección mínima compatible con la estructura conforme bidimensional de la acción del horizonte. El tilt espectral resultante toma la forma
 
 $$n_s - 1 = -\frac{d\ln S}{d\ln a}$$
 
-donde $S = \pi R_A^2 / G$ es la entropía del horizonte. Esta es la primera expresión del tilt completamente en términos de cantidades intrínsecas del horizonte, sin importar parámetros de la teoría de campos en el bulk. El valor observado $n_s \approx 0.965$ se traduce en una tasa de crecimiento de la entropía del horizonte del $3.5\%$ por e-fold durante la inflación.
+donde $S = \pi R_A^2 / G$ es la entropía del horizonte. Esta es la expresión del tilt sin referencia explícita al campo inflaton del bulk: el parámetro $\varepsilon = \frac{1}{2}d\ln S/d\ln a$ se define intrínsecamente en términos de la entropía del horizonte, aunque codifica la misma información dinámica que el parámetro de rodadura lenta del bulk. Una derivación de la evolución temporal de $\varepsilon$ desde cantidades intrínsecas del horizonte únicamente — sin input del bulk — permanece como problema abierto del marco. El valor observado $n_s \approx 0.965$ se traduce en una tasa de crecimiento de la entropía del horizonte del $3.5\%$ por e-fold durante la inflación.
 
 ---
 
@@ -130,7 +130,7 @@ La ecuación (13) vale a orden líder en $\varepsilon$. La primera corrección s
 
 $$\eta_\varepsilon \equiv \frac{\dot{\varepsilon}}{H\varepsilon} = \frac{d\ln\varepsilon}{d\ln a} \tag{15}$$
 
-En el potencial efectivo para la ecuación modal (Paso 1, ec. (31)), el término siguiente en la expansión da
+En el potencial efectivo para la ecuación modal (Paso 3, ec. (31)), el término siguiente en la expansión da
 
 $$n_s - 1 = -2\varepsilon - \eta_\varepsilon + \mathcal{O}(\varepsilon^2) \tag{16}$$
 
@@ -183,7 +183,7 @@ El Documento 5 introdujo $m_\text{eff}^2 = \beta_S H^2$ y enunció $n_s - 1 \app
 - La cantidad llamada $\beta_S$ en el Documento 5 corresponde, en la notación del documento de cuantización, al parámetro compuesto $\beta_\nu = \varepsilon - \beta_S/3$ (ec. (34) del documento de cuantización).
 - Para el campo de horizonte mínimo ($\beta_S = 0$): $\beta_\nu = \varepsilon$ y $n_s - 1 = -2\varepsilon = -2\beta_\nu$, lo que recupera la fórmula del Documento 5 con la identificación $\beta_\text{Doc5} = \varepsilon$.
 
-### Relación con el documento de cuantización (Paso 1)
+### Relación con el documento de cuantización (Paso 3)
 
 La derivación $n_s - 1 = 3 - 2\nu$ con $\nu \approx 3/2 + \varepsilon$ (para $\beta_S = 0$) estableció la forma funcional. El presente documento provee el contenido físico: $\varepsilon = (1/2)\, d\ln S/d\ln a$ y $\beta_S = 0$ desde la minimalidad conforme 2D.
 

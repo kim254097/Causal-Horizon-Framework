@@ -16,7 +16,7 @@ En la formalización centrada en el horizonte (Documento 5 del Marco Causal de H
 
 $$S = \int dt\, d\Omega\, R_A^2 \left[(\partial_t \phi)^2 + \frac{c_s^2}{R_A^2}(\nabla_\Omega \phi)^2 + m_\text{eff}^2 \phi^2\right] \tag{1}$$
 
-y la identificación $\psi \sim \phi$ vincula las fluctuaciones de borde con la variable de perturbación cosmológica $\psi = \delta R_A / R_A$.
+y la identificación $\psi \sim \phi$ vincula las fluctuaciones de borde con la variable de perturbación cosmológica $\psi = \delta R_A / R_A$. Para el campo de horizonte mínimo, $c_s = 1$, sin introducir ningún parámetro adimensional nuevo más allá de los ya presentes en el fondo; todas las derivaciones a continuación adoptan este valor.
 
 Dos resultados quedaron sin derivar:
 
@@ -101,7 +101,7 @@ donde $z_A(\eta) \equiv a(\eta)/\sqrt{\varepsilon(\eta)}$. La variable $u_k \equ
 
 $$u_k'' + \left[c_s^2 k^2 - \frac{z_A''}{z_A}\right]u_k = 0 \tag{14}$$
 
-Esta es la **ecuación de Mukhanov–Sasaki** para la perturbación del horizonte $\psi_k$, derivada aquí directamente desde la acción (1) mediante la identificación del modo comóvil.
+Esta es la **ecuación de Mukhanov–Sasaki** para la perturbación del horizonte $\psi_k$. La ecuación se obtiene reescribiendo la acción del campo de horizonte (1) en la variable de Mukhanov $u_k = z_A\psi_k$ mediante la identificación del modo comóvil. La equivalencia estructural con la ecuación MS estándar refleja la consistencia EFT de la descripción del campo de horizonte con GR (ambas comparten la misma ecuación modal porque $z_A = a/\sqrt\varepsilon$ coincide con el campo de bombeo estándar cuando $\psi = \varepsilon\mathcal{R}$); no es una derivación independiente de la ecuación MS desde principios puramente de borde.
 
 ### 4.2 Potencial efectivo para de Sitter
 

@@ -140,15 +140,17 @@ The spectral shape is identical; only the amplitude differs by the factor $[(1+\
 
 We introduce an effective scalar field defined on the horizon:
 
-$$\phi(\Omega, t) \tag{22}$$
+$$\phi_{\rm can}(\Omega, t) \tag{22}$$
 
 with action:
 
-$$S = \int dt\, d\Omega\, R_A^2 \left[(\partial_t\phi)^2 + \frac{c_s^2}{R_A^2}(\nabla_\Omega\phi)^2 + m_\text{eff}^2\phi^2\right] \tag{23}$$
+$$S = \int dt\, d\Omega\, R_A^2 \left[(\partial_t\phi_{\rm can})^2 + \frac{c_s^2}{R_A^2}(\nabla_\Omega\phi_{\rm can})^2 + m_\text{eff}^2\phi_{\rm can}^2\right] \tag{23}$$
 
-and identify:
+The canonically normalized field is related to the horizon perturbation variable by:
 
-$$\psi \sim \phi \tag{24}$$
+$$\phi_{\rm can} = \frac{M_{\rm Pl}}{\sqrt{\varepsilon}}\,\psi \tag{24}$$
+
+This normalization is fixed by consistency with the second-order Einstein–Hilbert action in comoving gauge: expanding the bulk GR action around FRW and imposing the comoving constraint yields $S^{(2)}_{\rm GR}(\psi) = (M_{\rm Pl}^2/\varepsilon)\int d^4x\,a^3[\dot\psi^2 - (\nabla\psi)^2/a^2]$, from which $\phi_{\rm can} = (M_{\rm Pl}/\sqrt{\varepsilon})\psi$ is the field with unit kinetic coefficient. With this identification, the Bunch–Davies vacuum gives $\Delta^2_{\phi_{\rm can}} = H^2/(2\pi^2)$, which yields $\Delta^2_{\mathcal{R}} = H^2/(2\pi^2\varepsilon M_{\rm Pl}^2)$, consistent with the standard result. For the minimal horizon field, $c_s = 1$, introducing no new dimensionless parameter beyond those already in the background. The action (23) is introduced here as an effective description; its boundary-first derivation from the trapping horizon geometry is an open problem addressed in the companion technical note.
 
 ---
 
@@ -225,14 +227,39 @@ The framework provides a dual description:
 
 ---
 
-## 13. Limitations and Open Problems
+## 13. Program Structure and Open Problems
+
+The results of this framework occupy three distinct epistemic levels. Their separation is essential for assessing the program's current status and identifying productive research directions.
+
+**Level 1 — Established results.** The following hold independently of any pending calculation and survive any future revision of the scalar sector:
+
+- Recovery of Friedmann dynamics from horizon thermodynamics (Section 3; Cai–Kim 2005 approach)
+- Horizon perturbation variable $\psi = \delta R_A/R_A$ and its relation to density perturbations: $\delta\rho/\rho = -2\psi$ in the super-horizon limit (companion document *The Boundary–Bulk Relation from Gauss–Codazzi*)
+- Gauge-invariant relation $\mathcal{R} = [(1+\varepsilon)/\varepsilon]\,\psi$, exact on super-horizon scales (companion document *Gauge-Invariant Formulation of the Horizon Perturbation*)
+- Canonical normalization $\phi_{\rm can} = (M_{\rm Pl}/\sqrt{\varepsilon})\,\psi$, fixed by consistency with the Einstein–Hilbert action in comoving gauge (eq. 24 above)
+- Spectrum and tilt $n_s - 1 = -2\varepsilon + 2\beta_S/3$ (companion documents *Scale Invariance from Horizon Field Quantization* and *Spectral Tilt from Horizon Thermodynamics*)
+- Full tensor sector: $n_T = -2\varepsilon$, $\Delta_h^2 = 2H^2/(\pi^2 M_{\rm Pl}^2)$, $r = 16\varepsilon$, consistency relation $r = -8n_T$ (companion document *Tensor Perturbations from the Horizon Boundary*, derived by dimensional reduction from the Einstein–Hilbert tensor action)
+- Minimal CHF ($\beta_S = 0$) excluded at 95% CL by Planck 2018; $\beta_S < -0.042$ required
+
+**Level 2 — EFT-consistent results.** The following are correct within the framework but depend on importing standard GR structure:
+
+- The action (23) is consistent with $S^{(2)}_{\rm GR}(\psi)$ obtained via EH $\to$ ADM $\to$ comoving gauge reduction. This is a top-down verification, not a bottom-up derivation.
+- The normalization of eq. (24) is established by this top-down route. The alternative bottom-up route (from the trapping horizon geometry directly) is the subject of Level 3.
+- The conjecture $\beta_S = c_{\rm geom}\,\varepsilon$ for some geometrically determined constant $c_{\rm geom}$ is motivated but unproven.
+
+**Level 3 — Open program.** The central open problem of the scalar sector is:
+
+$$\delta^2 S_{\rm trapping}\big|_{\mathcal{H}} \stackrel{?}{=} \frac{M_{\rm Pl}^2}{\varepsilon}\int dt\,d\Omega\left[\dot\psi^2 - H^2(\nabla_\Omega\psi)^2 + \beta_{\rm geom}H^2\psi^2\right]$$
+
+If this equality holds — with the trapping horizon action of Hayward (1994) as the starting point — the scalar sector acquires a bottom-up derivation structurally parallel to the tensor sector. If it fails, the action (23) remains an EFT-consistent postulate supported by top-down verification, and the framework remains a coherent boundary reinterpretation of standard GR rather than an independent theory.
+
+This question is precisely formulated and currently open. The technical obstacle is the computation of $\delta^2(\Box_h R)$ in the perturbed FRW metric, which determines whether the GR constraint cancellations that eliminate the $\psi^2$ terms in the bulk ADM action operate identically at the trapping horizon boundary. The calculation is carried out in the companion technical note.
+
+**Additional open problems:**
 
 - No microscopic model of horizon degrees of freedom
-- Gauge-invariant relation $\mathcal{R} = [(1+\varepsilon)/\varepsilon]\,\psi$ and amplitude correction $P_\mathcal{R} \approx P_\psi/\varepsilon^2$ derived in companion document *Gauge-Invariant Formulation of the Horizon Perturbation*
-- Scale-invariant spectrum (eq. 29) and spectral tilt (eq. 33) derived from canonical quantization and Bunch–Davies initial conditions in *Scale Invariance from Horizon Field Quantization*
-- Tilt expressed as horizon entropy rate $n_s - 1 = -(d\ln S)/(d\ln a)$ and effective mass derived from 2D conformal structure in *Spectral Tilt from Horizon Thermodynamics*
-- Tensor perturbations derived in *Tensor Perturbations from the Horizon Boundary*: $n_T = -2\varepsilon$, $\Delta_h^2 = 2H^2/(\pi^2 M_{\rm Pl}^2)$, $r = 16\varepsilon$, minimal CHF excluded at 95% CL; $\beta_S < -0.042$ required
-- Remaining open: dynamical determination of $\varepsilon$ from within the framework; sub-horizon transfer function
+- Dynamical determination of $\varepsilon$ (or equivalently $\dot{S}$) from intrinsic horizon quantities alone, without bulk inflaton input
+- Sub-horizon transfer function: full $k$-dependence of the $\psi_k \to \delta\rho/\rho$ relation for $k \gg aH$
 
 ---
 
