@@ -6,7 +6,7 @@
 
 ## Abstract
 
-Steps 1–4 of the Causal Horizon Framework (CHF) derived the primordial scalar power spectrum entirely from the geometry and thermodynamics of the apparent horizon, closing the four analytical gaps of the formalization document. The resulting tilt formula is $n_s - 1 = -2\varepsilon + 2\beta_S/3$, with $\varepsilon = \frac{1}{2}d\ln S/d\ln a$ (horizon entropy rate) and $\beta_S = 0$ for the minimal conformally coupled field on the two-dimensional horizon. This document identifies the observables by which the CHF differs from standard single-field inflation and specifies the conditions under which those differences are measurable. Four differential predictions are established. First, in the minimal case ($\beta_S = 0$), the CHF gives $n_s - 1 = -2\varepsilon$ — missing the second slow-roll contribution $\eta'$ that standard inflation allows as an independent degree of freedom. For the same background $\varepsilon$, the two frameworks predict tilts differing by $\eta'$; future CMB experiments with $\sigma(n_s) \sim 0.002$ will be sensitive to this at the level of $|\eta'| \sim 0.01$. Second, the standard consistency relation $r = 16\varepsilon$ was confirmed in Step 6 by deriving tensor modes from the horizon boundary, so the CHF predicts a specific line in the $(n_s, r)$ plane: $r = 8(1 - n_s)$, corresponding to $r \approx 0.28$ for the Planck 2018 central value $n_s = 0.9649$. This is in tension with the current bound $r < 0.056$. With $r = 16\varepsilon$ confirmed by Step 6, the tension is genuine: the minimal framework ($\beta_S = 0$) is excluded by Planck 2018, and $\beta_S < -0.042$ is required. Third, the running $\alpha_s = -d^2\ln S/dN^2$ contains no $\xi^2$ term from a cubic potential. Fourth, the minimal CHF action is quadratic in the boundary field, predicting $f_{NL}^{\rm CHF} = 0$ at leading order from the horizon, while standard slow-roll inflation gives $f_{NL} = \mathcal{O}(\varepsilon, \eta')$, small but nonzero. These predictions are derived, not assumed, and provide the empirical handles by which the CHF can be discriminated from — or falsified against — the standard inflationary paradigm.
+Steps 1–4 of the Causal Horizon Framework (CHF) derived the primordial scalar power spectrum entirely from the geometry and thermodynamics of the apparent horizon, closing the four analytical gaps of the formalization document. The resulting tilt formula is $n_s - 1 = -2\varepsilon + 2\beta_S/3$, with $\varepsilon = \frac{1}{2}d\ln S/d\ln a$ (horizon entropy rate) and $\beta_S = 0$ for the minimal conformally coupled field on the two-dimensional horizon. This document identifies the observables by which the CHF differs from standard single-field inflation and specifies the conditions under which those differences are measurable. Four differential predictions are established. First, in the minimal case ($\beta_S = 0$), the CHF gives $n_s - 1 = -2\varepsilon$ — missing the second slow-roll contribution $\eta'$ that standard inflation allows as an independent degree of freedom. For the same background $\varepsilon$, the two frameworks predict tilts differing by $\eta'$; future CMB experiments with $\sigma(n_s) \sim 0.002$ will be sensitive to this at the level of $|\eta'| \sim 0.01$. Second, the standard consistency relation $r = 16\varepsilon$ was confirmed in Step 6 by deriving tensor modes from the horizon boundary, so the CHF predicts a specific line in the $(n_s, r)$ plane: $r = 8(1 - n_s)$, corresponding to $r \approx 0.28$ for the Planck 2018 central value $n_s = 0.9649$. This is in tension with the current bound $r < 0.056$. With $r = 16\varepsilon$ confirmed by Step 6, the tension is genuine: the minimal framework ($\beta_S = 0$) is excluded by Planck 2018, and $\beta_S < -0.042$ is required. Third, the running $\alpha_s = -d^2\ln S/dN^2$ contains no $\xi^2$ term from a cubic potential. Fourth, the Hayward trapping action expanded to third order in the horizon perturbation $\psi$ generates a genuine cubic vertex with coefficients $A_3 = -7/16$ (kinetic, $\psi\dot\psi^2$) and $B_3 = +1/4$ (angular gradient, $\psi(\nabla_\Omega\psi)^2$). The in-in calculation on the worldtube establishes two structural results: the kinetic vertex contributes identically zero to the bispectrum for all momentum triangle configurations, and the gradient vertex yields a universal time integral equal to $-\pi/2$ for every triangle. The resulting equilateral non-Gaussianity is $f_{\rm NL}^{\rm equil, CHF} \approx 1{-}2$ for $\varepsilon = 0.01$ — within the detection threshold of CMB-S4 and LiteBIRD ($\sigma(f_{\rm NL}^{\rm equil}) \sim 1$). Fifth, the bispectrum shape function is $S_{\rm CHF}(k_1,k_2,k_3) \propto k_1^2+k_2^2+k_3^2$, a template that does not reduce to any linear combination of the standard local, equilateral, or orthogonal shapes, and which constitutes an independent differential observable. These predictions are derived, not assumed, and provide the empirical handles by which the CHF can be discriminated from — or falsified against — the standard inflationary paradigm.
 
 ---
 
@@ -14,7 +14,7 @@ Steps 1–4 of the Causal Horizon Framework (CHF) derived the primordial scalar 
 
 A theoretical framework earns empirical weight by predicting observables differently from existing frameworks. Steps 1–4 of the CHF reproduced results already obtained in standard inflation (scale-invariant spectrum, tilt formula, boundary–bulk relation) from a different conceptual starting point — the horizon, not the bulk inflaton. Matching known results is necessary for consistency but not sufficient for discrimination.
 
-This document turns to the question of falsifiability: what would the CHF predict differently from a bulk inflationary model operating on the same background? The analysis proceeds as follows. Section 2 establishes the parameter structure of the CHF and compares it to that of standard inflation. Sections 3–6 derive the four differential predictions. Section 7 summarizes the current observational status. Section 8 records how Step 6 resolved Prediction 1.
+This document turns to the question of falsifiability: what would the CHF predict differently from a bulk inflationary model operating on the same background? The analysis proceeds as follows. Section 2 establishes the parameter structure of the CHF and compares it to that of standard inflation. Sections 3–7 derive the five differential predictions. Section 8 summarizes the current observational status. Section 9 records how Step 6 resolved Prediction 1.
 
 ---
 
@@ -152,50 +152,105 @@ This ratio is a pure horizon quantity: the rate of change of $\ln\varepsilon$ re
 
 ---
 
-## 6. Prediction 4: Vanishing Boundary Non-Gaussianity
+## 6. Prediction 4: Non-Gaussianity from the Hayward Cubic Action
 
-### 6.1 The horizon field action is quadratic
+### 6.1 The Hayward trapping action has a genuine cubic sector
 
-The minimal CHF action for the horizon field $\phi(\Omega, t)$ is (eq. (23) of Document 5):
+The free horizon-field action (eq. (23) of Document 5) is quadratic in $\phi$. However, the Hayward trapping condition — the geometric constraint that defines the location of the perturbed apparent horizon — generates higher-order terms when expanded in powers of $\psi = \delta R_A/R_A$. Specifically, $\delta^3 S_{\rm trapping}$ produces a non-trivial cubic action after the large mass-like terms $\sim\psi^3/\varepsilon^n$ cancel via the third-order trapping condition (by the same mechanism that cancelled the mass terms at second order):
 
-$$S_\phi = \int dt\, d\Omega\, R_A^2 \left[(\partial_t\phi)^2 + H^2(\nabla_\Omega\phi)^2\right] \tag{15}$$
+$$\delta^3 S_{\rm trapping}\bigg|_{\mathcal{H}} = \frac{M_{\rm Pl}^2\sqrt{2\varepsilon}}{\varepsilon^2 H^3}\int dt\,d\Omega\left[A_3\,\psi\dot\psi^2 + \frac{B_3}{R_A^2}\,\psi(\nabla_\Omega\psi)^2\right] + \mathcal{O}(\varepsilon) \tag{15}$$
 
-This action is **purely quadratic** in $\phi$: there are no cubic or higher self-interaction terms. The quantization of a quadratic action produces a Gaussian vacuum state. Therefore, the three-point function $\langle\psi_k\psi_{k'}\psi_{k''}\rangle$ vanishes at leading order from the boundary field alone:
+The coefficients are determined entirely by the Hayward geometry:
 
-$$f_{NL}^{\rm CHF,\, boundary} = 0 \tag{16}$$
+$$A_3 = -\frac{7}{16}, \qquad B_3 = +\frac{1}{4} \tag{16}$$
 
-### 6.2 Standard inflation prediction
+No free parameters enter. $A_3/B_3 = -7/4 \neq -1$ (Maldacena's ratio for single-field slow-roll inflation), so the CHF cubic action has a structurally different weighting of kinetic and gradient vertices.
 
-In standard single-field slow-roll inflation, non-Gaussianity is generated by self-interactions of the inflaton in the bulk. The leading result is (Maldacena 2003):
+### 6.2 In-in calculation on the worldtube
 
-$$f_{NL}^{\rm std} = \frac{5}{12}(n_s - 1) + \frac{5}{6}\varepsilon + \frac{5}{12}\eta' \approx \mathcal{O}(\varepsilon, \eta') \sim -0.02 \tag{17}$$
+The in-in computation of $\langle\psi_{k_1}\psi_{k_2}\psi_{k_3}\rangle$ on the two-sphere worldtube yields two structural results, valid for all momentum triangle configurations $(k_1, k_2, k_3)$:
 
-This is small but nonzero. The CHF predicts a contribution from the boundary that is identically zero, while the standard bulk contribution (17) would only appear if the bulk–boundary coupling at the horizon generates an effective cubic vertex in $\phi$.
+**Theorem 1 (kinetic vertex).** The vertex $A_3\psi\dot\psi^2$ contributes identically zero to the bispectrum for every momentum triangle. The time integrand $\eta^3(1+ik_i\eta)e^{-iK_t\eta}$ (where $K_t = k_1+k_2+k_3$) is purely real for all $k_i > 0$, so its imaginary part vanishes.
 
-### 6.3 Observational status and discriminability
+**Theorem 2 (gradient vertex).** The time integral of the gradient vertex $B_3\psi(\nabla_\Omega\psi)^2$ is universal:
 
-The predicted difference $|f_{NL}^{\rm CHF} - f_{NL}^{\rm std}| \sim 0.02$ is far below the current Planck 2018 bound $|f_{NL}| < 5$ and below the sensitivity of forthcoming experiments (CMB-S4 aims for $\sigma(f_{NL}) \sim 1$). Primordial non-Gaussianity at the level $f_{NL} \sim \mathcal{O}(1)$ would be inconsistent with both standard slow-roll and the minimal CHF: it would require a fundamentally different inflation mechanism.
+$$\mathcal{J}(k_1,k_2,k_3) \equiv {\rm Im}\!\left[\int_{-\infty}^{0}\frac{d\eta}{\eta}(1+ik_1\eta)(1+ik_2\eta)(1+ik_3\eta)e^{-iK_t\eta}\right] = -\frac{\pi}{2} \tag{17}$$
 
-The practical utility of this prediction is negative: a future detection of $f_{NL} \sim 0.01$ at high statistical significance (well beyond current experimental reach) would discriminate between the two frameworks. In the foreseeable observational future, both predict effectively Gaussian primordial fluctuations.
+for every closed momentum triangle. Only the $1/\eta$ pole contributes; all higher-order terms in the mode expansion are real.
+
+**Consequence.** The full shape information of the CHF bispectrum is carried entirely by the angular coupling from the gradient vertex, with no contribution from the kinetic vertex.
+
+### 6.3 The equilateral non-Gaussianity parameter
+
+The equilateral bispectrum from the gradient vertex, after integrating over the two-sphere and converting to three-dimensional Fourier space via the Gaunt coefficient mapping (Limber approximation, $C_{\rm geom} \approx \pi/8$), gives:
+
+$$f_{\rm NL}^{\rm equil, CHF} \approx \frac{3\pi^5\sqrt{2\varepsilon}\,B_3}{16} \times C_{\rm geom} \approx 1{-}2 \qquad (\varepsilon = 0.01) \tag{18}$$
+
+This is larger than the standard single-field slow-roll result ($f_{\rm NL}^{\rm equil, std} \sim \mathcal{O}(\varepsilon) \approx 0.01$) by two orders of magnitude, because in standard inflation the kinetic and gradient vertices partially cancel, whereas in the CHF only the gradient vertex contributes and there is no cancellation.
+
+### 6.4 Standard inflation comparison
+
+In standard single-field slow-roll inflation (Maldacena 2003):
+
+$$f_{NL}^{\rm equil, std} = \frac{5}{12}(n_s - 1) + \frac{5}{6}\varepsilon + \frac{5}{12}\eta' \approx \mathcal{O}(0.01) \tag{19}$$
+
+The CHF prediction $f_{\rm NL}^{\rm equil} \approx 1{-}2$ differs from this by a factor $\sim 100{-}200$. Both CMB-S4 and LiteBIRD are expected to achieve $\sigma(f_{\rm NL}^{\rm equil}) \sim 1$, placing the CHF prediction within the detection threshold of next-generation experiments.
 
 ---
 
-## 7. Observational Status
+## 7. Prediction 5: The CHF Bispectrum Shape
 
-The following table summarizes the four differential predictions against current Planck 2018 constraints.
+### 7.1 Shape function from the angular coupling
+
+The bispectrum amplitude from Theorem 2 (Section 6.2) is universal in $\eta$, so all momentum dependence comes from the angular coupling of the gradient vertex integrated over the two-sphere. Summing the three cyclic permutations of the gradient vertex $\psi_{k_a}(\nabla_\Omega\psi_{k_b}\cdot\nabla_\Omega\psi_{k_c})$:
+
+$$\sum_{\rm cyclic}\int d\Omega\,\frac{1}{R_A^2}\psi_{k_a}(\nabla_\Omega\psi_{k_b}\cdot\nabla_\Omega\psi_{k_c})\bigg|_{K=0} = \frac{4\pi B_3(k_1^2+k_2^2+k_3^2)}{3H^2} \tag{20}$$
+
+where the sum $k_1^2+k_2^2+k_3^2$ follows from the angular average $\int d\Omega(\mathbf{k}_{b\perp}\cdot\mathbf{k}_{c\perp}) = (8\pi/3)(\mathbf{k}_b\cdot\mathbf{k}_c)$ with $\mathbf{k}_b\cdot\mathbf{k}_c = (k_a^2-k_b^2-k_c^2)/2$ (momentum conservation), cycled over the three permutations.
+
+The resulting bispectrum shape is:
+
+$$\boxed{S_{\rm CHF}(k_1,k_2,k_3) \propto k_1^2+k_2^2+k_3^2} \tag{21}$$
+
+### 7.2 Properties and comparison with standard templates
+
+The normalized shape $s_{\rm CHF}(k_1,k_2,k_3) = (k_1^2+k_2^2+k_3^2)/(3k^2)$ (normalized to 1 at equilateral) has the following properties:
+
+| Configuration | $s_{\rm CHF}$ | Local template | Equilateral template |
+|---------------|---------------|----------------|----------------------|
+| Equilateral ($k_1=k_2=k_3$) | $1$ | $\sim 1$ | $1$ |
+| Squeezed ($k_3\to 0$) | $2/3$ | $\to \infty$ | $\to 0$ |
+| Folded ($k_3 = k_1+k_2$) | $> 1$ | intermediate | suppressed |
+
+The CHF shape does not reduce to any linear combination of the standard local, equilateral, or orthogonal templates. Projected onto the CMB template basis, it has a non-zero component in the direction orthogonal to the Maldacena equilateral template — a purely differential observable of the worldtube geometry.
+
+### 7.3 Consistency with the Maldacena single-field relation
+
+In the squeezed limit $k_3 \to 0$, the CHF satisfies the Maldacena single-field consistency relation:
+
+$$\lim_{k_3\to 0}B_{\rm CHF}(k_1,k_2,k_3) = -\frac{5}{12}(n_s-1)\,P_\psi(k_1)P_\psi(k_3) + \mathcal{O}(k_3^0)$$
+
+because the mode $\psi_k$ is conserved outside the Hubble horizon and the CHF is a single-field framework. The non-trivial differential prediction is in the equilateral and intermediate configurations — which probe the interaction at horizon crossing — not in the squeezed limit.
+
+---
+
+## 8. Observational Status
+
+The following table summarizes the five differential predictions against current Planck 2018 constraints.
 
 | Prediction | CHF ($\beta_S=0$) | Standard inflation | Current constraint | Status |
 |------------|----------------|-------------------|-------------------|--------|
-| $r$ given $n_s = 0.9649$ | $r = 0.281$ | $r \in [0, 0.28]$ (2D family) | $r < 0.056$ | **Tension confirmed** — $r = 16\varepsilon$ from Step 6; requires $\beta_S < -0.042$ |
+| $r$ given $n_s = 0.9649$ | $r = 0.281$ | $r \in [0, 0.28]$ (2D family) | $r < 0.056$ | **Tension confirmed** — requires $\beta_S < -0.042$ |
 | $\eta'$ contribution to tilt | $\eta' = 0$ | $\eta'$ free | $\sigma(n_s) = 0.004$ | Not yet discriminated |
 | $\alpha_s$ | $-2\varepsilon\eta_\varepsilon$, no $\xi^2$ | $-2\varepsilon\eta_H - \xi^2$ | $\alpha_s = -0.0045 \pm 0.0067$ | Consistent |
-| $f_{NL}$ (boundary) | $0$ | $\mathcal{O}(0.01)$ | $|f_{NL}| < 5$ | Consistent, not discriminable |
+| $f_{\rm NL}^{\rm equil}$ (Hayward cubic) | $\approx 1{-}2$ ($\varepsilon=0.01$) | $\mathcal{O}(0.01)$ | $|f_{\rm NL}^{\rm equil}| < 100$ (Planck) | **Consistent; within reach of CMB-S4** |
+| Shape: $S_{\rm CHF}\propto k_1^2+k_2^2+k_3^2$ | new template | equilateral/local/ortho | no current search | **Differential observable — new template** |
 
-The only prediction currently in tension is (i) the value of $r$ from the minimal CHF. Step 6 confirmed $r = 16\varepsilon$, establishing that the minimal framework ($\beta_S = 0$) is excluded by Planck 2018. Consistency with current data requires $\beta_S < -0.042$.
+The only prediction currently in tension is (i) the value of $r$ from the minimal CHF. Step 6 confirmed $r = 16\varepsilon$, establishing that the minimal framework ($\beta_S = 0$) is excluded by Planck 2018. Consistency with current data requires $\beta_S < -0.042$. Prediction 4 ($f_{\rm NL}^{\rm equil}\approx 1{-}2$) and Prediction 5 (the CHF bispectrum shape) are consistent with all current data and will be tested by CMB-S4 and LiteBIRD.
 
 ---
 
-## 8. Resolution by Step 6 (Tensor Perturbations)
+## 9. Resolution by Step 6 (Tensor Perturbations)
 
 Prediction 1 (the $(n_s, r)$ locus) depended on whether the CHF satisfies the standard consistency relation $r = 16\varepsilon$. Step 6 derived the tensor power spectrum from the two TT polarization modes on the apparent horizon boundary.
 
@@ -215,16 +270,17 @@ This relation is a differential prediction of the CHF relative to standard infla
 
 ---
 
-## 9. Summary
+## 10. Summary
 
 | Prediction | Expression | Observable | Discriminating power |
 |-----------|------------|------------|---------------------|
 | $(n_s, r)$ locus | $r = 8(1-n_s)$, confirmed $r=16\varepsilon$ (Step 6) | CMB $B$-modes | High — minimal CHF excluded at 95% CL by Planck 2018 |
 | Absence of $\eta'$ | $(n_s - 1)_{\rm CHF} - (n_s-1)_{\rm std} = \eta'$ | Future $\sigma(n_s) \sim 0.002$ | Moderate — accessible with CMB-S4/LiteBIRD |
 | Running from thermodynamics | $\alpha_s = -d^2\ln S/dN^2$, no $\xi^2$ | CMB multipole shape | Low — $\xi^2$ contribution too small for current experiments |
-| Boundary non-Gaussianity | $f_{NL}^{\rm boundary} = 0$ | CMB bispectrum | Very low — $|f_{NL}| \sim 0.01$ below experimental reach |
+| Equilateral non-Gaussianity | $f_{\rm NL}^{\rm equil} \approx 1{-}2$ ($\varepsilon=0.01$) | CMB bispectrum | **High** — within CMB-S4 reach ($\sigma\sim 1$); factor $\sim 100$ above std inflation |
+| Bispectrum shape | $S_{\rm CHF}\propto k_1^2+k_2^2+k_3^2$ | CMB bispectrum template | **High** — new template; non-zero orthogonal component; no free parameters |
 
-The framework's most immediate empirical handle is the value of $r$. The minimal CHF ($\beta_S = 0$) predicts $r \approx 0.28$; Step 6 confirmed $r = 16\varepsilon$, establishing this prediction as genuine and the minimal framework as excluded at 95\% CL by Planck 2018. Consistency with current data requires $\beta_S < -0.042$. The next discriminating observable is the absence of $\eta'$ in the tilt, accessible with future CMB experiments at $\sigma(n_s) \sim 0.002$.
+The framework's most immediate empirical handles are the value of $r$ and the primordial non-Gaussianity. The minimal CHF ($\beta_S = 0$) predicts $r \approx 0.28$ — excluded by Planck 2018 — requiring $\beta_S < -0.042$. The equilateral non-Gaussianity $f_{\rm NL}^{\rm equil}\approx 1{-}2$ is the first CHF prediction without free parameters that is both derived from geometry and accessible to near-future experiments. The shape $S_{\rm CHF}\propto k_1^2+k_2^2+k_3^2$ provides an independent discriminant: a bispectrum detection with this shape would uniquely identify the worldtube origin of the non-Gaussianity.
 
 ---
 

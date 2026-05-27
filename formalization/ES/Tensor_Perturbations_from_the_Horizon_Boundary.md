@@ -12,7 +12,7 @@ Los Pasos 1–4 del Marco del Horizonte Causal derivaron el espectro de potencia
 
 ## 1. Motivación
 
-El Paso 5 identificó tres predicciones diferenciales del CHF. La más aguda fue la línea de consistencia $(n_s, r)$: $r = 8(1-n_s)$, que requirió asumir $r = 16\varepsilon$ — un resultado tomado prestado del cálculo estándar en el bulk y aún no derivado dentro del CHF. El Paso 5 dejó abiertas dos posibilidades: o bien el espectro tensorial del CHF coincide con el resultado estándar ($r = 16\varepsilon$ confirmado, marco mínimo falsificado), o bien difiere (relación de consistencia estándar rota, marco viable). El presente documento resuelve esto derivando el espectro de potencias tensorial directamente desde el borde del horizonte.
+El Paso 5 identificó tres predicciones diferenciales del CHF. La más aguda fue la línea de consistencia $(n_s, r)$: $r = 8(1-n_s)$, que requirió asumir $r = 16\varepsilon$ — un resultado tomado prestado del cálculo estándar en el bulk y aún no derivado dentro del CHF. El Paso 5 dejó abiertas dos posibilidades: o bien el espectro tensorial del CHF coincide con el resultado estándar ($r = 16\varepsilon$ confirmado, marco mínimo falsificado), o bien difiere (relación de consistencia estándar rota, marco viable). El presente documento resuelve esto derivando el espectro de potencias tensorial a partir de la reducción dimensional de la acción estándar Einstein–Hilbert tensorial al borde del horizonte.
 
 La estructura de la derivación es paralela al Paso 3 (cuantización escalar). Las dos polarizaciones tensoriales se identifican como campos en la dos-esfera del horizonte, se deriva una acción de borde por reducción dimensional desde la acción de Einstein–Hilbert en el bulk, y la ecuación de modo se obtiene mediante la identificación de modos comóviles $l_k(t) = k/(a(t)H(t))$ introducida en el Paso 3. El nuevo ingrediente clave es la distinción física entre perturbaciones escalares (de tamaño) y tensoriales (de forma) del horizonte, que determina por qué $z_T = a$ y no $z_A = a/\sqrt\varepsilon$.
 
@@ -160,7 +160,7 @@ $$r \equiv \frac{\Delta_h^2}{\Delta_\mathcal{R}^2} = \frac{2H^2/(\pi^2 M_{\rm Pl
 
 $$\boxed{r = 16\varepsilon} \tag{19}$$
 
-Esta es la relación de consistencia estándar de inflación de campo único con rodadura lenta, derivada aquí directamente desde el borde del horizonte.
+Esta es la relación de consistencia estándar de inflación de campo único con rodadura lenta, derivada aquí a partir de la reducción dimensional de la acción Einstein–Hilbert tensorial al borde del horizonte.
 
 **Interpretación física en el CHF:** El factor $\varepsilon^{-2}$ que suprime el espectro escalar respecto al tensorial — y que da $r \propto \varepsilon$ — tiene un doble origen:
 1. El campo escalar de borde $\psi$ está suprimido por $\varepsilon$ respecto a $\mathcal{R}$ (de $\psi \approx \varepsilon\mathcal{R}$, Paso 2), contribuyendo un factor $\varepsilon^2$ a $P_\psi/P_\mathcal{R}$.

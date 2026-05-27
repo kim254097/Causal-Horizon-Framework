@@ -84,7 +84,7 @@ El horizonte es una superficie espacial bidimensional. La acción mínima para $
 
 $$\xi = 0 \qquad \Longrightarrow \qquad \beta_S = 0 \tag{11}$$
 
-Este es el **campo de horizonte mínimo**: se acopla al fondo solo a través de la estructura cinética $R_A^2(\nabla_\Omega\phi)^2$, que ya está fijada por la geometría de $S^2$, y no porta ningún término de masa intrínseca.
+Este es el **campo de horizonte mínimo**: se acopla al fondo solo a través de la estructura cinética $R_A^2(\nabla_\Omega\phi)^2$, que ya está fijada por la geometría de $S^2$, y no porta ningún término de masa intrínseca. Este resultado recibe apoyo geométrico independiente de la segunda variación de la acción de horizonte de atrapamiento de Hayward $\delta^2 S_{\rm trapping}$: los términos de masa de orden $\psi^2/\varepsilon^n$ se cancelan exactamente al orden slow-roll dominante mediante la condición de atrapamiento de segundo orden, y el residuo de masa es proporcional a $\eta_s = \dot\varepsilon/(H\varepsilon)$, que se anula para $\varepsilon$ constante. El argumento conforme $d=2$ y la derivación de Hayward convergen así en la misma conclusión por vías independientes.
 
 ### 3.4 Cuándo $\beta_S \neq 0$
 

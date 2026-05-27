@@ -101,40 +101,46 @@ Reordenando:
 \mathcal{R} = \frac{1 + \varepsilon}{\varepsilon}\,\psi \tag{13}
 \end{equation}
 
+Para hacer explícita la dependencia en $\dot{\Phi}$, sustituir $\Phi = \psi + \dot{\Phi}/H$ (de la ec.~(8)) en la ec.~(11):
+\begin{equation}
+\mathcal{R} = \frac{1+\varepsilon}{\varepsilon}\,\psi + \frac{\dot\Phi}{H} \tag{14}
+\end{equation}
+En el límite del modo creciente $\dot{\Phi} \to 0$, el último término se anula y se recupera la ec.~(13). $\square$
+
 Este es el resultado central, válido en escalas super-horizonte para el modo creciente en el caso adiabático de fluido único.
 
 \section{Casos Límite}
 
 \paragraph{Inflación de rodadura lenta ($\varepsilon \ll 1$).}
 \begin{equation}
-\psi \approx \varepsilon\,\mathcal{R} \qquad \Longrightarrow \qquad \mathcal{R} \approx \frac{\psi}{\varepsilon} \tag{14}
+\psi \approx \varepsilon\,\mathcal{R} \qquad \Longrightarrow \qquad \mathcal{R} \approx \frac{\psi}{\varepsilon} \tag{15}
 \end{equation}
 
 \paragraph{Dominación de radiación ($\varepsilon = 2$).}
 \begin{equation}
-\psi = \frac{2}{3}\,\mathcal{R} \tag{15}
+\psi = \frac{2}{3}\,\mathcal{R} \tag{16}
 \end{equation}
 
 \paragraph{Dominación de materia ($\varepsilon = 3/2$).}
 \begin{equation}
-\psi = \frac{3}{5}\,\mathcal{R} \tag{16}
+\psi = \frac{3}{5}\,\mathcal{R} \tag{17}
 \end{equation}
 
 \section{Derivación por Transformación de Gauge}
 
 Bajo una reparametrización temporal $t \to t + \delta t(\mathbf{x}, t)$:
 \begin{equation}
-\Phi \to \Phi - H\,\delta t, \qquad \Psi_\text{metric} \to \Psi_\text{metric} + H\,\delta t \tag{17}
+\Phi \to \Phi - H\,\delta t, \qquad \Psi_\text{metric} \to \Psi_\text{metric} + H\,\delta t \tag{18}
 \end{equation}
 
 Para llegar al gauge comóvil ($V_\text{com} = 0$), elegimos $\delta t = -V/a$. En este gauge:
 \begin{equation}
-\mathcal{R} = \Phi_\text{Newton} + H \cdot \frac{V}{a} \tag{18}
+\mathcal{R} = \Phi_\text{Newton} + H \cdot \frac{V}{a} \tag{19}
 \end{equation}
 
 De la ligadura de momento (5): $HV/a = -(\dot{\Phi} + H\Phi)/(\varepsilon H^2)$. Sustituyendo:
 \begin{equation}
-\mathcal{R} = \Phi\left(\frac{1+\varepsilon}{\varepsilon}\right) - \frac{\dot{\Phi}}{\varepsilon H} \tag{19}
+\mathcal{R} = \Phi\left(\frac{1+\varepsilon}{\varepsilon}\right) - \frac{\dot{\Phi}}{\varepsilon H} \tag{20}
 \end{equation}
 
 En escalas super-horizonte ($\dot{\Phi} \to 0$), con $\psi \approx \Phi$, esto recupera (13). $\square$
@@ -143,7 +149,7 @@ En escalas super-horizonte ($\dot{\Phi} \to 0$), con $\psi \approx \Phi$, esto r
 
 En escalas sub-horizonte ($k \gg aH$):
 \begin{equation}
-\Phi \approx 3\left(\frac{aH}{k}\right)^2 \psi \to 0 \quad (k \gg aH) \tag{20}
+\Phi \approx 3\left(\frac{aH}{k}\right)^2 \psi \to 0 \quad (k \gg aH) \tag{21}
 \end{equation}
 
 La identificación (12) se desintegra para $k \sim aH$. La relación relevante para la física del CMB es siempre el valor primordial establecido en la salida del horizonte.
@@ -152,29 +158,29 @@ La identificación (12) se desintegra para $k \sim aH$. La relación relevante p
 
 De la relación gauge-invariante (13):
 \begin{equation}
-P_\mathcal{R}(k) = \left(\frac{1+\varepsilon}{\varepsilon}\right)^2 P_\psi(k) \tag{21}
+P_\mathcal{R}(k) = \left(\frac{1+\varepsilon}{\varepsilon}\right)^2 P_\psi(k) \tag{22}
 \end{equation}
 
 Para inflación de rodadura lenta ($\varepsilon \ll 1$):
 \begin{equation}
-P_\mathcal{R}(k) \approx \frac{P_\psi(k)}{\varepsilon^2}, \qquad \Delta_\mathcal{R}^2 = \frac{H^2}{2\pi^2 c_s \varepsilon^2} \tag{22}
+P_\mathcal{R}(k) \approx \frac{P_\psi(k)}{\varepsilon^2}, \qquad \Delta_\mathcal{R}^2 = \frac{H^2}{2\pi^2 c_s \varepsilon^2} \tag{23}
 \end{equation}
 
 El \textbf{tilt espectral} no cambia:
 \begin{equation}
-n_s - 1 = \frac{d\ln P_\mathcal{R}}{d\ln k} = \frac{d\ln P_\psi}{d\ln k} \tag{23}
+n_s - 1 = \frac{d\ln P_\mathcal{R}}{d\ln k} = \frac{d\ln P_\psi}{d\ln k} \tag{24}
 \end{equation}
 
 \section{Correcciones al Documento 5}
 
 \paragraph{Ecuación (18): $\mathcal{R} \sim \psi$.} Reemplazada por el resultado gauge-invariante exacto:
 \begin{equation}
-\mathcal{R} = \frac{1+\varepsilon}{\varepsilon}\,\psi \tag{24}
+\mathcal{R} = \frac{1+\varepsilon}{\varepsilon}\,\psi \tag{25}
 \end{equation}
 
 \paragraph{Ecuación (21): $P_\mathcal{R}(k) = P_\psi(k)$.} Reemplazada por:
 \begin{equation}
-P_\mathcal{R}(k) = \left(\frac{1+\varepsilon}{\varepsilon}\right)^2 P_\psi(k) \approx \frac{P_\psi(k)}{\varepsilon^2} \quad (\varepsilon \ll 1) \tag{25}
+P_\mathcal{R}(k) = \left(\frac{1+\varepsilon}{\varepsilon}\right)^2 P_\psi(k) \approx \frac{P_\psi(k)}{\varepsilon^2} \quad (\varepsilon \ll 1) \tag{26}
 \end{equation}
 
 \section{Interpretación Física}

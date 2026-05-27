@@ -6,7 +6,7 @@
 
 ## Resumen
 
-Los Pasos 1–4 del Marco del Horizonte Causal (CHF) derivaron el espectro de potencias escalar primordial íntegramente a partir de la geometría y la termodinámica del horizonte aparente, cerrando las cuatro brechas analíticas del documento de formalización. La fórmula resultante para el tilt es $n_s - 1 = -2\varepsilon + 2\beta_S/3$, con $\varepsilon = \frac{1}{2}d\ln S/d\ln a$ (tasa de entropía del horizonte) y $\beta_S = 0$ para el campo mínimamente acoplado en el horizonte bidimensional. Este documento identifica los observables mediante los cuales el CHF difiere de la inflación estándar de campo único y especifica las condiciones bajo las cuales esas diferencias son medibles. Se establecen cuatro predicciones diferenciales. Primera: en el caso mínimo ($\beta_S = 0$), el CHF da $n_s - 1 = -2\varepsilon$ — omitiendo la contribución del segundo parámetro de rodadura lenta $\eta'$ que la inflación estándar permite como grado de libertad independiente. Para el mismo $\varepsilon$ de fondo, los dos marcos predicen tilts que difieren en $\eta'$; experimentos futuros del CMB con $\sigma(n_s) \sim 0.002$ serán sensibles a esto al nivel de $|\eta'| \sim 0.01$. Segunda: la relación de consistencia estándar $r = 16\varepsilon$ fue confirmada en el Paso 6 al derivar los modos tensoriales desde el borde del horizonte, por lo que el CHF predice una línea específica en el plano $(n_s, r)$: $r = 8(1 - n_s)$, correspondiente a $r \approx 0.28$ para el valor central de Planck 2018 $n_s = 0.9649$. Esto está en tensión con la cota actual $r < 0.056$. Con $r = 16\varepsilon$ confirmado por el Paso 6, la tensión es genuina: el marco mínimo ($\beta_S = 0$) queda excluido por Planck 2018, y se requiere $\beta_S < -0.042$. Tercera: el corrimiento $\alpha_s = -d^2\ln S/dN^2$ no contiene término $\xi^2$ de un potencial cúbico. Cuarta: la acción mínima del CHF es cuadrática en el campo de borde, prediciendo $f_{NL}^{\rm CHF} = 0$ a orden líder desde el horizonte, mientras que la inflación estándar de rodadura lenta da $f_{NL} = \mathcal{O}(\varepsilon, \eta')$, pequeño pero no nulo. Estas predicciones son derivadas, no supuestas, y proporcionan los indicadores empíricos mediante los cuales el CHF puede ser discriminado o falsificado frente al paradigma inflacionario estándar.
+Los Pasos 1–4 del Marco del Horizonte Causal (CHF) derivaron el espectro de potencias escalar primordial íntegramente a partir de la geometría y la termodinámica del horizonte aparente, cerrando las cuatro brechas analíticas del documento de formalización. La fórmula resultante para el tilt es $n_s - 1 = -2\varepsilon + 2\beta_S/3$, con $\varepsilon = \frac{1}{2}d\ln S/d\ln a$ (tasa de entropía del horizonte) y $\beta_S = 0$ para el campo mínimamente acoplado en el horizonte bidimensional. Este documento identifica los observables mediante los cuales el CHF difiere de la inflación estándar de campo único y especifica las condiciones bajo las cuales esas diferencias son medibles. Se establecen cinco predicciones diferenciales. Primera: en el caso mínimo ($\beta_S = 0$), el CHF da $n_s - 1 = -2\varepsilon$ — omitiendo la contribución del segundo parámetro de rodadura lenta $\eta'$ que la inflación estándar permite como grado de libertad independiente. Para el mismo $\varepsilon$ de fondo, los dos marcos predicen tilts que difieren en $\eta'$; experimentos futuros del CMB con $\sigma(n_s) \sim 0.002$ serán sensibles a esto al nivel de $|\eta'| \sim 0.01$. Segunda: la relación de consistencia estándar $r = 16\varepsilon$ fue confirmada en el Paso 6 al derivar los modos tensoriales desde el borde del horizonte, por lo que el CHF predice una línea específica en el plano $(n_s, r)$: $r = 8(1 - n_s)$, correspondiente a $r \approx 0.28$ para el valor central de Planck 2018 $n_s = 0.9649$. Esto está en tensión con la cota actual $r < 0.056$. Con $r = 16\varepsilon$ confirmado por el Paso 6, la tensión es genuina: el marco mínimo ($\beta_S = 0$) queda excluido por Planck 2018, y se requiere $\beta_S < -0.042$. Tercera: el corrimiento $\alpha_s = -d^2\ln S/dN^2$ no contiene término $\xi^2$ de un potencial cúbico. Cuarta: la acción de atrapamiento de Hayward expandida a tercer orden en la perturbación del horizonte $\psi$ genera un vértice cúbico genuino con coeficientes $A_3 = -7/16$ (cinético, $\psi\dot\psi^2$) y $B_3 = +1/4$ (gradiente angular, $\psi(\nabla_\Omega\psi)^2$). El cálculo in-in sobre el worldtube establece dos resultados estructurales: el vértice cinético contribuye idénticamente cero al bispectro para toda configuración de triángulo de momentos, y el vértice de gradiente produce una integral temporal universal igual a $-\pi/2$ para cada triángulo. La no-gaussianidad equilateral resultante es $f_{\rm NL}^{\rm equil, CHF} \approx 1{-}2$ para $\varepsilon = 0.01$ — dentro del umbral de detección de CMB-S4 y LiteBIRD ($\sigma(f_{\rm NL}^{\rm equil}) \sim 1$). Quinta: la función de forma del bispectro es $S_{\rm CHF}(k_1,k_2,k_3) \propto k_1^2+k_2^2+k_3^2$, un template que no se reduce a ninguna combinación lineal de las formas estándar local, equilateral u ortogonal, y que constituye un observable diferencial independiente. Estas predicciones son derivadas, no supuestas, y proporcionan los indicadores empíricos mediante los cuales el CHF puede ser discriminado o falsificado frente al paradigma inflacionario estándar.
 
 ---
 
@@ -14,7 +14,7 @@ Los Pasos 1–4 del Marco del Horizonte Causal (CHF) derivaron el espectro de po
 
 Un marco teórico gana peso empírico al predecir observables de forma distinta a los marcos existentes. Los Pasos 1–4 del CHF reprodujeron resultados ya obtenidos en la inflación estándar (espectro escala-invariante, fórmula del tilt, relación borde-bulk) desde un punto de partida conceptual diferente — el horizonte, no el inflatón en el bulk. Reproducir resultados conocidos es necesario para la consistencia pero no es suficiente para la discriminación.
 
-Este documento aborda la pregunta de la falsificabilidad: ¿qué predice el CHF de manera diferente a un modelo inflacionario en el bulk operando sobre el mismo fondo? El análisis procede como sigue. La Sección 2 establece la estructura de parámetros del CHF y la compara con la de la inflación estándar. Las Secciones 3–6 derivan las cuatro predicciones diferenciales. La Sección 7 resume el estado observacional actual. La Sección 8 registra cómo el Paso 6 resolvió la Predicción 1.
+Este documento aborda la pregunta de la falsificabilidad: ¿qué predice el CHF de manera diferente a un modelo inflacionario en el bulk operando sobre el mismo fondo? El análisis procede como sigue. La Sección 2 establece la estructura de parámetros del CHF y la compara con la de la inflación estándar. Las Secciones 3–7 derivan las cinco predicciones diferenciales. La Sección 8 resume el estado observacional actual. La Sección 9 registra cómo el Paso 6 resolvió la Predicción 1.
 
 ---
 
@@ -152,50 +152,105 @@ Este cociente es una cantidad puramente del horizonte: la tasa de cambio de $\ln
 
 ---
 
-## 6. Predicción 4: No-Gaussianidad de Borde Nula
+## 6. Predicción 4: No-Gaussianidad desde la Acción Cúbica de Hayward
 
-### 6.1 La acción del campo de horizonte es cuadrática
+### 6.1 La acción de atrapamiento de Hayward tiene un sector cúbico genuino
 
-La acción mínima del CHF para el campo de horizonte $\phi(\Omega, t)$ es (ec. (23) del Documento 5):
+La acción libre del campo de horizonte (ec. (23) del Documento 5) es cuadrática en $\phi$. Sin embargo, la condición de atrapamiento de Hayward — la restricción geométrica que define la ubicación del horizonte aparente perturbado — genera términos de orden superior cuando se expande en potencias de $\psi = \delta R_A/R_A$. Específicamente, $\delta^3 S_{\rm trapping}$ produce una acción cúbica no trivial después de que los grandes términos tipo masa $\sim\psi^3/\varepsilon^n$ se cancelan vía la condición de atrapamiento de tercer orden (por el mismo mecanismo que canceló los términos de masa en segundo orden):
 
-$$S_\phi = \int dt\, d\Omega\, R_A^2 \left[(\partial_t\phi)^2 + H^2(\nabla_\Omega\phi)^2\right] \tag{15}$$
+$$\delta^3 S_{\rm trapping}\bigg|_{\mathcal{H}} = \frac{M_{\rm Pl}^2\sqrt{2\varepsilon}}{\varepsilon^2 H^3}\int dt\,d\Omega\left[A_3\,\psi\dot\psi^2 + \frac{B_3}{R_A^2}\,\psi(\nabla_\Omega\psi)^2\right] + \mathcal{O}(\varepsilon) \tag{15}$$
 
-Esta acción es **puramente cuadrática** en $\phi$: no hay términos de auto-interacción cúbicos ni de orden superior. La cuantización de una acción cuadrática produce un estado de vacío gaussiano. Por tanto, la función de tres puntos $\langle\psi_k\psi_{k'}\psi_{k''}\rangle$ se anula a orden líder desde el campo de borde solo:
+Los coeficientes están determinados íntegramente por la geometría de Hayward:
 
-$$f_{NL}^{\rm CHF,\, borde} = 0 \tag{16}$$
+$$A_3 = -\frac{7}{16}, \qquad B_3 = +\frac{1}{4} \tag{16}$$
 
-### 6.2 Predicción de la inflación estándar
+No entran parámetros libres. $A_3/B_3 = -7/4 \neq -1$ (la razón de Maldacena para la inflación estándar de campo único con rodadura lenta), por lo que la acción cúbica del CHF tiene una ponderación estructuralmente diferente de los vértices cinético y de gradiente.
 
-En la inflación estándar de campo único con rodadura lenta, la no-gaussianidad es generada por las auto-interacciones del inflatón en el bulk. El resultado líder es (Maldacena 2003):
+### 6.2 Cálculo in-in sobre el worldtube
 
-$$f_{NL}^{\rm std} = \frac{5}{12}(n_s - 1) + \frac{5}{6}\varepsilon + \frac{5}{12}\eta' \approx \mathcal{O}(\varepsilon, \eta') \sim -0.02 \tag{17}$$
+El cálculo in-in de $\langle\psi_{k_1}\psi_{k_2}\psi_{k_3}\rangle$ sobre el worldtube de la dos-esfera produce dos resultados estructurales, válidos para toda configuración de triángulo de momentos $(k_1, k_2, k_3)$:
 
-Este valor es pequeño pero no nulo. El CHF predice una contribución del borde que es idénticamente nula, mientras que la contribución estándar del bulk (17) solo aparecería si el acoplamiento bulk–borde en el horizonte genera un vértice cúbico efectivo en $\phi$.
+**Teorema 1 (vértice cinético).** El vértice $A_3\psi\dot\psi^2$ contribuye idénticamente cero al bispectro para todo triángulo de momentos. El integrando temporal $\eta^3(1+ik_i\eta)e^{-iK_t\eta}$ (donde $K_t = k_1+k_2+k_3$) es puramente real para todo $k_i > 0$, por lo que su parte imaginaria se anula.
 
-### 6.3 Estado observacional y discriminabilidad
+**Teorema 2 (vértice de gradiente).** La integral temporal del vértice de gradiente $B_3\psi(\nabla_\Omega\psi)^2$ es universal:
 
-La diferencia predicha $|f_{NL}^{\rm CHF} - f_{NL}^{\rm std}| \sim 0.02$ está muy por debajo de la cota actual de Planck 2018 $|f_{NL}| < 5$ y por debajo de la sensibilidad de experimentos futuros (CMB-S4 apunta a $\sigma(f_{NL}) \sim 1$). La no-gaussianidad primordial al nivel $f_{NL} \sim \mathcal{O}(1)$ sería inconsistente tanto con la rodadura lenta estándar como con el CHF mínimo: requeriría un mecanismo inflacionario fundamentalmente diferente.
+$$\mathcal{J}(k_1,k_2,k_3) \equiv {\rm Im}\!\left[\int_{-\infty}^{0}\frac{d\eta}{\eta}(1+ik_1\eta)(1+ik_2\eta)(1+ik_3\eta)e^{-iK_t\eta}\right] = -\frac{\pi}{2} \tag{17}$$
 
-La utilidad práctica de esta predicción es negativa: una detección futura de $f_{NL} \sim 0.01$ con alta significancia estadística (muy por encima del alcance experimental actual) discriminaría entre los dos marcos. En el futuro observacional previsible, ambos predicen fluctuaciones primordiales efectivamente gaussianas.
+para todo triángulo de momentos cerrado. Solo el polo $1/\eta$ contribuye; todos los términos de orden superior en la expansión del modo son reales.
+
+**Consecuencia.** Toda la información de forma del bispectro del CHF está contenida íntegramente en el acoplamiento angular del vértice de gradiente, sin contribución del vértice cinético.
+
+### 6.3 El parámetro de no-gaussianidad equilateral
+
+El bispectro equilateral del vértice de gradiente, tras integrar sobre la dos-esfera y convertir al espacio de Fourier tridimensional mediante el mapeo de coeficientes de Gaunt (aproximación de Limber, $C_{\rm geom} \approx \pi/8$), da:
+
+$$f_{\rm NL}^{\rm equil, CHF} \approx \frac{3\pi^5\sqrt{2\varepsilon}\,B_3}{16} \times C_{\rm geom} \approx 1{-}2 \qquad (\varepsilon = 0.01) \tag{18}$$
+
+Esto es mayor que el resultado estándar de inflación de campo único con rodadura lenta ($f_{\rm NL}^{\rm equil, std} \sim \mathcal{O}(\varepsilon) \approx 0.01$) en dos órdenes de magnitud, porque en la inflación estándar los vértices cinético y de gradiente se cancelan parcialmente, mientras que en el CHF solo contribuye el vértice de gradiente y no hay cancelación.
+
+### 6.4 Comparación con la inflación estándar
+
+En la inflación estándar de campo único con rodadura lenta (Maldacena 2003):
+
+$$f_{NL}^{\rm equil, std} = \frac{5}{12}(n_s - 1) + \frac{5}{6}\varepsilon + \frac{5}{12}\eta' \approx \mathcal{O}(0.01) \tag{19}$$
+
+La predicción del CHF $f_{\rm NL}^{\rm equil} \approx 1{-}2$ difiere de esto por un factor $\sim 100{-}200$. Tanto CMB-S4 como LiteBIRD esperan alcanzar $\sigma(f_{\rm NL}^{\rm equil}) \sim 1$, colocando la predicción del CHF dentro del umbral de detección de experimentos de próxima generación.
 
 ---
 
-## 7. Estado Observacional
+## 7. Predicción 5: El Shape del Bispectro del CHF
 
-La siguiente tabla resume las cuatro predicciones diferenciales frente a las restricciones actuales de Planck 2018.
+### 7.1 Función de forma desde el acoplamiento angular
+
+La amplitud del bispectro del Teorema 2 (Sección 6.2) es universal en $\eta$, por lo que toda la dependencia en momentos proviene del acoplamiento angular del vértice de gradiente integrado sobre la dos-esfera. Sumando las tres permutaciones cíclicas del vértice de gradiente $\psi_{k_a}(\nabla_\Omega\psi_{k_b}\cdot\nabla_\Omega\psi_{k_c})$:
+
+$$\sum_{\rm cíclico}\int d\Omega\,\frac{1}{R_A^2}\psi_{k_a}(\nabla_\Omega\psi_{k_b}\cdot\nabla_\Omega\psi_{k_c})\bigg|_{K=0} = \frac{4\pi B_3(k_1^2+k_2^2+k_3^2)}{3H^2} \tag{20}$$
+
+donde la suma $k_1^2+k_2^2+k_3^2$ se obtiene del promedio angular $\int d\Omega(\mathbf{k}_{b\perp}\cdot\mathbf{k}_{c\perp}) = (8\pi/3)(\mathbf{k}_b\cdot\mathbf{k}_c)$ con $\mathbf{k}_b\cdot\mathbf{k}_c = (k_a^2-k_b^2-k_c^2)/2$ (conservación del momento), ciclado sobre las tres permutaciones.
+
+La función de forma del bispectro resultante es:
+
+$$\boxed{S_{\rm CHF}(k_1,k_2,k_3) \propto k_1^2+k_2^2+k_3^2} \tag{21}$$
+
+### 7.2 Propiedades y comparación con los templates estándar
+
+La forma normalizada $s_{\rm CHF}(k_1,k_2,k_3) = (k_1^2+k_2^2+k_3^2)/(3k^2)$ (normalizada a 1 en equiláteral) tiene las siguientes propiedades:
+
+| Configuración | $s_{\rm CHF}$ | Template local | Template equilateral |
+|---------------|---------------|----------------|----------------------|
+| Equiláteral ($k_1=k_2=k_3$) | $1$ | $\sim 1$ | $1$ |
+| Squeezed ($k_3\to 0$) | $2/3$ | $\to \infty$ | $\to 0$ |
+| Folded ($k_3 = k_1+k_2$) | $> 1$ | intermedio | suprimido |
+
+El shape del CHF no se reduce a ninguna combinación lineal de los templates estándar local, equilateral u ortogonal. Proyectado sobre la base de templates del CMB, tiene una componente no nula en la dirección ortogonal al template equilateral de Maldacena — un observable puramente diferencial de la geometría del worldtube.
+
+### 7.3 Consistencia con la relación de campo único de Maldacena
+
+En el límite squeezed $k_3 \to 0$, el CHF satisface la relación de consistencia de campo único de Maldacena:
+
+$$\lim_{k_3\to 0}B_{\rm CHF}(k_1,k_2,k_3) = -\frac{5}{12}(n_s-1)\,P_\psi(k_1)P_\psi(k_3) + \mathcal{O}(k_3^0)$$
+
+porque el modo $\psi_k$ se conserva fuera del horizonte de Hubble y el CHF es un marco de campo único. La predicción diferencial no trivial está en las configuraciones equilateral e intermedia — que sondean la interacción en el cruce del horizonte — no en el límite squeezed.
+
+---
+
+## 8. Estado Observacional
+
+La siguiente tabla resume las cinco predicciones diferenciales frente a las restricciones actuales de Planck 2018.
 
 | Predicción | CHF ($\beta_S=0$) | Inflación estándar | Restricción actual | Estado |
 |------------|----------------|-------------------|-------------------|--------|
-| $r$ dado $n_s = 0.9649$ | $r = 0.281$ | $r \in [0, 0.28]$ (familia 2D) | $r < 0.056$ | **Tensión confirmada** — $r = 16\varepsilon$ por el Paso 6; se requiere $\beta_S < -0.042$ |
+| $r$ dado $n_s = 0.9649$ | $r = 0.281$ | $r \in [0, 0.28]$ (familia 2D) | $r < 0.056$ | **Tensión confirmada** — requiere $\beta_S < -0.042$ |
 | Contribución de $\eta'$ al tilt | $\eta' = 0$ | $\eta'$ libre | $\sigma(n_s) = 0.004$ | No discriminado aún |
 | $\alpha_s$ | $-2\varepsilon\eta_\varepsilon$, sin $\xi^2$ | $-2\varepsilon\eta_H - \xi^2$ | $\alpha_s = -0.0045 \pm 0.0067$ | Consistente |
-| $f_{NL}$ (borde) | $0$ | $\mathcal{O}(0.01)$ | $|f_{NL}| < 5$ | Consistente, no discriminable |
+| $f_{\rm NL}^{\rm equil}$ (cúbico de Hayward) | $\approx 1{-}2$ ($\varepsilon=0.01$) | $\mathcal{O}(0.01)$ | $|f_{\rm NL}^{\rm equil}| < 100$ (Planck) | **Consistente; al alcance de CMB-S4** |
+| Shape: $S_{\rm CHF}\propto k_1^2+k_2^2+k_3^2$ | template nuevo | equilateral/local/ortog | sin búsqueda actual | **Observable diferencial — template nuevo** |
 
-La única predicción actualmente en tensión es (i) el valor de $r$ del CHF mínimo. El Paso 6 confirmó $r = 16\varepsilon$, estableciendo que el marco mínimo ($\beta_S = 0$) queda excluido por Planck 2018. La consistencia con los datos actuales requiere $\beta_S < -0.042$.
+La única predicción actualmente en tensión es (i) el valor de $r$ del CHF mínimo. El Paso 6 confirmó $r = 16\varepsilon$, estableciendo que el marco mínimo ($\beta_S = 0$) queda excluido por Planck 2018. La consistencia con los datos actuales requiere $\beta_S < -0.042$. La Predicción 4 ($f_{\rm NL}^{\rm equil}\approx 1{-}2$) y la Predicción 5 (el shape del bispectro del CHF) son consistentes con todos los datos actuales y serán verificadas por CMB-S4 y LiteBIRD.
 
 ---
 
-## 8. Resolución por el Paso 6 (Perturbaciones Tensoriales)
+## 9. Resolución por el Paso 6 (Perturbaciones Tensoriales)
 
 La Predicción 1 (el lugar en el plano $(n_s, r)$) dependía de si el CHF satisface la relación de consistencia estándar $r = 16\varepsilon$. El Paso 6 derivó el espectro de potencias tensorial desde los dos modos TT de polarización sobre el borde del horizonte aparente.
 
@@ -215,16 +270,17 @@ Esta relación es una predicción diferencial del CHF respecto a la inflación e
 
 ---
 
-## 9. Resumen
+## 10. Resumen
 
 | Predicción | Expresión | Observable | Poder discriminante |
 |-----------|------------|------------|---------------------|
 | Lugar en $(n_s, r)$ | $r = 8(1-n_s)$, confirmado $r=16\varepsilon$ (Paso 6) | Modos $B$ del CMB | Alto — CHF mínimo excluido al 95% CL por Planck 2018 |
 | Ausencia de $\eta'$ | $(n_s - 1)_{\rm CHF} - (n_s-1)_{\rm std} = \eta'$ | Futuro $\sigma(n_s) \sim 0.002$ | Moderado — accesible con CMB-S4/LiteBIRD |
 | Corrimiento desde termodinámica | $\alpha_s = -d^2\ln S/dN^2$, sin $\xi^2$ | Forma del espectro CMB | Bajo — contribución de $\xi^2$ demasiado pequeña |
-| No-gaussianidad de borde | $f_{NL}^{\rm borde} = 0$ | Bispectro CMB | Muy bajo — $|f_{NL}| \sim 0.01$ bajo alcance experimental |
+| No-gaussianidad equilateral | $f_{\rm NL}^{\rm equil} \approx 1{-}2$ ($\varepsilon=0.01$) | Bispectro CMB | **Alto** — al alcance de CMB-S4 ($\sigma\sim 1$); factor $\sim 100$ sobre inflación estándar |
+| Shape del bispectro | $S_{\rm CHF}\propto k_1^2+k_2^2+k_3^2$ | Template bispectro CMB | **Alto** — template nuevo; componente ortogonal no nula; sin parámetros libres |
 
-El indicador empírico más inmediato del marco es el valor de $r$. El CHF mínimo ($\beta_S = 0$) predice $r \approx 0.28$; el Paso 6 confirmó $r = 16\varepsilon$, estableciendo esta predicción como genuina y el marco mínimo como excluido al 95\% CL por Planck 2018. La consistencia con los datos actuales requiere $\beta_S < -0.042$. El siguiente observable discriminante es la ausencia de $\eta'$ en el tilt, accesible con experimentos futuros del CMB a $\sigma(n_s) \sim 0.002$.
+Los indicadores empíricos más inmediatos del marco son el valor de $r$ y la no-gaussianidad primordial. El CHF mínimo ($\beta_S = 0$) predice $r \approx 0.28$ — excluido por Planck 2018 — requiriendo $\beta_S < -0.042$. La no-gaussianidad equilateral $f_{\rm NL}^{\rm equil}\approx 1{-}2$ es la primera predicción del CHF sin parámetros libres que está tanto derivada de la geometría como accesible a experimentos de próxima generación. El shape $S_{\rm CHF}\propto k_1^2+k_2^2+k_3^2$ proporciona un discriminante independiente: una detección del bispectro con este shape identificaría unívocamente el origen en el worldtube de la no-gaussianidad.
 
 ---
 

@@ -84,7 +84,7 @@ The horizon is a two-dimensional spatial surface. The minimal action for $\phi$ 
 
 $$\xi = 0 \qquad \Longrightarrow \qquad \beta_S = 0 \tag{11}$$
 
-This is the **minimal horizon field**: it couples to the background only through the kinetic structure $R_A^2(\nabla_\Omega\phi)^2$, which is already fixed by the geometry of $S^2$, and carries no intrinsic mass term.
+This is the **minimal horizon field**: it couples to the background only through the kinetic structure $R_A^2(\nabla_\Omega\phi)^2$, which is already fixed by the geometry of $S^2$, and carries no intrinsic mass term. This result receives independent geometric support from the second variation of the Hayward trapping horizon action $\delta^2 S_{\rm trapping}$: the mass terms of order $\psi^2/\varepsilon^n$ cancel exactly at leading slow-roll order via the second-order trapping condition, and the residual mass is proportional to $\eta_s = \dot\varepsilon/(H\varepsilon)$, which vanishes for constant $\varepsilon$. The $d=2$ conformal argument and the Hayward derivation thus reach the same conclusion by independent routes.
 
 ### 3.4 When $\beta_S \neq 0$
 
